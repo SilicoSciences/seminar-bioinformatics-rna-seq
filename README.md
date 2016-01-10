@@ -184,7 +184,7 @@ Multiple options and arguments are possible.
 
 Short options can be combined:
 
-     $ ls -lath
+    $ ls -lath
     total 52K
     drwxr-xr-x 5 bi   bi   4,0K Jan 10 17:22 .
     -rw------- 1 bi   bi    17K Jan 10 17:22 .bash_history
@@ -430,7 +430,3 @@ Example:
     /bin/ls
     
     $ which cd
-    
-### Text Files
-
-`cat`: concatenate files and print on the standard output
