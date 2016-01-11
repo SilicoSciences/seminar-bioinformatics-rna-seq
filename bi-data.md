@@ -1,30 +1,29 @@
 Title: From the Shell and the Cloud - Common Bioinformatics on the Example of Gene Expression Analysis using Unix and freely available Open Source Tools</br>
 Author: Alexander Kerner</br>
-EMail: ak@silico-sciences.com</br>
+EMail: ak at silico-sciences.com</br>
 Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
-# Bioinformatics Data in the Unix Shell and -Cloud
+# Bioinformatics Data in the Shell and -Cloud
 
 ### Common Bioinformatics Using Unix and Freely Available Open Source Tools on the Example of Gene Expression Analysis
 
-# Linux for Bioinformatics
+# Working with Bioinformatics Data
 
-## Working with Bioinformatics Data
-
-
-
-    
-
-### Retrieving Data
+## Retrieving Data
 
 Find data at
-1. UCSC: `http://hgdownload.cse.ucsc.edu/goldenPath/`
-2. Ensembl: `http://www.ensembl.org/info/data/ftp/index.html`
-3. NCBI:
+
+0. UCSC
+`http://hgdownload.cse.ucsc.edu/goldenPath/`
+
+0. Ensembl
+`http://www.ensembl.org/info/data/ftp/index.html`
+
+0. NCBI
+
+---
 
 `wget`: the non-interactive network downloader
-
-`man wget`
 
     $ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Caenorhabditis_elegans/UCSC/ce10/Caenorhabditis_elegans_UCSC_ce10.tar.gz
     $ wget --accept "*.gz" --no-directories --recursive ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Saccharomyces_cerevisiae/UCSC/sacCer3/
