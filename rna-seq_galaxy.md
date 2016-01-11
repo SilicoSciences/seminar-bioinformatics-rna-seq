@@ -10,7 +10,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 ### RNA-Seq (Whole Transcriptome Shotgun Sequencing) using TopHat, Cufflinks, Galaxy and IGV
 
 0. Get familar with your tools.
-[Galaxy](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
+[Galaxy](https://usegalaxy.org/)
 
 0. Get familiar with your data.
 [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
@@ -23,7 +23,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
 0. Load [reference annotation](https://github.com/silico-sciences/bi-seminar/blob/master/genes_chr03.gtf.gz) into Galaxy.
 
-0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy.
+0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy. Each tissues was sequenced in four replicates and each replicates has one file for the left reads (_1.fastq) and right reads (_2.fastq).
 
     0. Edit data attributes:
         
