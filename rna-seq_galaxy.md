@@ -55,10 +55,12 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Use `Cuffnorm` to create normalized expression values.
 
-0. Use `Cuffdiff` to find significant changes in expression level
+0. Use `Cuffdiff` to find significant changes in expression level.
 
-    0. Generate SQLite
-    0. Do *not* omit Tabular Datasets 
+    0. Generate SQLite.
+    0. Do *not* omit Tabular Datasets.
+    
+0. Use `cummeRbund` to visualize data.
 
 ## References
 
