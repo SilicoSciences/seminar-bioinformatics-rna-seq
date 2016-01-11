@@ -13,6 +13,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 1. Get familiar with your data [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
 
+1. Load reduced data set into Galaxy
+
+    1. Copy&Paste GitHub URL into Galaxy upload wizard
+
 1. Load fastq.gz into Galaxy
 1. Map reads to hg19 reference genome
 1. Rename data sets
