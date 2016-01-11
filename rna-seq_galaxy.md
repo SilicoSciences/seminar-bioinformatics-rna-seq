@@ -53,4 +53,19 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
     
 0. Use `Cuffquant` to precompute gene expression levels.
 
-s
+0. Use `Cuffnorm` to create normalized expression values.
+
+0. Use `Cuffdiff` to find significant changes in expression level
+
+    0. Generate SQLite
+    0. Do *not* omit Tabular Datasets 
+
+## References
+
+0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/?tool=pmcentrez)
+
+0. [Analysis of the Human Tissue-specific Expression by Genome-wide Integration of Transcriptomics and Antibody-based Proteomics](http://www.mcponline.org/content/13/2/397)
+
+0. [Cufflinks manual](http://cole-trapnell-lab.github.io/cufflinks/manual/)
+
+0. [CummeRbund manual](http://compbio.mit.edu/cummeRbund/manual_2_0.html)
