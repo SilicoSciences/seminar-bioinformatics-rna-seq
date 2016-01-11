@@ -9,33 +9,48 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ### RNA-Seq (Whole Transcriptome Shotgun Sequencing) using TopHat, Cufflinks, Galaxy and IGV
 
-1. Get familar with your tools.
+0. Get familar with your tools.
 [Galaxy](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
 
-1. Get familiar with your data.
+0. Get familiar with your data.
 [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
 
-1. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy, e.g. by Copy&Paste-ing GitHub URLs into Galaxy upload wizard.
+0. Load [reference sequence](https://github.com/silico-sciences/bi-seminar/blob/master/3.fa.gz) into Galaxy, e.g. by Copy&Paste-ing GitHub URLs into Galaxy upload wizard.
 
-2. Edit data attributes.
-    1. Rename.
-    2. Change datatype to `fastqsanger`.
+0. Load [reference annotation](https://github.com/silico-sciences/bi-seminar/blob/master/genes_chr03.gtf.gz) into Galaxy.
 
-1. Map reads to hg19 reference genome (use `TopHat`).
-1. Rename data sets
-1. See data sets' details
-1. Inspect mappings using [IGV](https://www.broadinstitute.org/igv/)
-    1. Create index bam files
-    1. Load bam files into IGV
-    1. Navigate by typing gene names into the search box
-    1. Navigate by Drag&Drop
-    1. Zoom in and out using the "railroad track".
-    1. Double click to get online info
-    1. Change display
-        1. Collapsed
-        1. Expanded
-        1. Squished
-    1. Load additional data from server
-        1. e.g. dbSNP
-1. Precompute gene expression levels
+0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy.
 
+    0. Edit data attributes:
+        
+        0. Change datatype to `fastqsanger`.
+
+0. Use `TopHat` to map reads to reference from history (3.fa.gz).
+
+0. Inspect mappings using [IGV](https://www.broadinstitute.org/igv/).
+
+    0. Download mappings `accepted_hits.bam` and it's index file.
+    
+    0. Load bam files into IGV.
+    
+    0. Navigate by typing gene names into the search box.
+    
+    0. Navigate by Drag&Drop.
+    
+    0. Zoom in and out using the "railroad track".
+    
+    0. Double click to get online info.
+    
+    0. Change display:
+    
+        0. Collapsed
+        
+        0. Expanded
+        
+        0. Squished
+        
+    0. Load additional data from server, e.g. dbSNP.
+    
+0. Use `Cuffquant` to precompute gene expression levels.
+
+s
