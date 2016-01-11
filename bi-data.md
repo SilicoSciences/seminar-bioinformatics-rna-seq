@@ -9,7 +9,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # Working with Bioinformatics Data
 
-## Retrieving Data
+### Retrieving Data
 
 Find data at
 
@@ -27,7 +27,7 @@ Find data at
 
     $ wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/chr22.fa.gz http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/md5sum.txt
 
-### Options to remember:
+#### Options to remember:
 
 0. `--accept`
 0. `--no-directories`
@@ -42,9 +42,11 @@ Find data at
 
 `rsync`:  a fast, versatile, remote (and local) file-copying tool
 
+*Trailing slashes (data vs data/) matter! No slash meains rsync the folder, slash means rsync content. Forgetting the slash can e.g. result in data/data/... instead of data/....*
+
 ---
 
-## Filesizes
+### Filesizes
 
     $ ls -lh
     total 11M
@@ -73,24 +75,45 @@ Find data at
 
     $ sha1sum chr22.fa.gz 
     d012edd46f50d674380460d3b4e91f450688e756  chr22.fa.gz
-
-
-
-
-### Extracting Data
-
-    $ for i in *.tar.gz; do tar -xvzf ${i}; done
     
-    ls -lh
-    total 625M
-    drwxrwxr-x 3 bi bi 4,0K Dec 12 00:10 Caenorhabditis_elegans
-    -rw-rw-r-- 1 bi bi 557M Dec 11 23:43 Caenorhabditis_elegans_UCSC_ce10.tar.gz
-    -rw-rw-r-- 1 bi bi 8,7K Dec 12 00:09 CHECKSUMS.txt
-    -rwxrwxr-x 1 bi bi 5,3K Jun 18  2014 README.txt
-    drwxrwxr-x 3 bi bi 4,0K Dec 12 00:11 Saccharomyces_cerevisiae
-    -rw-rw-r-- 1 bi bi  68M Oct  2 08:32 Saccharomyces_cerevisiae_UCSC_sacCer3.tar.gz
+    $ md5sum -c md5sum.txt 
+    [..]
+    chr21_gl000210_random.fa.gz: FAILED open or read
+    chr22.fa.gz: OK
+    md5sum: chr3.fa.gz: No such file or directory
+    [..]
+
+### Compressed Data
+
+`gzip`: gzip, gunzip, zcat - compress or expand files
+
+`tar`: The GNU version of the tar archiving utility
+
+    $ ls -lh
+    total 11M
+    -rw-r--r-- 1 alex alex  11M Mar 20  2009 chr22.fa.gz
+    -rw-r--r-- 1 alex alex 4,9K Mar 20  2009 md5sum.txt
+  
+    $ gunzip chr22.fa.gz 
     
----
+    $ ls -lh
+    total 50M
+    -rw-r--r-- 1 alex alex  50M Mar 20  2009 chr22.fa
+    -rw-r--r-- 1 alex alex 4,9K Mar 20  2009 md5sum.txt
+    
+    $ gzip chr22.fa
+    
+    $ ls -lh
+    total 11M
+    -rw-r--r-- 1 alex alex  11M Mar 20  2009 chr22.fa.gz
+    -rw-r--r-- 1 alex alex 4,9K Mar 20  2009 md5sum.txt
+    
+standard    |  compressed
+--------|---------
+`grep`	| `zgrep`
+`less`	| `zless`
+`cat`   | `zcat`
+`diff`	|`zdiff`
 
 ### Inspecting Data
 
