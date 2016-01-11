@@ -9,4 +9,6 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 [RNA-Seq using TopHat, Cufflinks, Galaxy and IGV](https://github.com/silico-sciences/bi-seminar/blob/master/rna-seq_galaxy.md)
 
+[Data Visualization using RStudio and CummeRbund](https://github.com/silico-sciences/bi-seminar/blob/master/r_filled.md)
+
 [Linux for Bioinformatics](https://github.com/silico-sciences/bi-seminar/blob/master/unix-shell.md)
