@@ -103,7 +103,7 @@ Exit the Shell using the `exit` command.
 
 `man ls`
 
-Options to remember:
+#### Options to remember:
 
 1. `-a`
 1. `-h`
@@ -306,7 +306,7 @@ A command is either build-in the Shell, or 'installed' into some directory.
     ./mydir:
     myfile
 
-Options to remember:
+#### Options to remember:
 
 1. `-i`
 1. `-p`
@@ -344,7 +344,7 @@ Options to remember:
     ./mydir:
 
 
-Options to remember:
+#### Options to remember:
 
 1. `-i`
 1. `--backup=numbered`
@@ -467,7 +467,7 @@ Example:
     Hey there, here is some text
     Hey there, here is some text
 
-Options to remember:
+#### Options to remember:
 
 1. `-s`
 1. `-n`

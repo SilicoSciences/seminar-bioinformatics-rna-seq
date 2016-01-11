@@ -25,45 +25,55 @@ Find data at
 
 `wget`: the non-interactive network downloader
 
-    $ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Caenorhabditis_elegans/UCSC/ce10/Caenorhabditis_elegans_UCSC_ce10.tar.gz
-    $ wget --accept "*.gz" --no-directories --recursive ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Saccharomyces_cerevisiae/UCSC/sacCer3/
-    $ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/CHECKSUMS.txt
-    
+    $ wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/chr22.fa.gz http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/md5sum.txt
+
+### Options to remember:
+
+0. `--accept`
+0. `--no-directories`
+0. `--recursive`
+0. `-c`
+0. `-q`
+0. `-b`
+0. `-p`
+
+
 ---
 
 `rsync`:  a fast, versatile, remote (and local) file-copying tool
 
-`man rsync`
+---
 
-
-
-### Filesizes
+## Filesizes
 
     $ ls -lh
-    total 625M
-    -rw-rw-r-- 1 bi bi 557M Dec 11 23:43 Caenorhabditis_elegans_UCSC_ce10.tar.gz
-    -rw-rw-r-- 1 bi bi 8,7K Dec 12 00:09 CHECKSUMS.txt
-    -rw-rw-r-- 1 bi bi  68M Oct  2 08:32 Saccharomyces_cerevisiae_UCSC_sacCer3.tar.gz
+    total 11M
+    -rw-r--r-- 1 alex alex  11M Mar 20  2009 chr22.fa.gz
+    -rw-r--r-- 1 alex alex 4,9K Mar 20  2009 md5sum.txt
     
 ---
 
 ### Verifying Data
 
-    $ grep "elegans" CHECKSUMS.txt
-    a6aa6591b0b02a539dd6b59fa45a2b9c  Caenorhabditis_elegans_Ensembl_WBcel215.tar.gz
-    476edec8b87f4288aac15b9d0be89f06  Caenorhabditis_elegans_Ensembl_WBcel235.tar.gz
-    77d4b5d524e91815a87028bed9033c6e  Caenorhabditis_elegans_Ensembl_WS210.tar.gz
-    19d03f53bc158bff49ea2e008ae18f53  Caenorhabditis_elegans_Ensembl_WS220.tar.gz
-    0092768342ad3b8522f244da7b3a75bf  Caenorhabditis_elegans_NCBI_WS190.tar.gz
-    90100346db1270f18af26123ca510d6f  Caenorhabditis_elegans_NCBI_WS195.tar.gz
-    56b01490da4b6d2b6f9ecb60072782b3  Caenorhabditis_elegans_UCSC_ce10.tar.gz
-    3c2a19d52afda30ae57a9b320403daab  Caenorhabditis_elegans_UCSC_ce6.tar.gz
+`md5sum`: compute and check MD5 message digest
+
+`sha1sum`: compute and check SHA1 message digest
+
+    $ echo "bioinfo is fun" | sha1sum 
+    3df832201564894a11734910cdb6b53783c7dd24  -
     
-    $ sha1sum Caenorhabditis_elegans_UCSC_ce10.tar.gz 
-    a52bc5fa916d8b94bc09a2155c803a62ede0af8d  Caenorhabditis_elegans_UCSC_ce10.tar.gz
-    
-    $ md5sum Caenorhabditis_elegans_UCSC_ce10.tar.gz 
-    56b01490da4b6d2b6f9ecb60072782b3  Caenorhabditis_elegans_UCSC_ce10.tar.gz
+    $ echo "bioinfo is fun " | sha1sum 
+    0db0ec42650cab76bd2e2cfec2ca1990f6f5a290  -
+
+    $ grep "chr22" md5sum.txt 
+    2baab477ebcc5a0f4163608ec93e4744  chr22.fa.gz
+
+    $ md5sum chr22.fa.gz 
+    2baab477ebcc5a0f4163608ec93e4744  chr22.fa.gz
+
+    $ sha1sum chr22.fa.gz 
+    d012edd46f50d674380460d3b4e91f450688e756  chr22.fa.gz
+
 
 
 
