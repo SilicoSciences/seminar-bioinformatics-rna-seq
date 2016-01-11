@@ -1,6 +1,6 @@
 Title: From the Shell and the Cloud - Common Bioinformatics on the Example of Gene Expression Analysis using Unix and freely available Open Source Tools</br>
 Author: Alexander Kerner</br>
-EMail: ak@silico-sciences.com</br>
+EMail: ak at silico-sciences.com</br>
 Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # Bioinformatics Data in the Unix Shell and -Cloud
@@ -31,11 +31,19 @@ E.g., type `cal`
 
 .. or `sl`              
 
-Exit the Shell using the `exit` command
+Exit the Shell using the `exit` command.
 
 ### Who am I?
 
 `whoami`: print effective userid
+
+---
+
+`id`: print real and effective user and group IDs
+
+    $ id
+    uid=1002(bi) gid=1002(bi) groups=1002(bi)
+
 
 ### Where am I?
 
@@ -347,6 +355,8 @@ Options to remember:
 
 `[up-arrow]` access your history
 
+`!4` re-execute specific command
+
 Open a terminal and type/ copy-pase a sentence:
 
     We can know only that we know nothing
@@ -431,6 +441,138 @@ Example:
     
     $ which cd
     
+### Text files
+
+`cat`: concatenate files and print on the standard output
+
+    $ cat > test.txt
+    Hey there, here is some text
+    ^C
+    
+    $ cat test.txt 
+    Hey there, here is some text
+    
+    $ cat test.txt test.txt test.txt > moretest.txt
+
+    $ cat moretest.txt 
+    Hey there, here is some text
+    Hey there, here is some text
+    Hey there, here is some text
+    
+    $ cat test.txt >> moretest.txt 
+    
+    $ cat moretest.txt 
+    Hey there, here is some text
+    Hey there, here is some text
+    Hey there, here is some text
+    Hey there, here is some text
+
+Options to remember:
+
+1. `-s`
+1. `-n`
+1. `-T`
+
+### Wildcards
+
+`man 7 glob`
+
+Pattern	| Matches
+--------|------
+`?` | any single character
+`*` | any string, including the empty string
+`[A-D]` | an alphanumeric range, in this case any character between A and D  
+`[[:alnum:]]` | any alphanumeric character
+`[[:alpha:]]` | any alphabet character
+`[[:digit:]]` | any number
+`[[:lower:]]` | any lowercase character
+`[[:upper:]]` | any uppercase character
+
+    $ ls -a *.txt
+    moretest.txt  test.txt
+
+### Expansions
+
+`echo` display a line of text
+
+    $ echo "Hey there"
+    Hey there
+
+    $ echo *
+    moretest.txt test.txt
+
+    $ echo ~
+    /home/bi
+    
+     $ echo $PATH
+     /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+
+    $ echo $((1 + 2))
+    3
+    
+    $ echo a{b,c,d}e
+    abe ace ade
+    
+    $ mkdir -p my-new-project/{data/annotations,analysis}
+    
+     $ tree my-new-project/
+     my-new-project/
+     |-- analysis
+     `-- data
+         `-- annotations
+
+3 directories, 0 files
+    
+    $ echo myFolder{A..F}
+    myFolderA myFolderB myFolderC myFolderD myFolderE myFolderF
+
+    $ ls
+    moretest.txt  my-new-project  test.txt
+
+### Quoting and escaping
+
+    $ echo Hello     World!
+    Hello World!
+
+    $ echo "Hello     World!"
+    Hello     World!
+
+    $ echo cal
+    cal
+    
+    $ echo $(cal)
+    January 2016 Su Mo Tu We Th Fr Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+
+    $ echo "$(cal)"
+        January 2016      
+    Su Mo Tu We Th Fr Sa  
+                    1  2  
+     3  4  5  6  7  8  9  
+    10 11 12 13 14 15 16  
+    17 18 19 20 21 22 23  
+    24 25 26 27 28 29 30  
+    31    
+    
+    $ echo $cal
+    
+    
+    $ echo \$cal
+    $cal
+
+    $ echo -e "Hello\tWorld!"
+    Hello	World!
+
+    $ echo -e "Hello\nWorld!"
+    Hello
+    World!
+
+### Regular Expressions
+
+`grep`: grep, egrep, fgrep, rgrep - print lines matching a pattern
+
+
+
 ## References
 
 1. [http://code.snipcademy.com/](http://code.snipcademy.com/tutorials/linux-command-line/basic-commands/introduction)
