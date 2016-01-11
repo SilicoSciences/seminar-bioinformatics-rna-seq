@@ -9,16 +9,19 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ### RNA-Seq (Whole Transcriptome Shotgun Sequencing) using TopHat, Cufflinks, Galaxy and IGV
 
-1. Get familar with your tools [Galaxy](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
+1. Get familar with your tools.
+[Galaxy](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
 
-1. Get familiar with your data [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
+1. Get familiar with your data.
+[ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
 
-1. Load reduced data set into Galaxy
+1. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy, e.g. by Copy&Paste-ing GitHub URLs into Galaxy upload wizard
 
-    1. Copy&Paste GitHub URL into Galaxy upload wizard
+2. Edit data attributes
+    1. Rename
+    2. Change datatype to `fastqsanger`
 
-1. Load fastq.gz into Galaxy
-1. Map reads to hg19 reference genome
+1. Map reads to hg19 reference genome (use `TopHat`)
 1. Rename data sets
 1. See data sets' details
 1. Inspect mappings using [IGV](https://www.broadinstitute.org/igv/)
