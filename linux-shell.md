@@ -571,8 +571,141 @@ Pattern	| Matches
 
 `grep`: grep, egrep, fgrep, rgrep - print lines matching a pattern
 
+    $ grep "^>" 30212.fasta 
+    >gi|30212|emb|X56692.1| H.sapiens mRNA for C-reactive protein
 
+    $ grep -i "[^ATGC]" 30212.fasta 
+    >gi|30212|emb|X56692.1| H.sapiens mRNA for C-reactive protein
+    GCTGTGGGTCCTGAAGGTACCTCCCGG2TTTTTTACACCGCATGGGCCCCACGTCTCTGTCTCTGGTACCT
+
+**Tip:** Always put regular expressions into quotes. Imagine `grep > 30212.fasta`
+
+### Input and Output streams
+![fig_in-out_program](figs/fig_in-out_program.png)
+
+#### Redicrecting streams
+
+`p1 < inputfile.txt > outputfile.txt`
+
+To redirect *Standard out* use `>` and `>>`
+To redirect *Standard error* use `2>` and `2>>`
+
+    $ grep "^>" 30212.fasta > header.fasta
+    $ cat header.fasta 
+    >gi|30212|emb|X56692.1| H.sapiens mRNA for C-reactive protein
+
+    $ grep "^>" 3.fasta > header.fasta
+    grep: 3.fasta: No such file or directory
+    
+    $ grep "^>" 3.fasta 2> err.out
+    
+    $ cat err.out 
+    grep: 3.fasta: No such file or directory
+    
+    $ cat > test.txt
+    Hey there, here is some text
+    ^C
+
+    $ cat test.txt 
+    Hey there, here is some text
+
+    $ cat test.txt test.txt test.txt > moretest.txt
+
+    $ cat moretest.txt 
+    Hey there, here is some text
+    Hey there, here is some text
+    Hey there, here is some text
+
+    $ cat test.txt >> moretest.txt 
+  
+    $ cat moretest.txt 
+    Hey there, here is some text
+    Hey there, here is some text
+    Hey there, here is some text
+    Hey there, here is some text
+
+### Pipes and filters
+
+![fig_pipes](figs/fig_pipes.png)
+
+    $ grep -v "^>" 30212.fasta | grep -i [^ATGC]
+    GCTGTGGGTCCTGAAGGTACCTCCCGG2TTTTTTACACCGCATGGGCCCCACGTCTCTGTCTCTGGTACCT
+    
+### Pipes and redirection
+
+    $ p1 input.txt 2> p1.err | p2 2> p2.err > results.txt
+    
+* Pipes block a reading program when they are empty and block a writing program when they are full.
+* A programm can send `SIGPIPE`to terminate the 'connected' programs.
+    
+#### Grepping errors
+
+    $ p1 2>&1 | grep "error"
+    
+### Background processes
+    $ p1 input.txt > output.txt &
+    
+`top`: display Linux processes
+
+`jobs`: display status of jobs
+
+`fg`: move jobs to the foreground
+
+`bg`: move jobs to the background
+
+    $ p1 input.txt > output.txt # not sent to background
+    # control-z to suspend
+    [1]+ Stopped    p1 input.txt > output.txt
+    $ bg
+    [1]+ p1 input.txt > output.txt &
+
+*Leaving the terminal will kill all background processes!*
+
+Suspend foreground job: `Control-Z`
+
+Kill foreground job: `Control-C`
+
+`kill`: send a signal to a process
+
+### Exit Status
+    $ cal
+    $ echo $
+    
+    $ p1 input.txt > output.txt && p2 output.txt > results.txt
+    
+    $ p1 input.txt > output.txt || echo "an error occurred"  
+    
+### Shell Substitution
+
+    $ echo "There are $(grep -c '^>' 30212.fasta) entries in my fasta."
+    
+*Note single and double quotes!*
+
+    $ mkdir results-$(date +%F)
+    
+`+%F`: Date format [ISO_8601](https://en.wikipedia.org/wiki/ISO_8601)
+
+    $ alias today="date +%F"
+    $ mkdir results-$(today)
+    
+### Remote Shell
+`ssh`: OpenSSH SSH client (remote login program)
+
+    $ ssh silico-sciences.com
+    
+    $ ssh 176.28.21.178
+
+    $ ssh kerner@silico-sciences.com
+    
+`nohup`: run a command immune to hangups, with output to a non-tty
+
+    $ nohup p1 &
+    [1] 14958
+    $ less nohup.out
 
 ## References
 
 1. [http://code.snipcademy.com/](http://code.snipcademy.com/tutorials/linux-command-line/basic-commands/introduction)
+
+1. [Bioinformatics Data Skills
+](http://vincebuffalo.org/book/)
