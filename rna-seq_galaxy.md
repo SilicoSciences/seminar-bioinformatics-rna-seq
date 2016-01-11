@@ -17,6 +17,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Load [reference sequence](https://github.com/silico-sciences/bi-seminar/blob/master/3.fa.gz) into Galaxy, e.g. by Copy&Paste-ing GitHub URLs into Galaxy upload wizard.
 
+    0. Edit data attributes:
+        
+        0. Change datatype to `fasta`.
+        
 0. Load [reference annotation](https://github.com/silico-sciences/bi-seminar/blob/master/genes_chr03.gtf.gz) into Galaxy.
 
 0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy.
