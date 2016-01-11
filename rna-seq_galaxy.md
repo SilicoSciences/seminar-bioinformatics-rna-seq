@@ -15,7 +15,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 0. Get familiar with your data.
 [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
 
-0. Load [reference sequence](https://github.com/silico-sciences/bi-seminar/blob/master/3.fa.gz) into Galaxy, e.g. by Copy&Paste-ing GitHub URLs into Galaxy upload wizard.
+0. Load [reference sequence](https://github.com/silico-sciences/bi-seminar/blob/master/3.fa.gz) into Galaxy. It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the "View Raw" link location from GitHub and paste URLs into the Galaxy upload wizard.
 
     0. Edit data attributes:
         
