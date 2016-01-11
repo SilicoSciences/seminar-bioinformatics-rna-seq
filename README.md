@@ -12,3 +12,5 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 [Data Visualization using RStudio and CummeRbund](https://github.com/silico-sciences/bi-seminar/blob/master/r_filled.md)
 
 [Linux for Bioinformatics](https://github.com/silico-sciences/bi-seminar/blob/master/unix-shell.md)
+
+[Working with Bioinformatics Data](https://github.com/silico-sciences/bi-seminar/blob/master/bi-data.md)
