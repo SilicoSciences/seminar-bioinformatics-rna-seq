@@ -11,7 +11,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ## Why Unix?
 
-> This isthe Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
+> This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
 [Doug McIlroy](https://en.wikipedia.org/wiki/Doug_McIlroy)
 
 ## Unix and the Shell
