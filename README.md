@@ -7,6 +7,6 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ### Common Bioinformatics Using Unix and Freely Available Open Source Tools on the Example of Gene Expression Analysis
 
-[RNA-Seq (Whole Transcriptome Shotgun Sequencing) using TopHat, Cufflinks, Galaxy and IGV](https://github.com/silico-sciences/bi-seminar/blob/master/rna-seq_galaxy.md)
+[RNA-Seq using TopHat, Cufflinks, Galaxy and IGV](https://github.com/silico-sciences/bi-seminar/blob/master/rna-seq_galaxy.md)
 
 [Linux for Bioinformatics](https://github.com/silico-sciences/bi-seminar/blob/master/unix-shell.md)
