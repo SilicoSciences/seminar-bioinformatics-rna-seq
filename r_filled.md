@@ -175,20 +175,20 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
         > csHeatmap(genes2, cluster='both', replicates=T)
             
-       ![pic](figs/csheat2.png =400x)
+       ![pic](figs/csheat2.png)
           
      
         > expressionBarplot(genes2)
         
-       ![pic](figs/expressionBarplot.png =400x)
+       ![pic](figs/expressionBarplot.png)
            
         > csDistHeat(genes(cuff), replicates=T)
         
-       ![pic](figs/csdistheat.png =400x)
+       ![pic](figs/csdistheat.png)
        
         > MDSplot(genes(cuff), replicates=T)
        
-       ![pic](figs/md.png =400x)
+       ![pic](figs/md.png)
        
 Get differentially expressed gene identifer
 
