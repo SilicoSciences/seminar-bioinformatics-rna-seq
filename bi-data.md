@@ -111,7 +111,21 @@ Find data at
 `tar`: The GNU version of the tar archiving utility
 
     $ wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz
+    
+    $ tar -zxf chromFa.tar.gz 
+    
+    $ ls
+    [..]
 
+For downstream data processing, usually one `fa` file is required:
+
+    $ mv chromFa.tar.gz chromFa.tar.gz.bak
+    $ ls *.fa | grep -v "^chr"
+    
+    $ cat chr*.fa > genome.fa
+    $ rm chr*.fa  
+    $ ls
+    chromFa.tar.gz.bak  genome.fa  md5sum.txt
     
 standard    |  compressed
 --------|---------
@@ -128,73 +142,86 @@ standard    |  compressed
 
 `tail`:  output the last part of files
 
-    $ head genome.fa
-    >chrI
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaa
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaa
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaaAAAATTGAGATAAGAAAA
-    
+    $ head genome.fa 
+    >chr10
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
     $ head genome.fa -n20
-    >chrI
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaa
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaa
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaaAAAATTGAGATAAGAAAA
-    CATTTTACTTTTTCAAAATTGTTTTCATGCTAAATTCAAAACGTTTTTTT
-    TTTAGTGAAGCTTCTAGATATTTGGCGGGTACCTCTAATTTTGCCTGCCT
-    GCCAACCTATATGCTCCTGTGTTtaggcctaatactaagcctaagcctaa
-    gcctaatactaagcctaagcctaagactaagcctaatactaagcctaagc
-    ctaagactaagcctaagactaagcctaagactaagcctaatactaagcct
-    aagcctaagactaagcctaagcctaatactaagcctaagcctaagactaa
-    gcctaatactaagcctaagcctaagactaagcctaagactaagcctaaga
-    ctaagcctaatactaagcctaagcctaagactaagcctaagcctaaAAGA
-    ATATGGTAGCTACAGAAACGGTAGTACACTCTTCTGAAAATACAAAAAAT
-    TTGCAATTTTTATAGCTAGGGCACTTTTTGTCTGCCCAAATATAGGCAAC
+    >chr10
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
     $ tail genome.fa
-    GATTCTCGGAGAACTTGCCGCACCATTCCGCCTTGTGTTCATTGCTGCCT
-    GCATGTTCATTGTCTACCTCGGCTACGTGTGGCTATCTTTCCTCGGTGCC
-    CTCGTGCACGGAGTCGAGAAACCAAAGAACAAAAAAAGAAATTAAAATAT
-    TTATTTTGCTGTGGTTTTTGATGTGTGTTTTTTATAATGATTTTTGATGT
-    GACCAATTGTACTTTTCCTTTAAATGAAATGTAATCTTAAATGTATTTCC
-    GACGAATTCGAGGCCTGAAAAGTGTGACGCCATTCGTATTTGATTTGGGT
-    TTACTATCGAATAATGAGAATTTTCaggcttaggcttaggcttaggctta
-    ggcttaggcttaggcttaggcttaggcttaggcttaggcttaggcttagg
-    cttaggcttaggcttaggcttaggcttaggcttaggcttaggcttaggct
-    taggcttaggcttagg
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+    NNNNNNNNNNNNNNNN
     
-    $ (head; tail) < genome.fa
-    >chrI
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaa
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaa
-    gcctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagc
-    ctaagcctaagcctaagcctaagcctaagcctaagcctaagcctaagcct
-    aagcctaagcctaagcctaagcctaagcctaaAAAATTGAGATAAGAAAA
-    GATTCTCGGAGAACTTGCCGCACCATTCCGCCTTGTGTTCATTGCTGCCT
-    GCATGTTCATTGTCTACCTCGGCTACGTGTGGCTATCTTTCCTCGGTGCC
-    CTCGTGCACGGAGTCGAGAAACCAAAGAACAAAAAAAGAAATTAAAATAT
-    TTATTTTGCTGTGGTTTTTGATGTGTGTTTTTTATAATGATTTTTGATGT
-    GACCAATTGTACTTTTCCTTTAAATGAAATGTAATCTTAAATGTATTTCC
-    GACGAATTCGAGGCCTGAAAAGTGTGACGCCATTCGTATTTGATTTGGGT
-    TTACTATCGAATAATGAGAATTTTCaggcttaggcttaggcttaggctta
-    ggcttaggcttaggcttaggcttaggcttaggcttaggcttaggcttagg
-    cttaggcttaggcttaggcttaggcttaggcttaggcttaggcttaggct
-    taggcttaggcttagg
+    $ grep -vn "^N" genome.fa | head
+    1:>chr10
+    1202:GAATTCCTTGAGGCCTAAATGCATCGGGGTGCTCTGGTTTTGTTGTTGTT
+    1203:ATTTCTGAATGACATTTACTTTGGTGCTCTTTATTTTGCGTATTTAAAAC
+    1204:TATTAGATCGTGTGATTATATTTGACAGGTCTTAATTGACGCGCTGTTCA
+    1205:GCCCTTTGAGTTCGGTTGAGTTTTGGGTTGGAGAATTTTCTTCCACAAGG
+    1206:GATTGTCTTGGATTTTTCTGTTTCTCCCTCAATATCCACCTGGAAAACAT
+    1207:TTCAATTAATTTATATTTACTTAAATATTTCTGTGCAAAAACTGTGTACA
+    1208:AAAGCCCCAAAGCATAATTTGTGCAGTTGAGCGCATGTTCTGTTGTTCAG
+    1209:CATTTATGGTGGTTGGTAGTGGAAAAGATTTTTAGAATATGTGGATTTTC
+    1210:GGGATATTCCCAGAAGCCCAGATAGCGACACTTTACCTTTGGAGGAATTA
+    
+    $ grep -v "^N" genome.fa | (head; tail)
+    >chr10
+    GAATTCCTTGAGGCCTAAATGCATCGGGGTGCTCTGGTTTTGTTGTTGTT
+    ATTTCTGAATGACATTTACTTTGGTGCTCTTTATTTTGCGTATTTAAAAC
+    TATTAGATCGTGTGATTATATTTGACAGGTCTTAATTGACGCGCTGTTCA
+    GCCCTTTGAGTTCGGTTGAGTTTTGGGTTGGAGAATTTTCTTCCACAAGG
+    GATTGTCTTGGATTTTTCTGTTTCTCCCTCAATATCCACCTGGAAAACAT
+    TTCAATTAATTTATATTTACTTAAATATTTCTGTGCAAAAACTGTGTACA
+    AAAGCCCCAAAGCATAATTTGTGCAGTTGAGCGCATGTTCTGTTGTTCAG
+    CATTTATGGTGGTTGGTAGTGGAAAAGATTTTTAGAATATGTGGATTTTC
+    GGGATATTCCCAGAAGCCCAGATAGCGACACTTTACCTTTGGAGGAATTA
+    agggttagggttagggttagggttagggttagggttagggttagggttag
+    ggttagggttagggttagggttagggttagggttagggttagggttaggg
+    ttagggttagggttagggttagggttagggttagggttagggttagggtt
+    agggttagggttagggttagggttagggttagggtgagggttagggttag
+    ggttagggttagggttagggttagggttagggttagggttagggttaggg
+    ttagggttagggttagggttagggttagggttagggttagggttagggtt
+    agggttaggggttaggggttaggggttaggggttaggggttaggggttag
+    ggttagggttagggttagggtgtggtgtgtgggtgtgtgtgggtgtggtg
+    tgtgtgggtgtggtgtgtgggtgtgggtgtgggtgtgggtgtgtgggtgt
+    ggtgtgtgggtgtggTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
 
 ### `grep`
 

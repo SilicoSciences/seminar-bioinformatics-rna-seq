@@ -12,13 +12,15 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 0. Get familar with your tools.
 [Galaxy](https://usegalaxy.org/)
 
-    0. Create user account
+    0. Create user account.
 
-    0. Learn how to rename datasets
+    0. Learn how to rename datasets.
     
-    0. Learn how to change dataset attributes
+    0. Learn how to change dataset attributes.
     
-    0. Learn how to use Histories
+    0. Learn how to use Histories.
+    
+    0. Take a look at the [Wiki](https://github.com/nekrut/galaxy/wiki).
 
 0. Get familiar with your data.
 [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
@@ -89,6 +91,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 0. Use `cummeRbund` to visualize data.
 
 ## References
+
+0. [Galaxy Wiki](https://github.com/nekrut/galaxy/wiki)
 
 0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/?tool=pmcentrez)
 
