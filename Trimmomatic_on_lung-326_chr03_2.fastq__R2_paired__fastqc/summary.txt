@@ -1,0 +1,11 @@
+PASS	Basic Statistics	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+PASS	Per base sequence quality	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+PASS	Per sequence quality scores	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+FAIL	Per base sequence content	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+WARN	Per sequence GC content	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+PASS	Per base N content	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+WARN	Sequence Length Distribution	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+PASS	Sequence Duplication Levels	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+WARN	Overrepresented sequences	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+PASS	Adapter Content	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
+PASS	Kmer Content	Trimmomatic_on_lung-326_chr03_2.fastq__R2_paired_
