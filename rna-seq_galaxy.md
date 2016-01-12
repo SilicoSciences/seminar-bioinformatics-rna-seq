@@ -46,10 +46,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
 0. Compare read quality of trimmed vs. non-trimmed reads.
 
-    0. Lung1: 
-    0. Lung2:
-    0. Lung1 trimmed:
-    0. Lung2 trimmed:
+    0. [Lung1](https://github.com/SilicoSciences/bi-seminar/blob/master/FastQC_Trimmomatic_on_lung-326_chr03_1__Webpage_html.html)
+    0. Lung2
+    0. Lung1 trimmed
+    0. Lung2 trimmed
 
 0. Use [TopHat](https://ccb.jhu.edu/software/tophat/index.shtml) to map reads to reference from history (`3.fa.gz`). TopHat is a splice-aware aligner, so it can handle RNA-Seq data and is able to align reads across introns.
 
