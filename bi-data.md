@@ -1,15 +1,15 @@
-Title: From the Shell and the Cloud - Common Bioinformatics on the Example of Gene Expression Analysis using Unix and freely available Open Source Tools</br>
+Title: The Shell and the Cloud - Applied Bioinformatics on the Example of Gene Expression Analysis using Unix and freely available Open Source Tools</br>
 Author: Alexander Kerner</br>
 EMail: ak at silico-sciences.com</br>
 Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
-# Bioinformatics Data in the Shell and -Cloud
+# Applied Bioinformatics in the Shell and in the Cloud
 
-### Common Bioinformatics Using Unix and Freely Available Open Source Tools on the Example of Gene Expression Analysis
+## NGS Data Analysis Using Unix and Open Source Tools
 
 # Working with Bioinformatics Data
 
-### Retrieving Data
+## Retrieving Data
 
 Find data at
 
@@ -27,7 +27,7 @@ Find data at
 
     $ wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/chr22.fa.gz http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/md5sum.txt
 
-#### Options to remember:
+### Options to remember:
 
 0. `--accept`
 0. `--no-directories`
@@ -46,7 +46,7 @@ Find data at
 
 ---
 
-### Filesizes
+## Filesizes
 
     $ ls -lh
     total 11M
@@ -55,7 +55,7 @@ Find data at
     
 ---
 
-### Verifying Data
+## Verifying Data
 
 `md5sum`: compute and check MD5 message digest
 
@@ -83,11 +83,9 @@ Find data at
     md5sum: chr3.fa.gz: No such file or directory
     [..]
 
-### Compressed Data
+## Compressed Data
 
 `gzip`: gzip, gunzip, zcat - compress or expand files
-
-`tar`: The GNU version of the tar archiving utility
 
     $ ls -lh
     total 11M
@@ -108,6 +106,13 @@ Find data at
     -rw-r--r-- 1 alex alex  11M Mar 20  2009 chr22.fa.gz
     -rw-r--r-- 1 alex alex 4,9K Mar 20  2009 md5sum.txt
     
+---
+    
+`tar`: The GNU version of the tar archiving utility
+
+    $ wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz
+
+    
 standard    |  compressed
 --------|---------
 `grep`	| `zgrep`
@@ -115,21 +120,13 @@ standard    |  compressed
 `cat`   | `zcat`
 `diff`	|`zdiff`
 
-### Inspecting Data
+## Inspecting Data
 
-    $ pwd
-    /home/bi/Caenorhabditis_elegans/UCSC/ce10/Sequence/WholeGenomeFasta/
-    
----
+### `head` and `tail`
 
-    $ ls -lh
-    total 98M
-    -rwxrwxr-x 1 bi bi 1,2K Jun 10  2014 genome.dict
-    -rwxrwxr-x 1 bi bi  98M Jun 16 18:24 genome.fa
-    -rwxrwxr-x 1 bi bi  197 Jun 10  2014 genome.fa.fai
-    -rwxrwxr-x 1 bi bi 1,3K Jun 10  2014 GenomeSize.xml
-    
-#### `head` and `tail`
+`head`: output the first part of files
+
+`tail`:  output the last part of files
 
     $ head genome.fa
     >chrI
@@ -199,7 +196,7 @@ standard    |  compressed
     cttaggcttaggcttaggcttaggcttaggcttaggcttaggcttaggct
     taggcttaggcttagg
 
-#### `grep`
+### `grep`
 
     $ grep -c "^>" genome.fa
     7
@@ -339,7 +336,7 @@ standard    |  compressed
     $ grep -c -w "psf" genes.gtf
     30
 
-#### `sort` and `uniq`
+### `sort` and `uniq`
 
 `sort`: sort lines of text files
 
@@ -500,7 +497,7 @@ standard    |  compressed
     1 start_codon
     1 stop_codon
 
-#### `awk`
+### `awk`
 
 `awk`: pattern scanning and processing language
 
@@ -565,7 +562,7 @@ stop_codon	1
 
 ---
 
-##### Exercise 
+#### Exercise 
 
 Use `grep`, `cut`, `sort` and `uniq` to count the number of features for the gene *psf-1*
 
@@ -573,7 +570,7 @@ Use `grep`, `cut`, `sort` and `uniq` to count the number of features for the gen
     
 ---
     
-#### `bioawk`
+### `bioawk`
 
     $ bioawk -c help
     bed:
@@ -619,7 +616,7 @@ chrV	20924149
 chrX	17718866
 </pre>
 
-#### `sed`
+### `sed`
 
 stream editor for filtering and transforming text
 
