@@ -15,13 +15,15 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 0. Get familiar with your data.
 [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
 
-0. Load [reference sequence](https://github.com/SilicoSciences/bi-seminar/blob/master/3.fa.gz?raw=true) into Galaxy. It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the "View Raw" link location from GitHub and paste URLs into the Galaxy upload wizard. In this tutorial we will use chromosome 3 only to save some time and disk space.
+    Since NGS data analysis is usually very time consumng, in this tutorial we will use a smaller data set. It has been reduced to chromosome 3 only to save some time and disk space.
+
+0. Load the [reference sequence](https://github.com/SilicoSciences/bi-seminar/blob/master/3.fa.gz?raw=true) into Galaxy. It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the link above and paste the URLs into the Galaxy upload wizard.
 
     0. Edit data attributes:
         
         0. Change datatype to `fasta`.
         
-0. Load [reference annotation](https://github.com/silico-sciences/bi-seminar/blob/master/genes_chr03.gtf.gz) into Galaxy. The annotation should be in [GTF format](http://www.ensembl.org/info/website/upload/gff.html).
+0. Load the [reference annotation](https://github.com/SilicoSciences/bi-seminar/blob/master/genes_chr03.gtf.gz?raw=true) into Galaxy. The annotation should be in [GTF format](http://www.ensembl.org/info/website/upload/gff.html).
 
 0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy. Each tissues was sequenced in four replicates and each replicates has one file for the forward reads (_1.fastq) and reverse reads (_2.fastq).
 
