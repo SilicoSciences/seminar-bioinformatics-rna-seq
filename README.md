@@ -7,7 +7,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ## NGS Data Analysis Using Unix and Open Source Tools 
 
-[RNA-Seq using TopHat, Cufflinks, Galaxy and IGV](https://github.com/silicosciences/bi-seminar/blob/master/rna-seq_galaxy.md)
+[RNA-Seq using Galaxy, IGV and the Tuxedo Suite](https://github.com/silicosciences/bi-seminar/blob/master/rna-seq_galaxy.md)
 
 [Data Visualization using RStudio and CummeRbund](https://github.com/silicosciences/bi-seminar/blob/master/r_filled.md)
 
