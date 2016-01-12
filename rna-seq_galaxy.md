@@ -46,7 +46,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
 0. Compare read quality of trimmed vs. non-trimmed reads.
 
-    0. [Lung1](FastQC_Trimmomatic_on_lung-326_chr03_1__Webpage_html.html)
+    0. [Lung1](http://htmlpreview.github.com/?FastQC_Trimmomatic_on_lung-326_chr03_1__Webpage_html.html)
     0. Lung2
     0. Lung1 trimmed
     0. Lung2 trimmed
