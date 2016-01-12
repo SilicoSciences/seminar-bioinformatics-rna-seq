@@ -12,6 +12,14 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 0. Get familar with your tools.
 [Galaxy](https://usegalaxy.org/)
 
+    0. Create user account
+
+    0. Learn how to rename datasets
+    
+    0. Learn how to change dataset attributes
+    
+    0. Learn how to use Histories
+
 0. Get familiar with your data.
 [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
 
