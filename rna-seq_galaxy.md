@@ -33,23 +33,9 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
 0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality.
 
-    0. Use [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) to trimm the reads.
-    
-        0. ILLUMINACLIP: TrueSeq3 (paired-ended), 2, 40, 15. 
-        0. LEADING: 2
-        
-        0. TRAILING: 2
-        
-        0. SLIDINGWINDOW: 4, 2
-        
-        0. MINLEN: 25
+    0. Use [Trim Galore!](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) to trimm the reads.
         
 0. Compare read quality of trimmed vs. non-trimmed reads.
-
-    0. [Lung1](http://htmlpreview.github.com/?https://rawgit.com/SilicoSciences/bi-seminar/master/FastQC_Trimmomatic_on_lung-326_chr03_1__Webpage_html.html)
-    0. Lung2
-    0. Lung1 trimmed
-    0. Lung2 trimmed
 
 0. Use [TopHat](https://ccb.jhu.edu/software/tophat/index.shtml) to map reads to reference from history (`3.fa.gz`). TopHat is a splice-aware aligner, so it can handle RNA-Seq data and is able to align reads across introns.
 
