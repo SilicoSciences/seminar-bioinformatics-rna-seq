@@ -504,7 +504,7 @@ Pattern	| Matches
 
 **Tip:** Always put regular expressions into quotes. Imagine `grep > 30212.fasta`
 
-<img src="figs/exclamation_28x26.png" vertical-align: middle> Wildcards != Regular Expressions!
+<img src="figs/exclamation.png" alt="Note" style="width: 28px;"/> Wildcards != Regular Expressions!
 
     $ touch txt.text
     
