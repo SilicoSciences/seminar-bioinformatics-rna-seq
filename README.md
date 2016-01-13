@@ -9,8 +9,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 [RNA-Seq using Galaxy, IGV and the Tuxedo Suite](galaxy_rna-seq_tuxedo)
 
-[Data Visualization using RStudio and CummeRbund](https://github.com/silicosciences/bi-seminar/blob/master/r_filled.md)
+[Data Visualization using RStudio and CummeRbund](rstudio_cummerbund)
 
-[Linux for Bioinformatics](https://github.com/silicosciences/bi-seminar/blob/master/unix-shell.md)
+[Introduction to the Shell](shell_intro)
 
-[Working with Bioinformatics Data](https://github.com/silicosciences/bi-seminar/blob/master/bi-data.md)
+[Working with Bioinformatics Data](shell_bioinformatics)
