@@ -490,7 +490,43 @@ Pattern	| Matches
 
     $ ls -a *.txt
     moretest.txt  test.txt
+    
+### Regular Expressions
 
+`grep`: grep, egrep, fgrep, rgrep - print lines matching a pattern
+
+    $ grep "^>" 30212.fasta 
+    >gi|30212|emb|X56692.1| H.sapiens mRNA for C-reactive protein
+
+    $ grep -i "[^ATGC]" 30212.fasta 
+    >gi|30212|emb|X56692.1| H.sapiens mRNA for C-reactive protein
+    GCTGTGGGTCCTGAAGGTACCTCCCGG2TTTTTTACACCGCATGGGCCCCACGTCTCTGTCTCTGGTACCT
+
+**Tip:** Always put regular expressions into quotes. Imagine `grep > 30212.fasta`
+
+<img src="figs/exclamation_28x26.png" vertical-align: middle> Wildcards != Regular Expressions!
+
+    $ touch txt.text
+    
+    $ ls
+    CHANGE_LOG.txt  CHECKSUMS.txt  README.txt  Saccharomyces_cerevisiae_Ensembl_EF4.tar.gz  txt.text
+
+    # Wildcard    
+    $ ls *.txt
+    CHANGE_LOG.txt  CHECKSUMS.txt  README.txt
+    
+    # RegEx
+    $ ls | egrep ".txt"
+    CHANGE_LOG.txt
+    CHECKSUMS.txt
+    README.txt
+
+    $ ls | egrep "txt"
+    CHANGE_LOG.txt
+    CHECKSUMS.txt
+    README.txt
+    txt.text
+    
 ### Expansions
 
 `echo` display a line of text
@@ -566,19 +602,6 @@ Pattern	| Matches
     $ echo -e "Hello\nWorld!"
     Hello
     World!
-
-### Regular Expressions
-
-`grep`: grep, egrep, fgrep, rgrep - print lines matching a pattern
-
-    $ grep "^>" 30212.fasta 
-    >gi|30212|emb|X56692.1| H.sapiens mRNA for C-reactive protein
-
-    $ grep -i "[^ATGC]" 30212.fasta 
-    >gi|30212|emb|X56692.1| H.sapiens mRNA for C-reactive protein
-    GCTGTGGGTCCTGAAGGTACCTCCCGG2TTTTTTACACCGCATGGGCCCCACGTCTCTGTCTCTGGTACCT
-
-**Tip:** Always put regular expressions into quotes. Imagine `grep > 30212.fasta`
 
 ### Input and Output streams
 ![fig_in-out_program](figs/fig_in-out_program.png)
