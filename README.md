@@ -13,4 +13,4 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 [Introduction to the Shell](shell_intro)
 
-[Working with Bioinformatics Data](shell_bioinformatics)
+[The Shell for Bioinformaticians](shell_bioinformatics)
