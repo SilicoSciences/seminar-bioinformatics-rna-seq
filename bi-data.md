@@ -14,12 +14,15 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 Find data at
 
 0. UCSC
-`http://hgdownload.cse.ucsc.edu/goldenPath/`
+http://hgdownload.cse.ucsc.edu/goldenPath/
 
 0. Ensembl
-`http://www.ensembl.org/info/data/ftp/index.html`
+http://www.ensembl.org/info/data/ftp/index.html
 
 0. NCBI
+
+0. Illumina
+https://ccb.jhu.edu/software/tophat/igenomes.shtml
 
 ---
 
