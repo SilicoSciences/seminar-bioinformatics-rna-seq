@@ -105,27 +105,10 @@ Find data at
     total 11M
     -rw-r--r-- 1 alex alex  11M Mar 20  2009 chr22.fa.gz
     -rw-r--r-- 1 alex alex 4,9K Mar 20  2009 md5sum.txt
-    
----
-    
-`tar`: The GNU version of the tar archiving utility
 
-    $ wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz
+    $ wget ftp://ftp.ensembl.org/pub/release-83/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
     
-    $ tar -zxf chromFa.tar.gz 
     
-    $ ls
-    [..]
-
-For downstream data processing, usually one `fa` file is required:
-
-    $ mv chromFa.tar.gz chromFa.tar.gz.bak
-    $ ls *.fa | grep -v "^chr"
-    
-    $ cat chr*.fa > genome.fa
-    $ rm chr*.fa  
-    $ ls
-    chromFa.tar.gz.bak  genome.fa  md5sum.txt
     
 standard    |  compressed
 --------|---------
