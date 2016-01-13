@@ -20,26 +20,36 @@ http://hgdownload.cse.ucsc.edu/goldenPath/
 http://www.ensembl.org/info/data/ftp/index.html
 
 0. NCBI
+ftp://ftp.ncbi.nih.gov/genomes/
 
 0. Illumina
-https://ccb.jhu.edu/software/tophat/igenomes.shtml
+ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/
 
 ---
 
 `wget`: the non-interactive network downloader
 
-    $ wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/chr22.fa.gz http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/md5sum.txt
+    $ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Saccharomyces_cerevisiae/Ensembl/EF4/Saccharomyces_cerevisiae_Ensembl_EF4.tar.gz
+
+    $ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/ --accept "*.txt" --recursive --level 1 --no-directories
+    
+    $ ls -lh
+    total 71M
+    -rw-r--r-- 1 alex alex  12K Dec 15 00:00 CHANGE_LOG.txt
+    -rw-r--r-- 1 alex alex 8,8K Dec 15 00:00 CHECKSUMS.txt
+    -rw-r--r-- 1 alex alex 5,3K Jun 17  2014 README.txt
+    -rw-r--r-- 1 alex alex  71M Jan 13 14:12 Saccharomyces_cerevisiae_Ensembl_EF4.tar.gz
 
 ### Options to remember:
 
 0. `--accept`
 0. `--no-directories`
 0. `--recursive`
+0. `--level`
 0. `-c`
 0. `-q`
 0. `-b`
 0. `-p`
-
 
 ---
 
