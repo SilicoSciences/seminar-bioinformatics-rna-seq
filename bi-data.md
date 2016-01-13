@@ -136,7 +136,21 @@ standard    |  compressed
 
 ## Inspecting Data
 
-### `head` and `tail`
+`grep`: grep, egrep, fgrep, rgrep - print lines matching a pattern
+
+    $ grep -c "^>" genome.fa 
+    93
+
+    $ grep "^>" genome.fa
+    >chr10
+    >chr11
+    >chr11_gl000202_random
+    >chr12
+    [..]
+    >chrX
+    >chrY
+    
+---
 
 `head`: output the first part of files
 
@@ -221,23 +235,12 @@ standard    |  compressed
     ggttagggttagggttagggtgtggtgtgtgggtgtgtgtgggtgtggtg
     tgtgtgggtgtggtgtgtgggtgtgggtgtgggtgtgggtgtgtgggtgt
     ggtgtgtgggtgtggTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-
-
-### `grep`
-
-    $ grep -c "^>" genome.fa
-    7
-
-    $ grep ">chr" genome.fa
-    >chrI
-    >chrII
-    >chrIII
-    >chrIV
-    >chrM
-    >chrV
-    >chrX
-    
+ 
 ---
+
+`more`: file perusal filter for crt viewing
+
+`less`: opposite of more
 
     $ more genome.fa
     
@@ -245,16 +248,18 @@ standard    |  compressed
     
 ---
 
-    $ wc genome.fa
-    2005730   2005730 102291839 genome.fa
+`wc`: print newline, word, and byte counts for each file
+
+    $ wc genome.fa 
+      62743362   62743362 3199905909 genome.fa
+
+    $ wc -l genome.fa 
+      62743362 genome.fa
     
-    $ wc -l genome.fa
-    2005730 genome.fa
-    
-    $ wc -l genome.fa genome.dict 
-    2005730 genome.fa
-          8 genome.dict
-    2005738 total
+    $ wc -l genome.fa md5sum.txt 
+      62743362 genome.fa
+            93 md5sum.txt
+      62743455 total
 
 ---
 
