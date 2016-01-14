@@ -29,9 +29,9 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Load the [reference sequence](../2014fagerberg-small/3.fa.gz?raw=true) into Galaxy.
 
-![note](../figs/note_20x20.png) It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the link and paste the URLs into the Galaxy upload wizard.
+    ![note](../figs/note_20x20.png) It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the link and paste the URLs into the Galaxy upload wizard.
 
-![note](../figs/attention_22x20.png) If you experience problems with Copy&Paste'ed download links, please download the files to your computer first and upload them manually.
+    ![note](../figs/attention_22x20.png) If you experience problems with Copy&Paste'ed download links, please download the files to your computer first and upload them manually.
 
     0. Edit data attributes:
         
