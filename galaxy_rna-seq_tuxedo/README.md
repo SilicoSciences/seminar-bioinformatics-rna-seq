@@ -33,7 +33,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
         0. Change datatype to `fasta`.
         
-0. Load the [reference annotation](https://github.com/SilicoSciences/bi-seminar/blob/master/genes_chr03.gtf.gz?raw=true) into Galaxy. The annotation should be in [GTF format](http://www.ensembl.org/info/website/upload/gff.html).
+0. Load the [reference annotation](../2014fagerberg-small/genes_chr03.gtf.gz?raw=true) into Galaxy. The annotation should be in [GTF format](http://www.ensembl.org/info/website/upload/gff.html).
 
 0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy. Each tissues was sequenced in four replicates and each replicates has one file for the forward reads (`_1.fastq`) and reverse reads (`_2.fastq`).
 
