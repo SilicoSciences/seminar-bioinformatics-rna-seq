@@ -31,7 +31,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ![note](../figs/note_20x20.png) It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the link and paste the URLs into the Galaxy upload wizard.
 
-![note](../attention_22x20.png)
+![note](../figs/attention_22x20.png) If you experience problems with Copy&Paste'ed download links, please download the files to your computer first and upload them manually.
 
     0. Edit data attributes:
         
