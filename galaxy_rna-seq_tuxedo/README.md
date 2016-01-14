@@ -43,14 +43,21 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy. Each tissues was sequenced in four replicates and each replicates has one file for the forward reads (`_1.fastq`) and reverse reads (`_2.fastq`).
 
-    0. [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq?raw=true)
-    0. [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq?raw=true)
-    0. [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq?raw=true)
-    0. [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq?raw=true)
-    0. [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq?raw=true)
-    0. [lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq?raw=true)
-    0. [lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq?raw=true)
-    0. [lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq?raw=true)
+    0. [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true)
+    
+    0. [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true)
+    
+    0. [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)
+    
+    0. [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true)
+    
+    0. [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true)
+    
+    0. [lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq.gz?raw=true)
+    
+    0. [lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq.gz?raw=true)
+    
+    0. [lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq.gz?raw=true)
 
     0. Edit data attributes:
         
