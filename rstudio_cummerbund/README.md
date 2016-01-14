@@ -19,8 +19,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 1. Load `genes.fpkm_table` into R
 
         fpkm_table = read.delim("genes.fpkm_table", row.names = 1, header = TRUE, sep="\t")
-    
-1. Average all values per row to end up with one expression value per gene identifier
+
+1. In the heatmap we want to display only genes that show a strong regulation between the samples. Calculate the Mean Absolute Deviation (MAD) of each gene across samples to get the average distance between each data value and the mean. This results in one value per gene identifier
 
         > mad_vector = apply(fpkm_table, 1, mad)
         > head(mad_vector)
@@ -72,7 +72,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         > library(heatmap3)
         > heatmap3(fpkm_matrix_100, Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", balanceColor=T, showRowDendro=T, labRow=F, ColSideCut=0.9)
         
-       ![pic](figs/heatmap.jpeg)
+       ![pic](../figs/heatmap.jpeg)
 
 ## CummeRbund
 
@@ -175,20 +175,20 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
         > csHeatmap(genes2, cluster='both', replicates=T)
             
-       ![pic](figs/csheat2.png)
+       ![pic](../figs/csheat2.png)
           
      
         > expressionBarplot(genes2)
         
-       ![pic](figs/expressionBarplot.png)
+       ![pic](../figs/expressionBarplot.png)
            
         > csDistHeat(genes(cuff), replicates=T)
         
-       ![pic](figs/csdistheat.png)
+       ![pic](../figs/csdistheat.png)
        
         > MDSplot(genes(cuff), replicates=T)
        
-       ![pic](figs/md.png)
+       ![pic](../figs/md.png)
        
 Get differentially expressed gene identifer
 
