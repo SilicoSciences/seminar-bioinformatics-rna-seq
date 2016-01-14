@@ -27,7 +27,11 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
     Since NGS data analysis is usually very time consumng, in this tutorial we will use a smaller data set. It has been reduced to chromosome 3 only to save some time and disk space.
 
-0. Load the [reference sequence](../2014fagerberg-small/3.fa.gz?raw=true) into Galaxy. It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the link above and paste the URLs into the Galaxy upload wizard.
+0. Load the [reference sequence](../2014fagerberg-small/3.fa.gz?raw=true) into Galaxy.
+
+![note](../figs/note_20x20.png) It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the link and paste the URLs into the Galaxy upload wizard.
+
+![note](../attention_22x20.png)
 
     0. Edit data attributes:
         
