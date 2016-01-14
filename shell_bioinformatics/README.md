@@ -653,8 +653,8 @@ keyword | meaining
     I	protein_coding	start_codon	10091	10093	.	+	0	exon_number "1"; gene_id "YAL066W"; gene_name "YAL066W"; p_id "P826"; transcript_id "YAL066W"; transcript_name "YAL066W"; tss_id "TSS2667";
     I	protein_coding	stop_codon	10397	10399	.	+	0	exon_number "1"; gene_id "YAL066W"; gene_name "YAL066W"; p_id "P826"; transcript_id "YAL066W"; transcript_name "YAL066W"; tss_id "TSS2667";
 
-![note](figs/note_20x20.png) Like `grep`, `sed` uses per default *POSIX Basic regular Expressions (BRE)*.
+![note](../figs/note_20x20.png) Like `grep`, `sed` uses per default *POSIX Basic regular Expressions (BRE)*.
 Like `grep`, you can use `-E` to switch to *POSIX Extended regular Expressions (ERE)* 
 
-![note](figs/note_20x20.png) Per default, `sed` replaces only the **first occurrence** of a match. To replace all occurrences, use the *global* flag:
+![note](../figs/note_20x20.png) Per default, `sed` replaces only the **first occurrence** of a match. To replace all occurrences, use the *global* flag:
 `sed s/pattern/replacement/g`
