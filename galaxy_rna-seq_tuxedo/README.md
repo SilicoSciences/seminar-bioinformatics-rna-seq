@@ -52,8 +52,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
     Lung | Stomach
     -----|--------
-    [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true)
-    [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true)
+    [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true) | [stomach1-4_1](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz)
+    [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true) | [stomach1-4_2](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz)
     [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)
     [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true)
     [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true)
