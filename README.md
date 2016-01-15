@@ -11,6 +11,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 [Data Visualization using RStudio and CummeRbund](rstudio_cummerbund)
 
+[Preparations](preparations)
+
 [Introduction to the Shell](shell_intro)
 
 [The Shell for Bioinformaticians](shell_bioinformatics)
