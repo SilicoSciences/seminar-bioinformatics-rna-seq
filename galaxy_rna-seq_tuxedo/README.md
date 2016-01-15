@@ -79,7 +79,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Use [IGV](https://www.broadinstitute.org/igv/) to inspect mappings.
 
-    0. Download mappings `accepted_hits.bam` and it's index file.
+    0. Download mappings `accepted_hits.bam` and its index file.
     
     0. Load bam files into IGV.
     

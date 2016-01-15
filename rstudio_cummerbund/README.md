@@ -201,7 +201,7 @@ Get differentially expressed gene identifer
         5 ENSG00000004838     lung  stomach NOTEST  925.1040  453.629        -1.028100  0.000000  1.0000 1.000000          no
         6 ENSG00000007402     lung  stomach NOTEST  120.8510  205.371         0.765007  0.000000  1.0000 1.000000          no
     
-Get significant gene identifer
+Extract all significant gene identifiers
 
     > getSig(cuff,alpha=0.05,level="genes")
     [1] "ENSG00000114416" "ENSG00000157017" "ENSG00000242086"
