@@ -14,3 +14,5 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 [Introduction to the Shell](shell_intro)
 
 [The Shell for Bioinformaticians](shell_bioinformatics)
+
+[RNA-Seq using the Shell, IGV and the Tuxedo Suite](shell_rna-seq_tuxedo)
