@@ -37,6 +37,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
         0. Change datatype to `fasta`.
         
+0. Take a look at the newly added files. https://silico-sciences.com/2016/01/15/bioinformatics-file-formats/
+        
 0. Load the [reference annotation](../2014fagerberg-small/genes_chr03.gtf.gz?raw=true) into Galaxy.
 
     0. The annotation should be in [GTF format](http://www.ensembl.org/info/website/upload/gff.html).
