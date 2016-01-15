@@ -38,7 +38,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
         0. Change datatype to `fasta`.
         
-0. Take a look at the newly added files. https://silico-sciences.com/2016/01/15/bioinformatics-file-formats/
+0. Take a look at the newly added files ([FASTA](https://silico-sciences.com/2016/01/15/fasta-format/)).
         
 0. Load the [reference annotation](../2014fagerberg-small/genes_chr03.gtf.gz?raw=true) into Galaxy.
 
@@ -46,25 +46,22 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy. Each tissues was sequenced in four replicates and each replicates has one file for the forward reads (`_1.fastq`) and reverse reads (`_2.fastq`).
 
-    0. [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true)
-    
-    0. [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true)
-    
-    0. [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)
-    
-    0. [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true)
-    
-    0. [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true)
-    
-    0. [lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq.gz?raw=true)
-    
-    0. [lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq.gz?raw=true)
-    
-    0. [lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq.gz?raw=true)
-
-    0. Edit data attributes:
+0. Edit data attributes:
         
-        0. Change datatype to `fastqsanger`.
+      0. Change datatype to `fastqsanger`.
+
+    Lung | Stomach
+    -----|--------
+    [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true)
+    [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true)
+    [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)
+    [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true)
+    [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true)
+    [lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq.gz?raw=true)
+    [lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq.gz?raw=true)
+    [lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq.gz?raw=true)
+
+0. Take a look at the newly added files ([FASTQ](https://silico-sciences.com/2016/01/15/fastq-format/)).
         
 0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality.
 
@@ -73,12 +70,12 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 0. Compare read quality of trimmed vs. non-trimmed reads.
 
 0. Use [TopHat](https://ccb.jhu.edu/software/tophat/index.shtml) to map reads to reference from history (`3.fa.gz`). TopHat is a splice-aware aligner, so it can handle RNA-Seq data and is able to align reads across introns.
-
-    0. Edit data attributes:
         
-        0. Change to `Paired-end (as individual datasets)`.
-        
-        0. Select forward and reverse reads from each sample.
+      0. Change to `Paired-end (as individual datasets)`.
+       
+      0. Select forward and reverse reads from each sample.
+      
+0. Take a look at the newly added files ([BAM](https://silico-sciences.com/2016/01/15/sam-bam-format/)).
 
 0. Use [IGV](https://www.broadinstitute.org/igv/) to inspect mappings.
 
