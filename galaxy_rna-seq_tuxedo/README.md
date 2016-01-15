@@ -9,8 +9,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # RNA-Seq using Galaxy, IGV and the Tuxedo Suite
 
-0. Get familar with your tools.
-[Galaxy](https://usegalaxy.org/)
+0. Get familar with [Galaxy](https://usegalaxy.org/)
 
     0. Create user account.
 
@@ -21,6 +20,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
     0. Learn how to use Histories.
     
     0. Take a look at the [Wiki](https://github.com/nekrut/galaxy/wiki).
+    
+    0. Find help in the [Galaxy forum](https://biostar.usegalaxy.org/).
 
 0. Get familiar with your data.
 [ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
