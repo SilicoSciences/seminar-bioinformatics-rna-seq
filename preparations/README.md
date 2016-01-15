@@ -15,5 +15,6 @@ If you are on a Mac, you can skip this step.
 
 ##### Download Ubuntu Linux Virtual Machine
 
+http://silico-sciences.com:8000/d/63d5288365/
 
 
