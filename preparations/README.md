@@ -9,5 +9,11 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ### Preparations
 
-#### Download Linux Virtual Machine
+#### Get a Unix-like (UN*X, *nix) System
+
+If you are on a Mac, you can skip this step.
+
+##### Download Ubuntu Linux Virtual Machine
+
+
 
