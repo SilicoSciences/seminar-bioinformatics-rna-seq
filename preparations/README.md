@@ -13,6 +13,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 If you are on a Mac, you can skip this step.
 
+##### Install VirtualBox
+
+https://www.virtualbox.org/
+
 ##### Download Ubuntu Linux Virtual Machine
 
 http://silico-sciences.com:8000/d/63d5288365/
