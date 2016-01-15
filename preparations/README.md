@@ -13,12 +13,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 If you are on a Mac, you can skip this step.
 
-##### Install VirtualBox
+0. Install VirtualBox https://www.virtualbox.org/
 
-https://www.virtualbox.org/
+0. Download Ubuntu Linux Virtual Machine http://silico-sciences.com:8000/d/63d5288365/
 
-##### Download Ubuntu Linux Virtual Machine
-
-http://silico-sciences.com:8000/d/63d5288365/
+    Copy the folder containing the VM image to C:\Users\[username]\Virtualbox VMs
 
 
