@@ -50,16 +50,16 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
         
       0. Change datatype to `fastqsanger`.
 
-    Lung | Stomach
-    -----|--------
-    [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true) | [stomach1-4_1](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz)
-    [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true) | [stomach1-4_2](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz)
-    [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)| [stomach2-4_1](/home/alex/bi-seminar_ws1516/bi-seminar/2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz)
-    [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true) | [stomach2-4_2](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz)
-    [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true) | [stomach3-4_1](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_1.fastq.gz)
-    [lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq.gz?raw=true) | [stomach3-4_2](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz)
-    [lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq.gz?raw=true) | [stomach4-4_1](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz)
-    [lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq.gz?raw=true) | [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
+      Lung | Stomach
+      -----|--------
+      [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true) | [stomach1-4_1](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz)
+      [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true) | [stomach1-4_2](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz)
+      [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)| [stomach2-4_1](/home/alex/bi-seminar_ws1516/bi-seminar/2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz)
+      [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true) | [stomach2-4_2](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz)
+      [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true) | [stomach3-4_1](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_1.fastq.gz)
+      [lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq.gz?raw=true) | [stomach3-4_2](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz)
+      [lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq.gz?raw=true) | [stomach4-4_1](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz)
+      [lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq.gz?raw=true) | [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
 
 0. Take a look at the newly added files ([FASTQ](https://silico-sciences.com/2016/01/15/fastq-format/)).
         
