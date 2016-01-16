@@ -15,8 +15,8 @@ If you are on a Mac, you can skip this step.
 
 0. Install VirtualBox https://www.virtualbox.org/
 
-0. Download Ubuntu Linux Virtual Machine http://silico-sciences.com:8000/d/63d5288365/
+0. Download Ubuntu Linux Virtual Machine ftp://silico-sciences.com:/public/VM
 
-    Copy the folder containing the VM image to C:\Users\[username]\Virtualbox VMs
+    Copy this folder containing the VM image to C:\Users\[username]\Virtualbox VMs
 
 
