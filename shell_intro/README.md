@@ -7,6 +7,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ## NGS Data Analysis Using Unix and Open Source Tools
 
+[TOC]
+
 # Introduction to the Shell
 
 ## Why Unix?
