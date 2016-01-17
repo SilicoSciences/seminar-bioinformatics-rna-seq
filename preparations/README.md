@@ -23,4 +23,14 @@ If you are on a Mac, you can skip this step.
     
 0. Start the virtual machine and open a terminal.
 
+0. Verify TopHat is installed.
+
+0. Verify Samtools is installed.
+
+0. Verify Cufflinks is installed.
+
+0. Verify RStudio is installed.
+
+    0. Verify cummeRbund is installed.
+
 
