@@ -17,7 +17,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Install the [CummeRbund](http://compbio.mit.edu/cummeRbund/) package.
 
-Download and extract the [example data](cuffnorm_out.zip?raw=true)
+Download and extract the [example data](cuffnorm_out.zip?raw=true).
 
 ## Create a heat map
 
@@ -26,7 +26,7 @@ Download and extract the [example data](cuffnorm_out.zip?raw=true)
 
         fpkm_table = read.delim("genes.fpkm_table", row.names = 1, header = TRUE, sep="\t")
 
-1. In the heatmap we want to display only genes that show a strong regulation between the samples. Calculate the Mean Absolute Deviation (MAD) of each gene across samples to get the average distance between each data value and the mean. This results in one value per gene identifier
+1. In the heatmap we want to display only genes that show a strong regulation between the samples. Calculate the Mean Absolute Deviation (MAD) of each gene across samples to get the average distance between each data value and the mean. This results in one value per gene identifier.
 
         > mad_vector = apply(fpkm_table, 1, mad)
         > head(mad_vector)
@@ -78,7 +78,7 @@ Download and extract the [example data](cuffnorm_out.zip?raw=true)
         > library(heatmap3)
         > heatmap3(fpkm_matrix_100, Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", balanceColor=T, showRowDendro=T, labRow=F, ColSideCut=0.9)
         
-       ![pic](../figs/heatmap.jpeg)
+       ![pic](../figs/heatmap.png)
 
 ## CummeRbund
 
