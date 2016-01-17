@@ -19,10 +19,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 Download and extract the [example data](cuffnorm_out.zip?raw=true).
 
-## Create a heat map
+## Create a Heatmap
 
-1. (Copy `cuffnorm` output)
-1. Load `genes.fpkm_table` into R
+1. Change your working directory to the `cuffnorm_out` directory.
+1. Load `genes.fpkm_table` into R.
 
         fpkm_table = read.delim("genes.fpkm_table", row.names = 1, header = TRUE, sep="\t")
 
@@ -33,18 +33,18 @@ Download and extract the [example data](cuffnorm_out.zip?raw=true).
         ENSG00000001617 ENSG00000003756 ENSG00000004399 ENSG00000004534 ENSG00000004838 ENSG00000007402 
         444.7197       2418.5216        453.4384       2870.0541        599.0401        129.0985
         
-1. Sort values descending
+1. Sort values descending.
 
         > mad_vector_sorted = mad_vector[order(mad_vector, decreasing = T)]
         > head(mad_vector_sorted)
         ENSG00000213178 ENSG00000168028 ENSG00000174748 ENSG00000233133 ENSG00000234287 ENSG00000162244 
         60275.17        49332.29        39065.25        31864.41        31546.61        18538.80  
         
-1. Extract first 100 elements   
+1. Extract first 100 elements.
 
         > mad_top100 =mad_vector_sorted[1:100]  
         
-1. Transform table into a matrix
+1. Transform table into a matrix.
 
         fpkm_matrix = as.matrix(fpkm_table)
         > head(fpkm_matrix)
