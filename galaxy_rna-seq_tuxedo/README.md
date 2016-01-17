@@ -85,11 +85,18 @@ Edit the data attributes for the loaded `fastq.gz` files to set the correct qual
         
 0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality.
 
-    0. Use [Trim Galore!](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) to trimm the reads.
+0. Use [Trim Galore!](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) to trimm the reads.
         
 0. Compare read quality of trimmed vs. non-trimmed reads.
 
+### Mapping Reads to the Reference Sequence
+
 0. Use [TopHat](https://ccb.jhu.edu/software/tophat/index.shtml) to map reads to reference from history (`3.fa.gz`). TopHat is a splice-aware aligner, so it can handle RNA-Seq data and is able to align reads across introns.
+
+---
+> Bowtie is not suitable for all sequence alignment tasks. It does not allow alignments between a read and the genome to contain large gaps; hence, it cannot align reads that span introns. TopHat was created to address this limitation. TopHat uses Bowtie as an alignment engine and breaks up reads that Bowtie cannot align on its own into smaller pieces called segments. Often, these pieces, when processed independently, will align to the genome. When several of a read's segments align to the genome far apart (e.g., between 100 bp and several hundred kilobases) from one another, TopHat infers that the read spans a splice junction and estimates where that junction's splice sites are.
+[Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321)
+---
         
       0. Change to `Paired-end (as individual datasets)`.
        
@@ -140,7 +147,7 @@ Edit the data attributes for the loaded `fastq.gz` files to set the correct qual
 
 0. [FASTQ format#Quality](https://en.wikipedia.org/wiki/FASTQ_format#Quality)
 
-0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/?tool=pmcentrez)
+0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321)
 
 0. [Analysis of the Human Tissue-specific Expression by Genome-wide Integration of Transcriptomics and Antibody-based Proteomics](http://www.mcponline.org/content/13/2/397)
 
