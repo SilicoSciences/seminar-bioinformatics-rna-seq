@@ -81,7 +81,7 @@ Edit the data attributes for the loaded `fastq.gz` files to set the correct qual
 
 0. Take a look at the content of the uploaded files.
 
-    ![view](../figs/galaxy_data_options_view_x36.png)
+    ![view](../figs/galaxy_data_options_view_x44.png)
         
 0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality.
 
