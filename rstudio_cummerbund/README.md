@@ -17,15 +17,9 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Install the [CummeRbund](http://compbio.mit.edu/cummeRbund/) package.
 
-0. Download and extract the [cuffnorm example data](cuffnorm_out.zip?raw=true).
-
-0. Download and extract the cuffdiff example data.
-
-    0. [cuffdiff lung-stomach]()
-    0. [cuffdiff lung-heart]()
-    0. [cuffdiff stomach-heart]()
-
 ## Create a Heatmap
+
+0. Download and extract the [cuffnorm example data](cuffnorm_out.zip?raw=true).
 
 0. Change your working directory to the `cuffnorm_out` directory.
 0. Load `genes.fpkm_table` into R.
@@ -88,108 +82,167 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ## CummeRbund
 
+0. Download and extract the cuffdiff example data.
+
+    0. [cuffdiff lung-stomach]()
+    
+    0. [cuffdiff lung-heart]()
+    
+    0. [cuffdiff stomach-heart]()
+
 0. Change your working directory to the `cuffdiff_out` directory.
     
-1. Load the `cummeRbund` library
+0. Load the `cummeRbund` library:
 
         > library(cummeRbund)
       
-1. Read data into `CuffSet` object
+0. Read data into `CuffSet` object:
 
         > cuff = readCufflinks()
         
-1. Read genes into `CuffData` object
+0. Read genes into `CuffData` object:
 
         > genes = genes(cuff)
 
-1. Accessing data
+0. Get run information:
+    
+        > run_info = runInfo(cuff)
+        > head(run_info)
+                  param   value
+        1      cmd_line   cuffdiff -o cuffdiff_out_lung-heart -L Lung,Heart -p8 -b /var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Sequence/Bowtie2Index/genome.fa -u /var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf ERR315424/cuffquant_out/abundances.cxb,ERR315439/cuffquant_out/abundances.cxb,ERR315444/cuffquant_out/abundances.cxb,ERR315487/cuffquant_out/abundances.cxb ERR315328/cuffquant_out/abundances.cxb,ERR315331/cuffquant_out/abundances.cxb,ERR315356/cuffquant_out/abundances.cxb,ERR315367/cuffquant_out/abundances.cxb
+        2       version   2.2.1
+        3  SVN_revision   4237
+        4 boost_version   104700
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+0. Get sample names:
+    
+        > sample_names = samples(genes)
+        > head(sample_names)
+        [1] "Lung"    "Heart"
 
-    1. get run information
+0. Get sample overview:
     
-            > run_info = runInfo(cuff)
-            > head(run_info)
-                param           value
-            1   cmd_line        cuffdiff -o cuffdiff_out-small -L lung,stomach -p8 -b /var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Sequence/Bowtie2Index/3.fa -u /var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes_chr03.gtf ERR315326/cuffquant_out-small/abundances.cxb,ERR315341/cuffquant_out-small/abundances.cxb,ERR315346/cuffquant_out-small/abundances.cxb,ERR315353/cuffquant_out-small/abundances.cxb ERR315369/cuffquant_out-small/abundances.cxb,ERR315379/cuffquant_out-small/abundances.cxb,ERR315467/cuffquant_out-small/abundances.cxb,ERR315485/cuffquant_out-small/abundances.cxb 
-            2   version         2.2.1
-            3   SVN_revision    4237
-            4   boost_version   104700
-    
-    1. get sample names
-    
-            > sample_names = samples(genes)
-            > head(sample_names)
-            [1] "lung"    "stomach"
-
-    1. get sample overview
-    
-            > replicates = replicates(cuff)
-            > head(replicates)
-                                                       file sample_name replicate  rep_name total_mass norm_mass  internal_scale external_scale
-             1 ERR315326/cuffquant_out-small/abundances.cxb        lung         0    lung_0       1875   2780.32        0.873403              1
-             2 ERR315341/cuffquant_out-small/abundances.cxb        lung         1    lung_1       3341   2780.32        0.981632              1
-             3 ERR315346/cuffquant_out-small/abundances.cxb        lung         2    lung_2       3055   2780.32        0.876120              1
-             4 ERR315353/cuffquant_out-small/abundances.cxb        lung         3    lung_3       1366   2780.32        0.589091              1
-             5 ERR315369/cuffquant_out-small/abundances.cxb     stomach         0 stomach_0       3673   2780.32        1.595150              1
-             6 ERR315379/cuffquant_out-small/abundances.cxb     stomach         1 stomach_1       3106   2780.32        0.924432              1
+        > replicates = replicates(cuff)
+        > replicates
+                                            file sample_name replicate rep_name total_mass norm_mass internal_scale external_scale
+        1 ERR315424/cuffquant_out/abundances.cxb        Lung         0   Lung_0    5374230   7634370       0.971352              1
+        2 ERR315439/cuffquant_out/abundances.cxb        Lung         1   Lung_1    3182170   7634370       0.591422              1
+        3 ERR315444/cuffquant_out/abundances.cxb        Lung         2   Lung_2    3237320   7634370       0.607904              1
+        4 ERR315487/cuffquant_out/abundances.cxb        Lung         3   Lung_3    8527950   7634370       1.578970              1
+        5 ERR315328/cuffquant_out/abundances.cxb       Heart         0  Heart_0   10148500   7634370       0.923755              1
+        6 ERR315331/cuffquant_out/abundances.cxb       Heart         1  Heart_1   11510000   7634370       1.223560              1
+        7 ERR315356/cuffquant_out/abundances.cxb       Heart         2  Heart_2   12870900   7634370       1.334490              1
+        8 ERR315367/cuffquant_out/abundances.cxb       Heart         3  Heart_3   11678700   7634370       1.242760              1
 
         
-    1. get fold changes
+0. Get fold changes:
     
-            > genes_diff = diffData(genes)
-            > head(genes_diff)
-            gene_id sample_1 sample_2 status   value_1  value_2 log2_fold_change test_stat p_value  q_value significant
-            1 ENSG00000001617     lung  stomach NOTEST  236.4830  571.564         1.273180  0.000000  1.0000 1.000000          no
-            2 ENSG00000003756     lung  stomach NOTEST 3576.3700 2234.250        -0.678706  0.000000  1.0000 1.000000          no
-            3 ENSG00000004399     lung  stomach NOTEST   59.0638 1154.710         4.289120  0.000000  1.0000 1.000000          no
-            4 ENSG00000004534     lung  stomach     OK 6351.3300 3741.570        -0.763414 -0.296566  0.2263 0.650475          no
-            5 ENSG00000004838     lung  stomach NOTEST  925.1040  453.629        -1.028100  0.000000  1.0000 1.000000          no
-            6 ENSG00000007402     lung  stomach NOTEST  120.8510  205.371         0.765007  0.000000  1.0000 1.000000          no
+        > genes_diff = diffData(genes)
+        > head(genes_diff)
+                  gene_id sample_1 sample_2 status   value_1   value_2 log2_fold_change test_stat p_value     q_value significant
+        1 ENSG00000000003     Lung    Heart     OK 10.236100  6.870980        -0.575075 -0.981730 0.03605 0.076646400          no
+        2 ENSG00000000005     Lung    Heart NOTEST  0.146018  0.453053         1.633530  0.000000 1.00000 1.000000000          no
+        3 ENSG00000000419     Lung    Heart     OK 20.955000 35.142200         0.745913  0.843148 0.09800 0.173593000          no
+        4 ENSG00000000457     Lung    Heart     OK  3.875730  2.869840        -0.433498 -0.530533 0.27440 0.388174000          no
+        5 ENSG00000000460     Lung    Heart     OK  1.650870  0.956872        -0.786828 -0.313891 0.29010 0.404409000          no
+        6 ENSG00000000938     Lung    Heart     OK 24.990300  1.204640        -4.374690 -4.909090 0.00005 0.000242192         yes
             
-    1. order table by significance       
+0. Order table by significance:     
     
-            > head(genes_diff[order(genes_diff$significant, genes_diff$log2_fold_change, decreasing=T),])
-                         gene_id sample_1 sample_2 status   value_1   value_2 log2_fold_change test_stat p_value q_value significant
-            184  ENSG00000114416     lung  stomach     OK 4052.8100  1500.860        -1.433130 -0.424457 0.00585 0.04095         yes
-            447  ENSG00000157017     lung  stomach     OK  485.1080 10424.200         4.425490  0.417135 0.00020 0.00420         yes
-            2279 ENSG00000242086     lung  stomach     OK 5248.6100  2399.650        -1.129110 -0.318707 0.00050 0.00525         yes
-            1    ENSG00000001617     lung  stomach NOTEST  236.4830   571.564         1.273180  0.000000 1.00000 1.00000          no
-            2    ENSG00000003756     lung  stomach NOTEST 3576.3700  2234.250        -0.678706  0.000000 1.00000 1.00000          no
-            3    ENSG00000004399     lung  stomach NOTEST   59.0638  1154.710         4.289120  0.000000 1.00000 1.00000          no 
-            
-    1. Extract significantly regulated gene IDs
+        > genes_diff_sig = genes_diff[order(genes_diff$significant, genes_diff$log2_fold_change, decreasing=T),]
+        > head(genes_diff_sig)
+                     gene_id sample_1 sample_2 status value_1     value_2 log2_fold_change test_stat p_value     q_value significant
+        1480 ENSG00000079393     Lung    Heart     OK       0     9.52368              Inf        NA   5e-05 0.000242192         yes
+        2551 ENSG00000101441     Lung    Heart     OK       0     5.70161              Inf        NA   5e-05 0.000242192         yes
+        3367 ENSG00000106631     Lung    Heart     OK       0 10737.90000              Inf        NA   5e-05 0.000242192         yes
+        3762 ENSG00000109991     Lung    Heart     OK       0     3.20486              Inf        NA   5e-05 0.000242192         yes
+        3901 ENSG00000111245     Lung    Heart     OK       0  8726.61000              Inf        NA   5e-05 0.000242192         yes
+        4462 ENSG00000115386     Lung    Heart     OK       0     7.58386              Inf        NA   5e-05 0.000242192         yes
     
-            > genes_sig = genes_diff[order(genes_diff$significant, decreasing=T),][1:3,1]
-            > genes_sig
-            [1] "ENSG00000114416" "ENSG00000157017" "ENSG00000242086"
+0. Filter rows where `test_stat` equals `NA`:
+    
+        > genes_diff_sig_filtered = genes_diff_sig[!is.na(genes_diff_sig$test_stat),]
+        > head(genes_diff_sig_filtered)
+                      gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change   test_stat p_value     q_value significant
+        40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93     4.32572         310.7800 2.88573e-91 0.00005 0.000242192         yes
+        8341  ENSG00000142615     Lung    Heart     OK 4.92158e-84    18.85550         280.9800 2.62871e-81 0.00755 0.020652600         yes
+        14026 ENSG00000175206     Lung    Heart     OK 1.45060e-01 30740.00000          17.6931 2.09519e+00 0.01435 0.035571100         yes
+        53616 ENSG00000262304     Lung    Heart     OK 4.12227e-05     1.60871          15.2521 1.08576e-02 0.01370 0.034227900         yes
+        6249  ENSG00000129991     Lung    Heart     OK 9.85294e-02  2798.30000          14.7936 1.08313e+00 0.00525 0.015194500         yes
+        10440 ENSG00000159251     Lung    Heart     OK 2.64974e-01  4840.24000          14.1569 4.99862e+00 0.00005 0.000242192         yes
+    
+0. Filter to keep ony entries with show a significant regulation:
+    
+        > genes_diff_sig_filtered2 = genes_diff_sig_filtered[genes_diff_sig_filtered$significant=="yes",]
+        > head(genes_diff_sig_filtered2)
+                      gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change   test_stat p_value     q_value significant
+        40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93     4.32572         310.7800 2.88573e-91 0.00005 0.000242192         yes
+        8341  ENSG00000142615     Lung    Heart     OK 4.92158e-84    18.85550         280.9800 2.62871e-81 0.00755 0.020652600         yes
+        14026 ENSG00000175206     Lung    Heart     OK 1.45060e-01 30740.00000          17.6931 2.09519e+00 0.01435 0.035571100         yes
+        53616 ENSG00000262304     Lung    Heart     OK 4.12227e-05     1.60871          15.2521 1.08576e-02 0.01370 0.034227900         yes
+        6249  ENSG00000129991     Lung    Heart     OK 9.85294e-02  2798.30000          14.7936 1.08313e+00 0.00525 0.015194500         yes
+        10440 ENSG00000159251     Lung    Heart     OK 2.64974e-01  4840.24000          14.1569 4.99862e+00 0.00005 0.000242192         yes
+    
+0. Count number of entries that show a significant regulation:
+    
+        > nrow(genes_diff_sig_filtered2)
+        [1] 6478
             
-     1. Get gene data for extracted gene IDs
+0. This number is too large to generate a heatmap from it. We therefore reduce this dataset to the top100 regulated genes:
+    
+    0. Sort by fold change:
+    
+            > genes_diff_sig_filtered_sorted_abs = genes_diff_sig_filtered2[order(abs(genes_diff_sig_filtered2$log2_fold_change),decreasing=T),] 
+            > head(genes_diff_sig_filtered_sorted_abs)
+                          gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change    test_stat p_value     q_value significant
+    40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93 4.32572e+00         310.7800  2.88573e-91 0.00005 0.000242192         yes
+    8341  ENSG00000142615     Lung    Heart     OK 4.92158e-84 1.88555e+01         280.9800  2.62871e-81 0.00755 0.020652600         yes
+    14026 ENSG00000175206     Lung    Heart     OK 1.45060e-01 3.07400e+04          17.6931  2.09519e+00 0.01435 0.035571100         yes
+    52339 ENSG00000260908     Lung    Heart     OK 1.26567e+03 1.23424e-02         -16.6459 -1.25322e-01 0.01250 0.031678900         yes
+    12516 ENSG00000168484     Lung    Heart     OK 2.03442e+04 3.06545e-01         -16.0182 -2.65728e+00 0.00005 0.000242192         yes
+    53616 ENSG00000262304     Lung    Heart     OK 4.12227e-05 1.60871e+00          15.2521  1.08576e-02 0.01370 0.034227900         yes
+    
+    0. Trimm to top100 entries:
+        
+            > genes_top100 = genes_diff_sig_filtered_sorted_abs[1:100,]
+            > nrow(genes_top100)
+            [1] 100
+            
+            
+0. Extract significantly regulated gene IDs:
+        
+        > gene_ids_top100 = genes_top100[,1]
+        > head(gene_ids_top100)
+        [1] "ENSG00000241570" "ENSG00000142615" "ENSG00000175206" "ENSG00000260908" "ENSG00000168484" "ENSG00000262304"
+            
+0. Get gene data for extracted gene IDs:
      
-            > genes2 = getGenes(cuff, genes_sig)
-            > genes2
-            CuffGeneSet instance for  3  genes
-            Slots:
-                  	 annotation
-                  	 fpkm
-                  	 repFpkm
-                  	 diff
-                  	 count
-                  	 isoforms	CuffFeatureSet instance of size 88 
-                  	 TSS		CuffFeatureSet instance of size 63 
-                  	 CDS		CuffFeatureSet instance of size 21 
-                     promoters	CuffFeatureSet instance of size 3 
-                     splicing	CuffFeatureSet instance of size 63 
-                     relCDS		CuffFeatureSet instance of size 3 
+        > genes2 = getGenes(cuff, gene_ids_top100)
+        > genes2
+        CuffGeneSet instance for  100  genes
+        Slots:
+              annotation
+              fpkm
+              repFpkm
+              diff
+              count
+              isoforms	 CuffFeatureSet instance of size 670 
+              TSS		 CuffFeatureSet instance of size 570 
+              CDS		 CuffFeatureSet instance of size 365 
+              promoters		 CuffFeatureSet instance of size 100 
+              splicing		 CuffFeatureSet instance of size 570 
+              relCDS		 CuffFeatureSet instance of size 100 
          
-1. Plot data
+0. Plot data.
 
         > csHeatmap(genes2, cluster='both', replicates=T)
             
-       ![pic](../figs/csheat2.png)
+      ![pic](../figs/csheatmap.png)
           
      
         > expressionBarplot(genes2)
         
-       ![pic](../figs/expressionBarplot.png)
+    ![pic](../figs/expressionBarplot.png)
            
         > csDistHeat(genes(cuff), replicates=T)
         
@@ -199,21 +252,23 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
        
        ![pic](../figs/md.png)
        
-Get differentially expressed gene identifer
+0. More stuff
+       
+    0. Get differentially expressed gene identifer:
 
-    > head(diffData(genes(cuff)))
-                  gene_id sample_1 sample_2 status   value_1  value_2 log2_fold_change test_stat p_value  q_value significant
-        1 ENSG00000001617     lung  stomach NOTEST  236.4830  571.564         1.273180  0.000000  1.0000 1.000000          no
-        2 ENSG00000003756     lung  stomach NOTEST 3576.3700 2234.250        -0.678706  0.000000  1.0000 1.000000          no
-        3 ENSG00000004399     lung  stomach NOTEST   59.0638 1154.710         4.289120  0.000000  1.0000 1.000000          no
-        4 ENSG00000004534     lung  stomach     OK 6351.3300 3741.570        -0.763414 -0.296566  0.2263 0.650475          no
-        5 ENSG00000004838     lung  stomach NOTEST  925.1040  453.629        -1.028100  0.000000  1.0000 1.000000          no
-        6 ENSG00000007402     lung  stomach NOTEST  120.8510  205.371         0.765007  0.000000  1.0000 1.000000          no
+            > head(diffData(genes(cuff)))
+                      gene_id sample_1 sample_2 status   value_1   value_2 log2_fold_change test_stat p_value     q_value significant
+            1 ENSG00000000003     Lung    Heart     OK 10.236100  6.870980        -0.575075 -0.981730 0.03605 0.076646400          no
+            2 ENSG00000000005     Lung    Heart NOTEST  0.146018  0.453053         1.633530  0.000000 1.00000 1.000000000          no
+            3 ENSG00000000419     Lung    Heart     OK 20.955000 35.142200         0.745913  0.843148 0.09800 0.173593000          no
+            4 ENSG00000000457     Lung    Heart     OK  3.875730  2.869840        -0.433498 -0.530533 0.27440 0.388174000          no
+            5 ENSG00000000460     Lung    Heart     OK  1.650870  0.956872        -0.786828 -0.313891 0.29010 0.404409000          no
+            6 ENSG00000000938     Lung    Heart     OK 24.990300  1.204640        -4.374690 -4.909090 0.00005 0.000242192         yes
     
-Extract all significant gene identifiers
+    0. Extract all significant gene identifiers:
 
-    > getSig(cuff,alpha=0.05,level="genes")
-    [1] "ENSG00000114416" "ENSG00000157017" "ENSG00000242086"
+            > head(getSig(cuff,alpha=0.05,level="genes"))
+            [1] "ENSG00000000938" "ENSG00000000971" "ENSG00000001626" "ENSG00000001630" "ENSG00000002549" "ENSG00000002822"
          
 ## References
 
