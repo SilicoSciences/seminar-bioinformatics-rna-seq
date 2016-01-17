@@ -96,17 +96,21 @@ Edit the data attributes for the loaded `fastq.gz` files to set the correct qual
 > Bowtie is not suitable for all sequence alignment tasks. It does not allow alignments between a read and the genome to contain large gaps; hence, it cannot align reads that span introns. TopHat was created to address this limitation. TopHat uses Bowtie as an alignment 'engine' and breaks up reads that Bowtie cannot align on its own into smaller pieces called segments. Often, these pieces, when processed independently, will align to the genome. When several of a read's segments align to the genome far apart (e.g., between 100 bp and several hundred kilobases) from one another, TopHat infers that the read spans a splice junction and estimates where that junction's splice sites are.
 ([Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321))
         
-0. Change to `Paired-end (as individual datasets)`.
+0. Choose `Paired-end (as individual datasets)`.
        
 0. Select forward and reverse reads from each sample.
+
+0. Choose `Use a genome from history`
+
+0. Select `3.fa`
       
 0. Take a look at the newly added files ([BAM](https://silico-sciences.com/2016/01/15/sam-bam-format/)).
 
-0. Use [IGV](https://www.broadinstitute.org/igv/) to inspect mappings.
+## Use IGV to Visualize the Mapping
 
-    0. Download mappings `accepted_hits.bam` and its index file.
+0. Download mappings `accepted_hits.bam` and its index file.
     
-    0. Load bam files into IGV.
+0. Load bam files into IGV.
     
     0. Navigate by typing gene names into the search box.
     
