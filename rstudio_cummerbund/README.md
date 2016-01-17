@@ -17,7 +17,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Install the [CummeRbund](http://compbio.mit.edu/cummeRbund/) package.
 
-Download and extract the [example data](cuffnorm_out.zip)
+Download and extract the [example data](cuffnorm_out.zip?raw=true)
 
 ## Create a heat map
 
