@@ -83,11 +83,19 @@ Edit the data attributes for the loaded `fastq.gz` files to set the correct qual
 
     ![view](../figs/galaxy_data_options_view.png)
         
-0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality.
+0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality and sample details.
 
 0. Use [Trim Galore!](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) to trimm the reads.
         
 0. Compare read quality of trimmed vs. non-trimmed reads.
+
+0. Answer the following questions for trimmed and non-trimmed data:
+
+    0. Which quality encoding was used?
+    
+    0. What is the read length distribution?
+    
+    0. What is the quality score distribution?
 
 ### Mapping Reads to the Reference Sequence
 
@@ -105,6 +113,12 @@ Edit the data attributes for the loaded `fastq.gz` files to set the correct qual
 0. Select `3.fa`
       
 0. Take a look at the newly added files ([BAM](https://silico-sciences.com/2016/01/15/sam-bam-format/)).
+
+0. Answer the following questions:
+
+    0. How many reads could be sucesfully aligned?
+    
+    0. How many reads could be uniquely aligned?
 
 ## Use IGV to Visualize the Mapping
 
