@@ -85,7 +85,7 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
 
     ![view](../figs/FastQC_baseStatistics.png)
     
-    The tools we are using need to know about the quality encoding that is present in the FASTQ files. These files are in "Sanger" format, so we need to edit the data attributes for the loaded `fastq.gz` files to set the correct quality encoding.
+    The tools we are using need to know about the quality encoding that is present in the FASTQ files to probably interpret the quality of the base calls. Our files are in "Sanger" format, so we need to edit the data attributes for the loaded `fastq.gz` files to "fastqsanger".
 
 0. Use [Trim Galore!](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) to trimm the reads.
         
