@@ -75,7 +75,7 @@ NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/
 If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503), you are usually provided with two files per sample (`_1.fastq.gz` and `_2.fastq.gz`).
     
 Galaxy needs to know about the quality encoding that is present in the loaded files.
-Edit the data attributes for the loaded `fastq.gz` files to set the correct quality encoding.
+Edit the data attributes for the loaded `fastq.gz` files to set the correct quality encoding (see below).
         
 ### Inspecting the Data and Quality Control
 
