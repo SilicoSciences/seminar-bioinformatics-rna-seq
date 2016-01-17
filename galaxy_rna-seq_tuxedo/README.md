@@ -23,9 +23,9 @@ ftp://public:public@silico-sciences.com/2014fagerberg
 
 Furthermore, this data has been reduced in size (chromosome 3 only) so processing will not take too long (usually a matter of hours or even days).
 
-Find the small dataset
+Find the small dataset here
 
-[here](ftp://public:public@176.28.21.178/2014fagerberg-small)
+ftp://public:public@176.28.21.178/2014fagerberg-small'
 
 or
 
