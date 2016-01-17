@@ -11,9 +11,13 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # Data Visualization using RStudio and CummeRbund
 
-[RStudio](https://www.rstudio.com/)
+## Preparations
 
-[CummeRbund](http://compbio.mit.edu/cummeRbund/)
+0. Install [RStudio](https://www.rstudio.com/).
+
+0. Install the [CummeRbund](http://compbio.mit.edu/cummeRbund/) package.
+
+Download the [example data](cuffnorm_out)
 
 ## Create a heat map
 

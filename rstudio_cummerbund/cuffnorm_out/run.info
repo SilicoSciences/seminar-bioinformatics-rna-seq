@@ -1,0 +1,5 @@
+param	value
+cmd_line	cuffnorm -o cuffnorm_out -L Lung,Stomach,Heart -p8 /var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf ERR315424/cuffquant_out/abundances.cxb,ERR315439/cuffquant_out/abundances.cxb,ERR315444/cuffquant_out/abundances.cxb,ERR315487/cuffquant_out/abundances.cxb ERR315369/cuffquant_out/abundances.cxb,ERR315379/cuffquant_out/abundances.cxb,ERR315467/cuffquant_out/abundances.cxb,ERR315485/cuffquant_out/abundances.cxb ERR315328/cuffquant_out/abundances.cxb,ERR315331/cuffquant_out/abundances.cxb,ERR315356/cuffquant_out/abundances.cxb,ERR315367/cuffquant_out/abundances.cxb 
+version	2.2.1
+SVN_revision	4237
+boost_version	104700
