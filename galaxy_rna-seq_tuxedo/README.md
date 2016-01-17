@@ -74,16 +74,18 @@ NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/
     
 If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503), you are usually provided with two files per sample (`_1.fastq.gz` and `_2.fastq.gz`).
     
-Galaxy needs to know about the quality encoding that is present in the loaded files.
-Edit the data attributes for the loaded `fastq.gz` files to set the correct quality encoding (see below).
-        
+
 ### Inspecting the Data and Quality Control
 
 0. Take a look at the content of the uploaded files.
 
     ![view](../figs/galaxy_data_options_view.png)
         
-0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality and sample details.
+0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality and sample details. Check the "Endcoding" reported by FastQC. 
+
+    ![view](../figs/FastQC_baseStatistics.png)
+    
+    The tools we are using need to know about the quality encoding that is present in the FASTQ files. These files are in "Sanger" format, so we need to edit the data attributes for the loaded `fastq.gz` files to set the correct quality encoding.
 
 0. Use [Trim Galore!](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) to trimm the reads.
         
