@@ -17,34 +17,40 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Install the [CummeRbund](http://compbio.mit.edu/cummeRbund/) package.
 
-Download and extract the [example data](cuffnorm_out.zip?raw=true).
+0. Download and extract the [cuffnorm example data](cuffnorm_out.zip?raw=true).
+
+0. Download and extract the cuffdiff example data.
+
+    0. [cuffdiff lung-stomach]()
+    0. [cuffdiff lung-heart]()
+    0. [cuffdiff stomach-heart]()
 
 ## Create a Heatmap
 
-1. Change your working directory to the `cuffnorm_out` directory.
-1. Load `genes.fpkm_table` into R.
+0. Change your working directory to the `cuffnorm_out` directory.
+0. Load `genes.fpkm_table` into R.
 
         fpkm_table = read.delim("genes.fpkm_table", row.names = 1, header = TRUE, sep="\t")
 
-1. In the heatmap we want to display only genes that show a strong regulation between the samples. Calculate the Mean Absolute Deviation (MAD) of each gene across samples to get the average distance between each data value and the mean. This results in one value per gene identifier.
+0. In the heatmap we want to display only genes that show a strong regulation between the samples. Calculate the Mean Absolute Deviation (MAD) of each gene across samples to get the average distance between each data value and the mean. This results in one value per gene identifier.
 
         > mad_vector = apply(fpkm_table, 1, mad)
         > head(mad_vector)
         ENSG00000001617 ENSG00000003756 ENSG00000004399 ENSG00000004534 ENSG00000004838 ENSG00000007402 
         444.7197       2418.5216        453.4384       2870.0541        599.0401        129.0985
         
-1. Sort values descending.
+0. Sort values descending.
 
         > mad_vector_sorted = mad_vector[order(mad_vector, decreasing = T)]
         > head(mad_vector_sorted)
         ENSG00000213178 ENSG00000168028 ENSG00000174748 ENSG00000233133 ENSG00000234287 ENSG00000162244 
         60275.17        49332.29        39065.25        31864.41        31546.61        18538.80  
         
-1. Extract first 100 elements.
+0. Extract first 100 elements.
 
         > mad_top100 =mad_vector_sorted[1:100]  
         
-1. Transform table into a matrix.
+0. Transform table into a matrix.
 
         fpkm_matrix = as.matrix(fpkm_table)
         > head(fpkm_matrix)
@@ -56,7 +62,7 @@ Download and extract the [example data](cuffnorm_out.zip?raw=true).
         ENSG00000004838 3190.500    0.00     0.000  509.9190   808.094     0.0000  421.9870   584.436
         ENSG00000007402  107.916    0.00   375.487    0.0000   210.593     0.0000   66.2355   544.656
         
-1. Reduce matrix to top100 regulated gene IDs
+0. Reduce matrix to top100 regulated gene IDs.
 
         > fpkm_matrix_100 = fpkm_matrix[names(mad_top100),]
         > head(fpkm_matrix_100)
@@ -68,12 +74,12 @@ Download and extract the [example data](cuffnorm_out.zip?raw=true).
         ENSG00000234287     0.0  11621.1  63999.4  70437.4      0.00   50591.4   22785.0  19770.80
         ENSG00000162244 12915.0  14307.1  59143.2  69294.3  10390.60   31414.3   35399.1   9669.11        
         
-1. tt
+0. tt
 
         > hc = hclust(as.dist(1-cor(fpkm_matrix_100, method="spearman")), method="complete")
         > hr = hclust(as.dist(1-cor(t(fpkm_matrix_100), method="pearson")), method="complete")
         
-1. Heatmap
+0. Create the Heatmap.
 
         > library(heatmap3)
         > heatmap3(fpkm_matrix_100, Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", balanceColor=T, showRowDendro=T, labRow=F, ColSideCut=0.9)
@@ -82,10 +88,7 @@ Download and extract the [example data](cuffnorm_out.zip?raw=true).
 
 ## CummeRbund
 
-1. (Copy `cuffdiff` output)
-1. `cd`into `cuffdiff` output directory
-
-        > setwd("/home/alex/bi/2014fagerberg/cuffdiff_out-small")
+0. Change your working directory to the `cuffdiff_out` directory.
     
 1. Load the `cummeRbund` library
 
