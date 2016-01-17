@@ -29,7 +29,7 @@ ftp://public:public@176.28.21.178/2014fagerberg-small
 
 ## Import Data into Galady
 
-![upload](../figs/galaxy_tools_upload_x36.png)
+![upload](../figs/galaxy_tools_upload.png)
 
 Galaxy provides different possibilities to [import/ upload data](https://wiki.galaxyproject.org/Learn/ManagingDatasets).
 
