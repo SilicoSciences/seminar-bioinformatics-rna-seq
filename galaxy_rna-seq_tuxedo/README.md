@@ -81,7 +81,7 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
 
     ![view](../figs/galaxy_data_options_view.png)
         
-0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality and sample details. Check the "Endcoding" reported by FastQC. 
+0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality and sample details. The quality scores in the FASTQ files can be in different [encodings](https://en.wikipedia.org/wiki/FASTQ_format#Encoding). FastQC can automatically detect the encoding and reports it in the "Base Statistics" sections:
 
     ![view](../figs/FastQC_baseStatistics.png)
     
