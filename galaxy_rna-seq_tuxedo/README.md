@@ -11,59 +11,77 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # RNA-Seq using Galaxy, IGV and the Tuxedo Suite
 
-0. Get familar with [Galaxy](https://usegalaxy.org/)
+For this tutorial we will work with the following dataset:
 
-    0. Create user account.
+http://www.ebi.ac.uk/ena/data/view/ERP003613
 
-    0. Learn how to rename datasets.
+NGS data processing is usually very time consuming, which is why some data has been already partically processed.
+
+A subset of the original dataset (lung, stomach and heart) as well as some preprocessed data you can access here:
+
+ftp://public:public@silico-sciences.com/2014fagerberg
+
+Furthermore, this data has been reduced in size (chromosome 3 only) so processing will not take too long (usually a matter of hours or even days).
+
+Find the small dataset here:
+
+ftp://public:public@176.28.21.178/2014fagerberg-small
+
+## Import Data into Galady
+
+![upload](../figs/galaxy_tools_upload_x36.png)
+
+Galaxy provides different possibilities to [import/ upload data](https://wiki.galaxyproject.org/Learn/ManagingDatasets).
+
+Here, you can copy&paste the file URLs into the Galaxy upload wizard to transfer the data from server to server, without the need to download it to your local machine.
+
+### Reference Sequence
+
+Use the link below to get the reference sequence:
+
+[3.fa.gz](../2014fagerberg-small/3.fa.gz?raw=true)
     
-    0. Learn how to change dataset attributes.
+Reference sequences are stored in the [FASTA format](https://silico-sciences.com/2016/01/15/fasta-format/).
     
-    0. Learn how to use Histories.
-    
-    0. Take a look at the [Wiki](https://github.com/nekrut/galaxy/wiki).
-    
-    0. Find help in the [Galaxy forum](https://biostar.usegalaxy.org/).
+The file extension for FASTA files is `.fasta`, `.fa` or the according compressed version `fasta.gz` and `fa.gz`.
 
-0. Get familiar with your data.
-[ENA, Study ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613)
+### Reference Annotation
 
-    Since NGS data analysis is usually very time consumng, in this tutorial we will use a smaller data set. It has been reduced to chromosome 3 only to save some time and disk space.
+Use the link below to get the reference annotation:
 
-0. Load the [reference sequence](../2014fagerberg-small/3.fa.gz?raw=true) into Galaxy.
+[genes_chr03.gtf.gz](../2014fagerberg-small/genes_chr03.gtf.gz?raw=true)
 
-    ![note](../figs/note_20x20.png) It is not necessary to download files on your computer first, Galaxy can get them directly. Just copy the link and paste the URLs into the Galaxy upload wizard.
+The file format should be [GTF](http://www.ensembl.org/info/website/upload/gff.html).
 
-    ![note](../figs/attention_22x20.png) If you experience problems with Copy&Paste'ed download links, please import the following history: https://usegalaxy.org/u/kerner1000/h/2014fagerberg-small
-    
-    0. Edit data attributes:
-        
-        0. Change datatype to `fasta`.
-        
-0. Take a look at the newly added files ([FASTA](https://silico-sciences.com/2016/01/15/fasta-format/)).
-        
-0. Load the [reference annotation](../2014fagerberg-small/genes_chr03.gtf.gz?raw=true) into Galaxy.
+This file provides meta information on the (anonymous) reference sequence, such as exons, CDSs or start- and stop codons.
 
-    0. The annotation should be in [GTF format](http://www.ensembl.org/info/website/upload/gff.html).
+### Sequencing Reads
 
-0. Load [small data sets](https://github.com/silico-sciences/bi-seminar/tree/master/2014fagerberg-small) into Galaxy. Each tissues was sequenced in four replicates and each replicates has one file for the forward reads (`_1.fastq`) and reverse reads (`_2.fastq`).
+Use the links below to get the `fastq.gz` files:
 
-0. Edit data attributes:
-        
-      0. Change datatype to `fastqsanger`.
-
-      Lung | Stomach
+Lung | Stomach
       -----|--------
-      [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true) | [stomach1-4_1](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz)
-      [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true) | [stomach1-4_2](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz)
-      [lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)| [stomach2-4_1](/home/alex/bi-seminar_ws1516/bi-seminar/2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz)
-      [lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true) | [stomach2-4_2](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz)
-      [lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true) | [stomach3-4_1](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_1.fastq.gz)
-      [lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq.gz?raw=true) | [stomach3-4_2](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz)
-      [lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq.gz?raw=true) | [stomach4-4_1](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz)
-      [lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq.gz?raw=true) | [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
+[lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true) | [stomach1-4_1](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz)
+[lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true) | [stomach1-4_2](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz)
+[lung2-4_1](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_1.fastq.gz?raw=true)| [stomach2-4_1](/home/alex/bi-seminar_ws1516/bi-seminar/2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz)
+[lung2-4_2](../2014fagerberg-small/lung/ERR315326/ERR315341_chr03_2.fastq.gz?raw=true) | [stomach2-4_2](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz)
+[lung3-4_1](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_1.fastq.gz?raw=true) | [stomach3-4_1](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_1.fastq.gz)
+[lung3-4_2](../2014fagerberg-small/lung/ERR315326/ERR315346_chr03_2.fastq.gz?raw=true) | [stomach3-4_2](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz)
+[lung4-4_1](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_1.fastq.gz?raw=true) | [stomach4-4_1](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz)
+[lung4-4_2](../2014fagerberg-small/lung/ERR315326/ERR315353_chr03_2.fastq.gz?raw=true) | [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
 
-0. Take a look at the newly added files ([FASTQ](https://silico-sciences.com/2016/01/15/fastq-format/)).
+NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
+    
+If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503), you are usually provided with two files per sample (`_1.fastq.gz` and `_2.fastq.gz`).
+    
+Galaxy needs to know about the quality encoding that is present in the loaded files.
+Edit the data attributes for the loaded `fastq.gz` files to set the correct quality encoding.
+        
+### Inspecting the Data and Quality Control
+
+0. Take a look at the content of the uploaded files.
+
+    ![view](../figs/galaxy_data_options_view_x36.png)
         
 0. Use [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to take a look at the overall read quality.
 
@@ -117,6 +135,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 ## References
 
 0. [Galaxy Wiki](https://github.com/nekrut/galaxy/wiki)
+
+0. [Galaxy forum](https://biostar.usegalaxy.org/)
+
+0. [FASTQ format#Quality](https://en.wikipedia.org/wiki/FASTQ_format#Quality)
 
 0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/?tool=pmcentrez)
 
