@@ -81,15 +81,19 @@ or in this GitHub repository.
         ENSG00000234287     0.0  11621.1  63999.4  70437.4      0.00   50591.4   22785.0  19770.80
         ENSG00000162244 12915.0  14307.1  59143.2  69294.3  10390.60   31414.3   35399.1   9669.11        
         
-0. tt
+0. Perform clustering of samples and genes. 
 
         > hc = hclust(as.dist(1-cor(fpkm_matrix_100, method="spearman")), method="complete")
         > hr = hclust(as.dist(1-cor(t(fpkm_matrix_100), method="pearson")), method="complete")
         
-0. Create the Heatmap.
+0. Plot the sample dendrogram. Similar samples will be on the same branch.
+
+        > plot(hc)
+        
+0. Create the Heatmap. By supplying the sample and gene clusterings the heatmap will be sorted accordingly and dendrograms will be shown.
 
         > library(heatmap3)
-        > heatmap3(fpkm_matrix_100, Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", balanceColor=T, showRowDendro=T, labRow=F, ColSideCut=0.9)
+        > heatmap3(fpkm_matrix_100, Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", balanceColor=T, showRowDendro=T, labRow=F, ColSideCut=0.4)
         
        ![pic](../figs/heatmap.png)
 
