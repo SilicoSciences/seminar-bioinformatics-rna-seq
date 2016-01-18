@@ -720,13 +720,15 @@ Kill foreground job: `Control-C`
     
     $ ssh 176.28.21.178
 
-    $ ssh kerner@silico-sciences.com
+    $ ssh [yourname]@silico-sciences.com
     
 `nohup`: run a command immune to hangups, with output to a non-tty
 
     $ nohup p1 &
     [1] 14958
     $ less nohup.out
+    
+### Remote Shell and Two-Factor Authentication
 
 ## References
 
