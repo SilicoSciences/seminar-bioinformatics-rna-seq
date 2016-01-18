@@ -99,7 +99,7 @@ Use the links below to get the `fastq.gz` files:
     [stomach4-4_1](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz)
     [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
     
-Alternatively find the download links [here](downlaod-links.txt).
+Alternatively find the download links [here](download-links.txt).
 
 
 NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
