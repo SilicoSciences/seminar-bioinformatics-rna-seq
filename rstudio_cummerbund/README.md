@@ -93,7 +93,7 @@ or in this GitHub repository.
 0. Create the Heatmap. By supplying the sample and gene clusterings the heatmap will be sorted accordingly and dendrograms will be shown.
 
         > library(heatmap3)
-        > heatmap3(fpkm_matrix_100, Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", balanceColor=T, showRowDendro=T, labRow=F, ColSideCut=0.9)
+        > heatmap3(fpkm_matrix_100, Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", balanceColor=T, showRowDendro=T, labRow=F, ColSideCut=0.4)
         
        ![pic](../figs/heatmap.png)
 
