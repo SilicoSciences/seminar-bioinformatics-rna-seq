@@ -13,14 +13,12 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 Find all data for this section via FTP
 
-ftp://public:public@silico-sciences.com/2014fagerberg
+`ftp://public:public@silico-sciences.com/2014fagerberg`
 
 or in this GitHub repository.
 
-[cuffnorm_out](cuffnorm_out)
-[cuffdiff_out_lung-heart](cuffdiff_out_lung-heart)
-[cuffdiff_out_lung-stomach](cuffdiff_out_lung-stomach)
-[cuffdiff_out_stomach-heart](cuffdiff_out_stomach-heart)
+[cuffnorm_out](../fagerberg2014/cuffnorm_out)
+[cuffdiff_out](../fagerberg2014/cuffdiff_out)
 
 ## Preparations
 
@@ -30,9 +28,7 @@ or in this GitHub repository.
 
 ## Create a Heatmap
 
-0. Download and extract the cuffnorm example data:
-
-    ftp://public@176.28.21.178/2014fagerberg/cuffnorm_out
+0. Download and extract the cuffnorm example data.
 
 0. Change your working directory to the `cuffnorm_out` directory.
 0. Load `genes.fpkm_table` into R.
