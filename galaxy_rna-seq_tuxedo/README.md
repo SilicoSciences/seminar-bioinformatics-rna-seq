@@ -66,33 +66,30 @@ Use the links below to get the `fastq.gz` files:
 
 0. Lung
     0. rep1
-    [lung1-4_1_gh](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true) or [lung1-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315326/ERR315326_chr03_1.fastq)
-    [lung1-4_2_gh](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true) or [lung1-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315326/ERR315326_chr03_2.fastq)
+    [lung1-4_1_gh](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315326/ERR315326_chr03_1.fastq)
+    [lung1-4_2_gh](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315326/ERR315326_chr03_2.fastq)
     0. rep2
-    [lung2-4_1_gh](../2014fagerberg-small/lung/ERR315341/ERR315341_chr03_1.fastq.gz?raw=true) or [lung2-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315341/ERR315341_chr03_1.fastq)
-    [lung2-4_2_gh](../2014fagerberg-small/lung/ERR315341/ERR315341_chr03_2.fastq.gz?raw=true) or [lung2-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315341/ERR315341_chr03_2.fastq)
+    [lung2-4_1_gh](../2014fagerberg-small/lung/ERR315341/ERR315341_chr03_1.fastq.gz?raw=true) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315341/ERR315341_chr03_1.fastq)
+    [lung2-4_2_gh](../2014fagerberg-small/lung/ERR315341/ERR315341_chr03_2.fastq.gz?raw=true) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315341/ERR315341_chr03_2.fastq)
     0. rep3
     [lung3-4_1_gh](../2014fagerberg-small/lung/ERR315346/ERR315346_chr03_1.fastq.gz?raw=true) or [lung3-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315346/ERR315346_chr03_1.fastq)
-    [lung3-4_2_gh](../2014fagerberg-small/lung/ERR315346/ERR315346_chr03_2.fastq.gz?raw=true) or [lung3-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315346/ERR315346_chr03_2.fastq)
+    [lung3-4_2_gh](../2014fagerberg-small/lung/ERR315346/ERR315346_chr03_2.fastq.gz?raw=true) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315346/ERR315346_chr03_2.fastq)
     0. rep4
-    [lung4-4_1_gh](../2014fagerberg-small/lung/ERR315353/ERR315353_chr03_1.fastq.gz?raw=true) or [lung4-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315353/ERR315353_chr03_1.fastq)
-    [lung4-4_2_gh](../2014fagerberg-small/lung/ERR315353/ERR315353_chr03_2.fastq.gz?raw=true) or [lung4-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315353/ERR315353_chr03_2.fastq)
+    [lung4-4_1_gh](../2014fagerberg-small/lung/ERR315353/ERR315353_chr03_1.fastq.gz?raw=true) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315353/ERR315353_chr03_1.fastq)
+    [lung4-4_2_gh](../2014fagerberg-small/lung/ERR315353/ERR315353_chr03_2.fastq.gz?raw=true) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315353/ERR315353_chr03_2.fastq)
 0. Stomach
     0. rep1
-    [stomach1-4_1_gh](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz) or [stomach1-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315369/ERR315369_chr03_1.fastq)
-    [stomach1-4_2_gh](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz) or [stomach1-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315369/ERR315369_chr03_2.fastq)
+    [stomach1-4_1_gh](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315369/ERR315369_chr03_1.fastq)
+    [stomach1-4_2_gh](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315369/ERR315369_chr03_2.fastq)
     0. rep2
-    [stomach2-4_1_gh](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz) or [stomach2-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315379/ERR315379_chr03_1.fastq)
-    [stomach2-4_2_gh](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz) or [stomach2-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315379/ERR315379_chr03_1.fastq)
+    [stomach2-4_1_gh](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315379/ERR315379_chr03_1.fastq)
+    [stomach2-4_2_gh](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315379/ERR315379_chr03_1.fastq)
     0. rep3
     [stomach3-4_1_gh](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_1.fastq.gz) or [stomach3-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315467/ERR315467_chr03_1.fastq)
-    [stomach3-4_2_gh](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz) or [stomach3-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315467/ERR315467_chr03_2.fastq)
+    [stomach3-4_2_gh](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315467/ERR315467_chr03_2.fastq)
     0. rep4
-    [stomach4-4_1_gh](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz) or [stomach4-4_1_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315485/ERR315485_chr03_1.fastq)
-    [stomach4-4_2_gh](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz) or [stomach4-4_2_ftp](ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315485/ERR315485_chr03_2.fastq)
-    
-    
-    
+    [stomach4-4_1_gh](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315485/ERR315485_chr03_1.fastq)
+    [stomach4-4_2_gh](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz) or (ftp://public:public@176.28.21.178/2014fagerberg-small/ERR315485/ERR315485_chr03_2.fastq)
 
 NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
     
