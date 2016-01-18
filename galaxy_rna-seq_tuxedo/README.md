@@ -5,11 +5,11 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # Applied Bioinformatics in the Shell and in the Cloud
 
-![no-cloud-meme](http://simpleql.com/wp-content/uploads/2015/10/No-cloud-MEME.jpg)
-
 ## NGS Data Analysis Using Unix and Open Source Tools 
 
 [TOC]
+
+![no-cloud-meme](http://simpleql.com/wp-content/uploads/2015/10/No-cloud-MEME.jpg)
 
 # RNA-Seq using Galaxy, IGV and the Tuxedo Suite
 
