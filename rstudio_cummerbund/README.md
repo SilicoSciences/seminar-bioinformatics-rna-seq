@@ -11,6 +11,17 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # Data Visualization using RStudio and CummeRbund
 
+Find all data for this section via FTP
+
+(ftp://public:public@silico-sciences.com/2014fagerberg)
+
+or in this GitHub repository.
+
+[cuffnorm_out](cuffnorm_out)
+[cuffdiff_out_lung-heart](cuffdiff_out_lung-heart)
+[cuffdiff_out_lung-stomach](cuffdiff_out_lung-stomach)
+[cuffdiff_out_stomach-heart](cuffdiff_out_stomach-heart)
+
 ## Preparations
 
 0. Install [RStudio](https://www.rstudio.com/).
@@ -19,7 +30,9 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ## Create a Heatmap
 
-0. Download and extract the [cuffnorm example data](cuffnorm_out.zip?raw=true).
+0. Download and extract the cuffnorm example data:
+
+    ftp://public@176.28.21.178/2014fagerberg/cuffnorm_out
 
 0. Change your working directory to the `cuffnorm_out` directory.
 0. Load `genes.fpkm_table` into R.
@@ -84,11 +97,14 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Download and extract the cuffdiff example data.
 
-    0. [cuffdiff lung-stomach]()
+    0. cuffdiff lung-stomach
+       ftp://public:public@176.28.21.178/2014fagerberg/cuffdiff_out_lung-stomach 
     
-    0. [cuffdiff lung-heart]()
+    0. cuffdiff lung-heart
+       ftp://public:public@176.28.21.178/2014fagerberg/cuffdiff_out_lung-heart 
     
-    0. [cuffdiff stomach-heart]()
+    0. cuffdiff stomach-heart
+       ftp://public:public@176.28.21.178/2014fagerberg/cuffdiff_out_stomach-heart 
 
 0. Change your working directory to the `cuffdiff_out` directory.
     
