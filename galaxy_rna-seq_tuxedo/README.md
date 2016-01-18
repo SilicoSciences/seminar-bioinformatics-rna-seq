@@ -5,6 +5,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # Applied Bioinformatics in the Shell and in the Cloud
 
+![no-cloud-meme](http://simpleql.com/wp-content/uploads/2015/10/No-cloud-MEME.jpg)
+
 ## NGS Data Analysis Using Unix and Open Source Tools 
 
 [TOC]
@@ -27,9 +29,9 @@ Find the small dataset here
 
 ftp://public:public@silico-sciences.com/2014fagerberg-small
 
-or
+or in this GitHub repository
 
-[here](../2014fagerberg-small).
+[2014fagerberg-small](../2014fagerberg-small)
 
 ## Import Data into Galady
 

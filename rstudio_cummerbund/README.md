@@ -13,7 +13,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 Find all data for this section via FTP
 
-(ftp://public:public@silico-sciences.com/2014fagerberg)
+ftp://public:public@silico-sciences.com/2014fagerberg
 
 or in this GitHub repository.
 
