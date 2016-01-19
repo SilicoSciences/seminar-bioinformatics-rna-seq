@@ -31,7 +31,11 @@ or in this GitHub [repository](../2014fagerberg-small).
 
 Find the main galaxy server here
 
-https://usegalaxy.org/
+https://usegalaxy.org/.
+
+If you experience any problems, try this server here
+
+http://galaxy.silico-sciences.com:2020/
 
 ## Import Data into Galady
 
