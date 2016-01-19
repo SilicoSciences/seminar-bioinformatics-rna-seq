@@ -115,7 +115,7 @@ NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/
 If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503), you are usually provided with two files per sample (`_1.fastq.gz` and `_2.fastq.gz`).
     
 
-### Inspecting the Data and Quality Control
+### Inspecting the Data and do Some Quality Control
 
 0. Take a look at the content of the uploaded files.
 
@@ -150,9 +150,9 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
        
 0. Select forward and reverse reads from each sample.
 
-0. Choose `Use a genome from history`
+0. Choose `Use a genome from history`.
 
-0. Select `3.fa`
+0. Select `3.fa`.
       
 0. Take a look at the newly added files ([BAM](https://silico-sciences.com/2016/01/15/sam-bam-format/)).
 
