@@ -37,6 +37,8 @@ If you experience any problems, try this server here
 
 http://galaxy.silico-sciences.com:2020/
 
+There are more publicly available servers out there, try your favorite search engine to find them.
+
 ## Import Data into Galady
 
 ![upload](../figs/galaxy_tools_upload.png)
