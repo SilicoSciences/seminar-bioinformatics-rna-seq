@@ -186,6 +186,12 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
         
     0. Load additional data from server, e.g. dbSNP.
     
+## Calculate Gene Expressions
+
+Use the small dataset to get an idea of the workflow and the input and output files.
+
+Use the bigger dataset to perform a real gene expression comparison between lung, stomach and heart.
+    
 0. Use `Cuffquant` to precompute gene expression levels.
 
 0. Use `Cuffnorm` to create normalized expression values.
