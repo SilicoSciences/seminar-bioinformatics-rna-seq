@@ -97,15 +97,6 @@ or in this GitHub repository.
 
 0. Download and extract the cuffdiff example data.
 
-    0. cuffdiff lung-stomach
-       ftp://public:public@176.28.21.178/2014fagerberg/cuffdiff_out_lung-stomach 
-    
-    0. cuffdiff lung-heart
-       ftp://public:public@176.28.21.178/2014fagerberg/cuffdiff_out_lung-heart 
-    
-    0. cuffdiff stomach-heart
-       ftp://public:public@176.28.21.178/2014fagerberg/cuffdiff_out_stomach-heart 
-
 0. Change your working directory to the `cuffdiff_out` directory.
     
 0. Load the `cummeRbund` library:
@@ -258,11 +249,15 @@ or in this GitHub repository.
      
         > expressionBarplot(genes2)
         
-    ![pic](../figs/expressionBarplot.png)
+    ![pic](../figs/expressionbarplot.png)
            
         > csDistHeat(genes(cuff), replicates=T)
         
        ![pic](../figs/csdistheat.png)
+       
+       > csDistHeat(genes(cuff), replicates=F)
+        
+       ![pic](../figs/csdistheat2.png)
        
         > MDSplot(genes(cuff), replicates=T)
        
