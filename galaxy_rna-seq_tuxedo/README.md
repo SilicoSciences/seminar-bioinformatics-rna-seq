@@ -33,11 +33,7 @@ Find the main galaxy server here
 
 https://usegalaxy.org/.
 
-If you experience any problems, try this server here
-
-http://galaxy.silico-sciences.com:2020/
-
-There are more publicly available servers out there, try your favorite search engine to find them.
+If you experience any problems you can try as well another server, as there are many [available](https://wiki.galaxyproject.org/PublicGalaxyServers).
 
 ## Import Data into Galady
 
@@ -210,6 +206,8 @@ Use the bigger dataset to perform a real gene expression comparison between lung
 0. [Galaxy forum](https://biostar.usegalaxy.org/)
 
 0. [FASTQ format#Quality](https://en.wikipedia.org/wiki/FASTQ_format#Quality)
+
+0. [SAM/BAM format](https://samtools.github.io/hts-specs/SAMv1.pdf)
 
 0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321)
 

@@ -11,6 +11,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 ## NGS Data Analysis Using Unix and Open Source Tools 
 
+In this seminar, you will get a first insight into NGS data processing and analysis.
+
+The tools that will be used are all open source and freely available; as well as the data.
+
 [RNA-Seq using Galaxy, IGV and the Tuxedo Suite](galaxy_rna-seq_tuxedo)
 
 [Data Visualization using RStudio and CummeRbund](rstudio_cummerbund)
