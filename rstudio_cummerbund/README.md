@@ -28,7 +28,7 @@ or in this GitHub repository.
 
 For ubuntuusers: See [here](https://silico-sciences.com/2016/01/14/install-cummerbund-on-ubuntu-14-04-linux-mint-17-3/) howto install R and the CummeRbund package.
 
-Alternatively use the pre-configured [Virtual Machine](../preparations)
+Alternatively use the pre-configured [Virtual Machine](../preparations).
 
 ## Create a Heatmap
 
