@@ -204,7 +204,7 @@ Use the bigger dataset to perform a real gene expression comparison between lung
 
       From the Cufflinks [manual](http://cole-trapnell-lab.github.io/cufflinks/manual/):
 
-    > Sometimes, all you want to do is normalize the expression levels from a set of RNA-Seq libraries so that theyre all on the same scale, facilitating downstream analyses such as clustering. Expression levels reported by Cufflinks in FPKM units are usually comparable between samples, but in certain situations, applying an extra level of normalization can remove sources of bias in the data. Cuffnorm normalizes a set of samples to be on as similar scales as possible, which can improve the results you obtain with other downstream tools.  
+    > Sometimes, all you want to do is normalize the expression levels from a set of RNA-Seq libraries so that they're all on the same scale, facilitating downstream analyses such as clustering. Expression levels reported by Cufflinks in FPKM units are usually comparable between samples, but in certain situations, applying an extra level of normalization can remove sources of bias in the data. Cuffnorm normalizes a set of samples to be on as similar scales as possible, which can improve the results you obtain with other downstream tools.  
     
 
 0. Use `Cuffdiff` to find significant changes in expression level.
