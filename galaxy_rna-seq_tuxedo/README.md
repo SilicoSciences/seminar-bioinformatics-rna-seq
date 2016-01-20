@@ -196,9 +196,22 @@ Use the bigger dataset to perform a real gene expression comparison between lung
     
 0. Use `Cuffquant` to precompute gene expression levels.
 
+    From the Cufflinks [manual](http://cole-trapnell-lab.github.io/cufflinks/manual/):
+    
+    > Quantifying gene and transcript expression in RNA-Seq samples can be computationally expensive. Cuffquant allows you to compute the gene and transcript expression profiles and save these profiles to files that you can analyze later with Cuffdiff or Cuffnorm. This can help you distribute your computational load over a cluster and is recommended for analyses involving more than a handful of libraries.
+
 0. Use `Cuffnorm` to create normalized expression values.
 
+      From the Cufflinks [manual](http://cole-trapnell-lab.github.io/cufflinks/manual/):
+
+    > Sometimes, all you want to do is normalize the expression levels from a set of RNA-Seq libraries so that theyre all on the same scale, facilitating downstream analyses such as clustering. Expression levels reported by Cufflinks in FPKM units are usually comparable between samples, but in certain situations, applying an extra level of normalization can remove sources of bias in the data. Cuffnorm normalizes a set of samples to be on as similar scales as possible, which can improve the results you obtain with other downstream tools.  
+    
+
 0. Use `Cuffdiff` to find significant changes in expression level.
+
+    From the Cufflinks [manual](http://cole-trapnell-lab.github.io/cufflinks/manual/):
+    
+    > Comparing expression levels of genes and transcripts in RNA-Seq experiments is a hard problem. Cuffdiff is a highly accurate tool for performing these comparisons, and can tell you not only which genes are up- or down-regulated between two or more conditions, but also which genes are differentially spliced or are undergoing other types of isoform-level regulation.
 
     0. Generate SQLite.
     0. Do *not* omit Tabular Datasets.
