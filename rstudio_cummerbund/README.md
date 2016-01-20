@@ -11,14 +11,15 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # Data Visualization using RStudio and CummeRbund
 
-Find all data for this section via FTP
+Find all data for this section via FTP:
 
 `ftp://public:public@silico-sciences.com/2014fagerberg`
 
-or in this GitHub repository.
+Copy `cuffnorm_out.zip` and `cuffdiff_out.zip` and extract.
 
-[cuffnorm_out](../fagerberg2014/cuffnorm_out)
-[cuffdiff_out](../fagerberg2014/cuffdiff_out)
+    ftp://public@176.28.21.178/2014fagerberg/cuffdiff_out.zip
+    ftp://public@176.28.21.178/2014fagerberg/cuffnorm_out.zip
+
 
 ## Preparations
 

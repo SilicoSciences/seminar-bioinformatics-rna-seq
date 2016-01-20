@@ -16,7 +16,9 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 0. Download Ubuntu Linux Virtual Machine (`ftp://public:public@silico-sciences.com:/vm.tar.gz`).
 
   Unzip and copy the `VM` folder to
+  
   `C:\Users\[username]\Virtualbox VMs` (Windows) or to
+  
   `~/VirtualBox VMs` (Ubuntu).
     
 0. Start the virtual machine and open a terminal.
