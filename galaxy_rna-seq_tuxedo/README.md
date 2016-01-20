@@ -213,8 +213,8 @@ Use the bigger dataset to perform a real gene expression comparison between lung
     
     > Comparing expression levels of genes and transcripts in RNA-Seq experiments is a hard problem. Cuffdiff is a highly accurate tool for performing these comparisons, and can tell you not only which genes are up- or down-regulated between two or more conditions, but also which genes are differentially spliced or are undergoing other types of isoform-level regulation.
 
-    0. Generate SQLite.
-    0. Do *not* omit Tabular Datasets.
+    0. Omit Tabular Datasets: `No`.
+    0. Generate SQLite: `Yes`.
     
 0. Use `cummeRbund` to visualize data.
 
