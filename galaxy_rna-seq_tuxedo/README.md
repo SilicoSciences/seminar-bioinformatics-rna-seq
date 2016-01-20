@@ -123,6 +123,8 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
     
     The tools we are using need to know about the quality encoding that is present in the FASTQ files to probably interpret the quality of the base calls. Our files are in "Sanger" format, so we need to edit the data attributes for the loaded `fastq.gz` files to "fastqsanger".
 
+    Find out more on handling FastQ quality scores in Galaxy [here](https://wiki.galaxyproject.org/Support#Troubleshooting_tool_errors).
+    
 0. Use [Trim Galore!](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) to trimm the reads.
         
 0. Compare read quality of trimmed vs. non-trimmed reads.
@@ -159,6 +161,8 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
     0. How many reads could be uniquely aligned?
 
 ## Use IGV to Visualize the Mapping
+
+0. Download or web-start [IGV](https://www.broadinstitute.org/igv/startingIGV).
 
 0. Download mappings `accepted_hits.bam` and its index file.
     
