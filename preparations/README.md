@@ -35,8 +35,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Verify Cufflinks is installed.
 
-        $ cufflinks --version
-        cufflinks: unrecognized option '--version'
+        $ cufflinks
         cufflinks v2.2.1
         linked against Boost version 104700
 
