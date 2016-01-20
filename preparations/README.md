@@ -13,7 +13,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Install [VirtualBox](https://www.virtualbox.org/).
 
-0. Download Ubuntu Linux Virtual Machine (ftp://public:public@silico-sciences.com:/vm.tar.gz).
+0. Download Ubuntu Linux Virtual Machine (`ftp://public:public@silico-sciences.com:/vm.tar.gz`).
 
   Unzip and copy the `VM` folder to `C:\Users\[username]\Virtualbox VMs` (Windows) or to `~/VirtualBox VMs` (Ubuntu).
     
