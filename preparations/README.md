@@ -23,9 +23,22 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. Verify TopHat is installed.
 
+        $ tophat2 -v
+        TopHat v2.1.0
+
 0. Verify Samtools is installed.
 
+        $ samtools
+        Program: samtools (Tools for alignments in the SAM format)
+        Version: 0.1.19-96b5f2294a
+
+
 0. Verify Cufflinks is installed.
+
+        $ cufflinks --version
+        cufflinks: unrecognized option '--version'
+        cufflinks v2.2.1
+        linked against Boost version 104700
 
 0. Verify RStudio is installed.
 
