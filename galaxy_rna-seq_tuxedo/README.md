@@ -164,6 +164,8 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
 
 0. Download or web-start [IGV](https://www.broadinstitute.org/igv/startingIGV).
 
+    Ubuntuusers: you can find IGV in the repositories. To install, type `sudo apt-get install igv`.
+
 0. Download mappings `accepted_hits.bam` and its index file.
     
 0. Load bam files into IGV.
