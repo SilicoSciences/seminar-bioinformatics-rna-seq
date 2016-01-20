@@ -218,6 +218,28 @@ Use the bigger dataset to perform a real gene expression comparison between lung
     
 0. Use `cummeRbund` to visualize data.
 
+0. Download `gene_differential_expression_testing.tabular`.
+
+0. Open `gene_differential_expression_testing.tabular` with your favourite spreadsheet software.
+
+    0. Pay attention to correct importing of numerical values (correct decimal delimiter).
+    
+    0. Filter rows with non-numerical values for fold changes (`-inf` and `inf`).
+    
+    0. Sort table by `significant` and absolute value of `log2(fold_change)`.
+    
+        Hint: Insert an extra column that contains absolute exp. values (use the `abs` function).
+        
+0. Answer the following questions:
+
+    0. Which gene shows the strongest fold change (log scale and linear scale)?
+    
+    0. Which gene shows the strongest significant fold change (log scale and linear scale)?
+    
+    0. Which gene shows the weakest fold change (log scale and linear scale)?
+    
+    0. Which gene shows the weakest significant fold change (log scale and linear scale)?
+
 ## References
 
 0. [Galaxy Wiki](https://github.com/nekrut/galaxy/wiki)
