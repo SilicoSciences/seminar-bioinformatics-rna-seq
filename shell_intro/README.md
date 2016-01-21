@@ -658,7 +658,7 @@ To redirect *Standard error* use `2>` and `2>>`
     
 ### Pipes and redirection
 
-    $ p1 input.txt 2> p1.err | p2 2> p2.err > results.txt
+    $ p1 input.txt 2> p1.err | p2 2> p2.err > results.txts
     
 * Pipes block a reading program when they are empty and block a writing program when they are full.
 * A programm can send `SIGPIPE`to terminate the 'connected' programs.
@@ -668,6 +668,7 @@ To redirect *Standard error* use `2>` and `2>>`
     $ p1 2>&1 | grep "error"
     
 ### Background processes
+
     $ p1 input.txt > output.txt &
     
 `top`: display Linux processes
@@ -694,9 +695,11 @@ Kill foreground job: `Control-C`
 
 ### Exit Status
     $ cal
-    $ echo $
+    $ echo $?
     
     $ p1 input.txt > output.txt && p2 output.txt > results.txt
+    
+    $ p1 input.txt > output.txt; p2 output.txt > results.txt
     
     $ p1 input.txt > output.txt || echo "an error occurred"  
     
