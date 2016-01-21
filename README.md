@@ -15,14 +15,14 @@ In this seminar, you will get a first insight into NGS data processing and analy
 
 The tools that will be used are all open source and freely available; as well as the data.
 
-[RNA-Seq using Galaxy, IGV and the Tuxedo Suite](galaxy_rna-seq_tuxedo)
+Part 1: [RNA-Seq using Galaxy, IGV and the Tuxedo Suite](galaxy_rna-seq_tuxedo)
 
-[Data Visualization using RStudio and CummeRbund](rstudio_cummerbund)
+Part 2: [Data Visualization using RStudio and CummeRbund](rstudio_cummerbund)
 
 [Preparations](preparations)
 
-[Introduction to the Shell](shell_intro)
+Part 3: [Introduction to the Shell](shell_intro)
 
-[The Shell for Bioinformaticians](shell_bioinformatics)
+Part 4: [The Shell for Bioinformaticians](shell_bioinformatics)
 
-[RNA-Seq using the Shell, IGV and the Tuxedo Suite](shell_rna-seq_tuxedo)
+Part 5: [RNA-Seq using the Shell, IGV and the Tuxedo Suite](shell_rna-seq_tuxedo)
