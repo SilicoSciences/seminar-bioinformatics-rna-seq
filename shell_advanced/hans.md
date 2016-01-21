@@ -56,13 +56,13 @@ Auf welche zwingenden Formastspezifikationen kann man sich bei der Programmierun
 
     0. Gegeben ist folgende Tabelle `genes_diff_sig`:
     
-                          gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change    test_stat p_value     q_value significant
-    40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93 4.32572e+00         310.7800  2.88573e-91 0.00005 0.000242192         yes
-    8341  ENSG00000142615     Lung    Heart     OK 4.92158e-84 1.88555e+01         280.9800  2.62871e-81 0.00755 0.020652600         yes
-    14026 ENSG00000175206     Lung    Heart     OK 1.45060e-01 3.07400e+04          17.6931  2.09519e+00 0.01435 0.035571100         yes
-    52339 ENSG00000260908     Lung    Heart     OK 1.26567e+03 1.23424e-02         -16.6459 -1.25322e-01 0.01250 0.031678900         yes
-    12516 ENSG00000168484     Lung    Heart     OK 2.03442e+04 3.06545e-01         -16.0182 -2.65728e+00 0.00005 0.000242192         yes
-    53616 ENSG00000262304     Lung    Heart     OK 4.12227e-05 1.60871e+00          15.2521  1.08576e-02 0.01370 0.034227900         yes
+						  gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change    test_stat p_value     q_value significant
+    		40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93 4.32572e+00         310.7800  2.88573e-91 0.00005 0.000242192         yes
+			8341  ENSG00000142615     Lung    Heart     OK 4.92158e-84 1.88555e+01         280.9800  2.62871e-81 0.00755 0.020652600         yes
+			14026 ENSG00000175206     Lung    Heart     OK 1.45060e-01 3.07400e+04          17.6931  2.09519e+00 0.01435 0.035571100         yes
+			52339 ENSG00000260908     Lung    Heart     OK 1.26567e+03 1.23424e-02         -16.6459 -1.25322e-01 0.01250 0.031678900         yes
+			12516 ENSG00000168484     Lung    Heart     OK 2.03442e+04 3.06545e-01         -16.0182 -2.65728e+00 0.00005 0.000242192         yes
+			53616 ENSG00000262304     Lung    Heart     OK 4.12227e-05 1.60871e+00          15.2521  1.08576e-02 0.01370 0.034227900         yes
     
     0. Mit welchem Befehl lässt sich aus dieser Tabelle
         0. die erste Zeile anzeigen?
