@@ -506,7 +506,7 @@ Pattern	| Matches
 
 **Tip:** Always put regular expressions into quotes. Imagine `grep > 30212.fasta`
 
-![note](figs/attention_28x26.png) Wildcards != Regular Expressions!
+![note](..figs/attention_28x26.png) Wildcards != Regular Expressions!
 
     $ touch txt.text
     
@@ -606,7 +606,7 @@ Pattern	| Matches
     World!
 
 ### Input and Output streams
-![fig_in-out_program](figs/fig_in-out_program.png)
+![fig_in-out_program](..figs/fig_in-out_program.png)
 
 #### Redicrecting streams
 
@@ -651,7 +651,7 @@ To redirect *Standard error* use `2>` and `2>>`
 
 ### Pipes and filters
 
-![fig_pipes](figs/fig_pipes.png)
+![fig_pipes](../figs/fig_pipes.png)
 
     $ grep -v "^>" 30212.fasta | grep -i [^ATGC]
     GCTGTGGGTCCTGAAGGTACCTCCCGG2TTTTTTACACCGCATGGGCCCCACGTCTCTGTCTCTGGTACCT
