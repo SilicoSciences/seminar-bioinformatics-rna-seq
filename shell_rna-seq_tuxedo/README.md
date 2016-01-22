@@ -104,7 +104,7 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
     
 ## Data Analysis
 
-Cuffdiff writes Fold changes to the table `[cuffdiff_out]/genes_exp.diff`.
+Cuffdiff writes fold changes to the table `[cuffdiff_out]/genes_exp.diff`.
 
 0. Use `cut` to cut away columns that we are not interested in.
 
