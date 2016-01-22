@@ -211,6 +211,8 @@ standard    |  compressed
 
     $ zless genome.fa.fz
     
+Exit `more` and `less` by typing `q`.
+    
 ### `wc`
 
 `wc`: print newline, word, and byte counts for each file
