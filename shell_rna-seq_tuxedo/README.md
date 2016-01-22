@@ -36,7 +36,8 @@ Use `wget` to download the following files:
     
 0. First possibility:
 
-    0. Download this list as a [file](download-links.txt).
+    0. Download this list as a file:
+    `https://raw.githubusercontent.com/SilicoSciences/seminar-bioinformatics/master/galaxy_rna-seq_tuxedo/download-links.txt`
 
     0. Use `sed` or `tr` to replace all new line characters (`\n`) with a space character (` `).
 
@@ -81,6 +82,8 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 0. Use `Cuffdiff` to find significant changes in expression level.
 
         $ cuffdiff -o [some-out-dir] -L Lung,Stomach [reference-annotation].gtf [lung1-4-cuffquant_out]/abundances.cxb,[lung2-4-cuffquant_out]/abundances.cxb,[lung3-4-cuffquant_out]/abundances.cxb,[lung4-4-cuffquant_out]/abundances.cxb [stomach1-4-cuffquant_out]/abundances.cxb,[stomach2-4-cuffquant_out]/abundances.cxb,[stomach3-4-cuffquant_out]/abundances.cxb,[stomach4-4-cuffquant_out]/abundances.cxb
+        
+    **Note:** Pay attention to correct usage of commas and spaces. Separate replicates with commas (*don't* use `, `) and conditions/labels with space.
     
 ## References
 
