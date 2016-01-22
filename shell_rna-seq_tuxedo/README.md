@@ -56,9 +56,27 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 Use `Tophat` to map the reads to the reference genome:
 
-    $ tophat -G [annotation].gtf [bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
+    $ tophat -o [some-out-dir] -G [reference-annotation].gtf [bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
+    
+`Tophat` produces several output files:
+
+  0. `accepted_hits.bam`
+  
+  0. b
     
 ## Calculate Gene Expressions
 
 Use `Cuffquant` to precompute gene expression levels.
+
+    $ cuffquant -q -b [reference-seq].fa -u [reference-annotation].gtf accepted_hits.bam
+    
+## References
+
+0. [SAM/BAM format](https://samtools.github.io/hts-specs/SAMv1.pdf)
+
+0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321)
+
+0. [Analysis of the Human Tissue-specific Expression by Genome-wide Integration of Transcriptomics and Antibody-based Proteomics](http://www.mcponline.org/content/13/2/397)
+
+0. [Cufflinks manual](http://cole-trapnell-lab.github.io/cufflinks/manual/)
 
