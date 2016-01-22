@@ -123,6 +123,10 @@ Cuffdiff writes fold changes to the table `[cuffdiff_out]/genes_exp.diff`.
 If you ask yourself if it is worth to write a script or not, take a look at this matrix:
 
 ![matrix](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
+
+---
+
+[Back to Index](../)
     
 ## References
 
