@@ -744,7 +744,7 @@ Kill foreground job: `Control-C`
     
     0. `hostname`
     
-    0. `iwconfig`
+    0. `ifconfig`
     
     0. Get some system infos:
     
@@ -753,7 +753,8 @@ Kill foreground job: `Control-C`
             DISTRIB_RELEASE=14.04
             DISTRIB_CODENAME=trusty
             DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
-
+            
+    0. Compare these infos to a new, local terminal session.
 
     
 ### Remote Shell and Two-Factor Authentication
