@@ -74,6 +74,14 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
         $ samtools idxstats unmapped_sorted.bam | column -t
         3  198022430  0  0
         *  0          0  2
+        
+0. Take a look at the `bam` files:
+
+    0. `less accepted_hits.bam`
+    
+    0. `zless accepted_hits.bam`
+    
+    0. `samtools view accepted_hits.bam`
 
  
 ## Calculate Gene Expressions
