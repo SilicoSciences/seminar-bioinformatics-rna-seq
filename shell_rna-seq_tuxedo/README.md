@@ -66,15 +66,17 @@ Use `Tophat` to map the reads to the reference genome:
 
 ## Calculate Gene Expressions
 
-Use `Cuffquant` to precompute gene expression levels.
+0. Use `Cuffquant` to precompute gene expression levels.
 
     $ cuffquant -b [reference-seq].fa -u [reference-annotation].gtf accepted_hits.bam
     
-Options:
+    Options:
 
-0. `-b/--frag-bias-correct`: use bias correction - reference fasta required
+    0. `-b/--frag-bias-correct`: use bias correction - reference fasta required
 
-0. `-u/--multi-read-correct`: use 'rescue method' for multi-reads
+    0. `-u/--multi-read-correct`: use 'rescue method' for multi-reads
+
+0. Use `Cuffdiff` to find significant changes in expression level.
     
 ## References
 
