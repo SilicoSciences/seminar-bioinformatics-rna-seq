@@ -67,6 +67,15 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 0. Use `samtools idxstats` to see the number of mapped/ unmapped reads in the created `accepted_hits.bam` file (see [here](https://silico-sciences.com/2015/11/20/get-number-of-mapped-unmapped-reads-per-chromosome/)).
 
+        $ samtools idxstats accepted_hits_sorted.bam | column -t
+        3  198022430  14926  0
+        *  0          0      0
+
+        $ samtools idxstats unmapped_sorted.bam | column -t
+        3  198022430  0  0
+        *  0          0  2
+
+ 
 ## Calculate Gene Expressions
 
 0. Use `Cuffquant` to precompute gene expression levels.
