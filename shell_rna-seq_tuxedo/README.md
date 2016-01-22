@@ -34,6 +34,18 @@ Use `wget` to download the following files:
     ftp://public:public@silico-sciences.com/2014fagerberg-small/ERR315485/ERR315485_chr03_1.fastq
     ftp://public:public@silico-sciences.com/2014fagerberg-small/ERR315485/ERR315485_chr03_2.fastq
     
+0. First possibility:
+
+    0. Download this list as a [file]((https://wiki.galaxyproject.org/Support#Troubleshooting_tool_errors)).
+
+    0. Use `sed` or `tr` to replace all new line characters (`\n`) with a space character (` `).
+
+    0. Pipe the resulting list to a file or directly to `wget`.
+    
+0. Second possibility:
+
+    0. Use `wget` with the 
+    
 ## Creating a Bowtie2 index
 
 `TopHat` uses `Bowtie2` as a 'mapping engine'. `Bowtie2` requires the reference genome to be indexed.
@@ -45,3 +57,8 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 Use `Tophat` to map the reads to the reference genome:
 
     $ tophat -G [annotation].gtf [bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
+    
+## Calculate Gene Expressions
+
+Use `Cuffquant` to precompute gene expression levels.
+
