@@ -62,7 +62,7 @@ Use `Tophat` to map the reads to the reference genome:
 
   0. `accepted_hits.bam`
   
-**Note:** See [here](https://silico-sciences.com/2016/01/03/tophat-transcriptome-index/) howto avoid repetitive index building. Find a pre-build transcriptome index here `/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/transciptome_index/genes_chr03`.
+**Note:** See [here](https://silico-sciences.com/2016/01/03/tophat-transcriptome-index/) howto avoid repetitive index building. Find a pre-build transcriptome index for chromosome three here `/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/transciptome_index/genes_chr03`.
 
 ## Calculate Gene Expressions
 
