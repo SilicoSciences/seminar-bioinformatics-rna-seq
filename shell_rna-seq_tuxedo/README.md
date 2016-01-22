@@ -117,6 +117,12 @@ Cuffdiff writes fold changes to the table `[cuffdiff_out]/genes_exp.diff`.
 0. use `grep` and `|` to extract lines with a significant regulation into a new file.
 
 **Do not** override `[cuffdiff_out]/genes_exp.diff`. Use pipes instead!
+
+---
+
+If you ask yourself if it is worth to write a script or not, take a look at this matrix:
+
+![matrix](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
     
 ## References
 
