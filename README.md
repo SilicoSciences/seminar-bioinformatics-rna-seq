@@ -19,7 +19,7 @@ Part 1: [RNA-Seq using Galaxy, IGV and the Tuxedo Suite](galaxy_rna-seq_tuxedo)
 
 Part 2: [Data Visualization using RStudio and CummeRbund](rstudio_cummerbund)
 
-[Preparations](preparations)
+Part 3: [Preparations](preparations)
 
 Part 3: [Introduction to the Shell](shell_intro)
 
