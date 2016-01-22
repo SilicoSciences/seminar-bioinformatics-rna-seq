@@ -717,6 +717,7 @@ Kill foreground job: `Control-C`
     $ mkdir results-$(today)
     
 ### Remote Shell
+
 `ssh`: OpenSSH SSH client (remote login program)
 
     $ ssh silico-sciences.com
@@ -730,6 +731,26 @@ Kill foreground job: `Control-C`
     $ nohup p1 &
     [1] 14958
     $ less nohup.out
+    
+0. Login to the remote system using `[yourname]@silico-sciences.com`
+
+0. Verify successful login:
+
+    0. `whoami`
+    
+    0. `hostname`
+    
+    0. `iwconfig`
+    
+    0. Get some system infos:
+    
+            $ cat /etc/lsb-release
+            DISTRIB_ID=Ubuntu
+            DISTRIB_RELEASE=14.04
+            DISTRIB_CODENAME=trusty
+            DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
+
+
     
 ### Remote Shell and Two-Factor Authentication
 
