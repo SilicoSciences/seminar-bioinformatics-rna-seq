@@ -19,13 +19,13 @@ NGS data processing is usually very time consuming, which is why some data has b
 
 A subset of the original dataset (lung, stomach and heart) as well as some preprocessed data you can access here:
 
-ftp://public:public@silico-sciences.com/2014fagerberg
+`ftp://public:public@silico-sciences.com/2014fagerberg`
 
 Furthermore, this data has been reduced in size (chromosome 3 only) so processing will not take too long (usually a matter of hours or even days).
 
 Find the small dataset here
 
-ftp://public:public@silico-sciences.com/2014fagerberg-small
+`ftp://public:public@silico-sciences.com/2014fagerberg-small`
 
 or in this GitHub [repository](../2014fagerberg-small).
 
@@ -137,7 +137,7 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
     
     0. What is the quality score distribution?
 
-### Map Reads to the Reference Sequence
+### Mapping Reads to the Reference Sequence
 
 0. Use [TopHat](https://ccb.jhu.edu/software/tophat/index.shtml) to map reads to reference from history (`3.fa.gz`). TopHat is a splice-aware aligner, so it can handle RNA-Seq data and is able to align reads across introns.
 

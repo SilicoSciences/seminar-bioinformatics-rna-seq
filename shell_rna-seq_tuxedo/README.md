@@ -36,7 +36,7 @@ Use `wget` to download the following files:
     
 0. First possibility:
 
-    0. Download this list as a [file]((https://wiki.galaxyproject.org/Support#Troubleshooting_tool_errors)).
+    0. Download this list as a [file](download-links.txt).
 
     0. Use `sed` or `tr` to replace all new line characters (`\n`) with a space character (` `).
 
