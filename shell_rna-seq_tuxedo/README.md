@@ -77,6 +77,8 @@ Use `Tophat` to map the reads to the reference genome:
     0. `-u/--multi-read-correct`: use 'rescue method' for multi-reads
 
 0. Use `Cuffdiff` to find significant changes in expression level.
+
+        $ cuffquant -o [some-out-dir] -b [reference-seq].fa -u [reference-annotation].gtf [tophat_out]/accepted_hits.bam
     
 ## References
 
