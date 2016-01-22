@@ -44,4 +44,4 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 Use `Tophat` to map the reads to the reference genome:
 
-    $ tophat -G genes_chr03.gtf 3 input_1_fastq input_2_fastq
+    $ tophat -G [annotation].gtf [bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
