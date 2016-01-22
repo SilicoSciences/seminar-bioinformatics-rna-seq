@@ -754,7 +754,7 @@ Kill foreground job: `Control-C`
             DISTRIB_CODENAME=trusty
             DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
             
-    0. Compare these infos to a new, local terminal session.
+    0. Type these commands on the remote system and on the local system.
 
     
 ### Remote Shell and Two-Factor Authentication
