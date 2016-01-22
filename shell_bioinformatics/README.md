@@ -662,3 +662,7 @@ Like `grep`, you can use `-E` to switch to *POSIX Extended regular Expressions (
 
 ![note](../figs/note_20x20.png) Per default, `sed` replaces only the **first occurrence** of a match. To replace all occurrences, use the *global* flag:
 `sed s/pattern/replacement/g`
+
+---
+
+[Back to Index](../README.md)

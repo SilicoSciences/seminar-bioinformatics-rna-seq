@@ -286,6 +286,10 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
             > head(getSig(cuff,alpha=0.05,level="genes"))
             [1] "ENSG00000000938" "ENSG00000000971" "ENSG00000001626" "ENSG00000001630" "ENSG00000002549" "ENSG00000002822"
          
+---
+
+[Back to Index](../README.md)
+         
 ## References
 
 0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/?tool=pmcentrez)
