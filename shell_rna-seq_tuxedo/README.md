@@ -44,7 +44,7 @@ Use `wget` to download the following files:
     
 0. Second possibility:
 
-    0. Use `wget` with the 
+    0. Use `wget` with the `--no-directories`, 
     
 ## Creating a Bowtie2 index
 
@@ -63,6 +63,8 @@ Use `Tophat` to map the reads to the reference genome:
   0. `accepted_hits.bam`
   
   0. b
+  
+**Note:** See [here](https://silico-sciences.com/2016/01/03/tophat-transcriptome-index/) howto avoid repetitive index building.
     
 ## Calculate Gene Expressions
 
