@@ -64,7 +64,7 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
   
     **Note:** See [here](https://silico-sciences.com/2016/01/03/tophat-transcriptome-index/) howto avoid repetitive index building. Find a pre-build transcriptome index for chromosome three here `/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/transciptome_index/genes_chr03`.
 
-0. Use `samtools idxstats` to see the number of mapped/ unmapped reads in the created `accepted_hits.bam`.
+0. Use `samtools idxstats` to see the number of mapped/ unmapped reads in the created `accepted_hits.bam` file (see [here](https://silico-sciences.com/2015/11/20/get-number-of-mapped-unmapped-reads-per-chromosome/)).
 
 ## Calculate Gene Expressions
 
