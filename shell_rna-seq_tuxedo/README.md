@@ -126,7 +126,7 @@ If you ask yourself if it is worth to write a script or not, take a look at this
 
 ---
 
-[Back to Index](..)
+[Back to Index](../README.md)
     
 ## References
 
