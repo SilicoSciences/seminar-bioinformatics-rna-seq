@@ -726,11 +726,15 @@ Kill foreground job: `Control-C`
 
     $ ssh [yourname]@silico-sciences.com
     
+---
+    
 `nohup`: run a command immune to hangups, with output to a non-tty
 
     $ nohup p1 &
     [1] 14958
     $ less nohup.out
+    
+---
     
 0. Login to the remote system using `[yourname]@silico-sciences.com`
 
