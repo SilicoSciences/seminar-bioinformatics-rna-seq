@@ -54,15 +54,17 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 ## Mapping Reads to the Reference Sequence
 
-Use `Tophat` to map the reads to the reference genome:
+0. Use `Tophat` to map the reads to the reference genome:
 
-    $ tophat -o [some-out-dir] -G [reference-annotation].gtf [bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
+        $ tophat -o [some-out-dir] -G [reference-annotation].gtf [bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
     
-`Tophat` produces several output files:
+       `Tophat` produces several output files: 
 
-  0. `accepted_hits.bam`
+       0. `accepted_hits.bam`
   
-**Note:** See [here](https://silico-sciences.com/2016/01/03/tophat-transcriptome-index/) howto avoid repetitive index building. Find a pre-build transcriptome index for chromosome three here `/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/transciptome_index/genes_chr03`.
+    **Note:** See [here](https://silico-sciences.com/2016/01/03/tophat-transcriptome-index/) howto avoid repetitive index building. Find a pre-build transcriptome index for chromosome three here `/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/transciptome_index/genes_chr03`.
+
+0. Use `samtools idxstats` to see the number of mapped/ unmapped reads in the created `accepted_hits.bam`.
 
 ## Calculate Gene Expressions
 

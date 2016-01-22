@@ -137,7 +137,7 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
     
     0. What is the quality score distribution?
 
-### Mapping Reads to the Reference Sequence
+### Map Reads to the Reference Sequence
 
 0. Use [TopHat](https://ccb.jhu.edu/software/tophat/index.shtml) to map reads to reference from history (`3.fa.gz`). TopHat is a splice-aware aligner, so it can handle RNA-Seq data and is able to align reads across introns.
 
