@@ -68,17 +68,13 @@ Use `Tophat` to map the reads to the reference genome:
 
 Use `Cuffquant` to precompute gene expression levels.
 
-    $ cuffquant -q -b [reference-seq].fa -u [reference-annotation].gtf accepted_hits.bam
+    $ cuffquant -b [reference-seq].fa -u [reference-annotation].gtf accepted_hits.bam
     
 Options:
 
-0. `-q`
+0. `-b/--frag-bias-correct`: use bias correction - reference fasta required
 
-0. `-q`
-
-0. `-b`
-
-0. `-u`
+0. `-u/--multi-read-correct`: use 'rescue method' for multi-reads
     
 ## References
 
