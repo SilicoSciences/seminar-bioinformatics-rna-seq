@@ -56,7 +56,7 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 0. Use `Tophat` to map the reads to the reference genome:
 
-        $ tophat -o [some-out-dir] -G [reference-annotation].gtf [bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
+        $ tophat -o [some-out-dir] -G [reference-annotation].gtf [reference-bowtie2-index-file] [reads]_1_fastq [reads]_2_fastq
     
        `Tophat` produces several output files: 
 
@@ -70,7 +70,7 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 0. Use `Cuffquant` to precompute gene expression levels.
 
-    $ cuffquant -b [reference-seq].fa -u [reference-annotation].gtf accepted_hits.bam
+        $ cuffquant -b [reference-seq].fa -u [reference-annotation].gtf [tophat_out]/accepted_hits.bam
     
     Options:
 
@@ -80,7 +80,7 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 0. Use `Cuffdiff` to find significant changes in expression level.
 
-        $ cuffquant -o [some-out-dir] -b [reference-seq].fa -u [reference-annotation].gtf [tophat_out]/accepted_hits.bam
+        $ cuffdiff -o [some-out-dir] -L Lung,Stomach [reference-annotation].gtf [lung1-4-cuffquant_out]/abundances.cxb,[lung2-4-cuffquant_out]/abundances.cxb,[lung3-4-cuffquant_out]/abundances.cxb,[lung4-4-cuffquant_out]/abundances.cxb [stomach1-4-cuffquant_out]/abundances.cxb,[stomach2-4-cuffquant_out]/abundances.cxb,[stomach3-4-cuffquant_out]/abundances.cxb,[stomach4-4-cuffquant_out]/abundances.cxb
     
 ## References
 
