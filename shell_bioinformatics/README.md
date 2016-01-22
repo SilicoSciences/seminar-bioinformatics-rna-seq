@@ -86,7 +86,7 @@ ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/
     $ ls
     CHANGE_LOG.txt  CHECKSUMS.txt  README.txt  Saccharomyces_cerevisiae  Saccharomyces_cerevisiae_Ensembl_EF4.tar.gz
     
-    $ tree Saccharomyces_cerevisiae -d --charset ANSI
+    $ tree Saccharomyces_cerevisiae -d
     Saccharomyces_cerevisiae
     `-- Ensembl
         `-- EF4
