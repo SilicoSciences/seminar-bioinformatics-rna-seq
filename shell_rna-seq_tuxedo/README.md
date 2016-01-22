@@ -112,7 +112,7 @@ Cuffdiff writes fold changes to the table `[cuffdiff_out]/genes_exp.diff`.
 
     0. significance and
     
-    0. absolute log2 fold change.
+    0. absolute log2 fold change (descending).
     
 0. use `grep` and `|` to extract lines with a significant regulation into a new file.
 
