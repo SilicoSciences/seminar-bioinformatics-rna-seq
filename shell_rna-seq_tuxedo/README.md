@@ -44,7 +44,7 @@ Use `wget` to download the following files:
     
 0. Second possibility:
 
-    0. Use `wget` with the `--no-directories`, 
+    0. Use `wget` with the `--no-directories`, the `--accept-regex` and the `--recursive` option.
     
 ## Creating a Bowtie2 index
 
