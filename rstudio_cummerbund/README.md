@@ -89,7 +89,9 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
         
 0. Plot the sample dendrogram. Similar samples will be on the same branch.
 
+        > pdf("hc.pdf")
         > plot(hc)
+        > dev.off()
         
 0. Create the Heatmap. By supplying the sample and gene clusterings the heatmap will be sorted accordingly and dendrograms will be shown.
 
