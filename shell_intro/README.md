@@ -765,7 +765,9 @@ Kill foreground job: `Control-C`
 
 ## References
 
-1. [http://code.snipcademy.com/](http://code.snipcademy.com/tutorials/linux-command-line/basic-commands/introduction)
+0. [Nice Overview in German](http://nafoku.de/t/unix.htm)
 
-1. [Bioinformatics Data Skills
+0. [http://code.snipcademy.com/](http://code.snipcademy.com/tutorials/linux-command-line/basic-commands/introduction)
+
+0. [Bioinformatics Data Skills
 ](http://vincebuffalo.org/book/)
