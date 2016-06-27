@@ -105,6 +105,25 @@ Use the links below to get the `fastq.gz` files:
     
 Alternatively find the download links [here](download-links.txt).
 
+> Lung
+
+> ERR315326
+
+> ERR315341
+
+> ERR315346
+
+> ERR315353
+
+> Stomach
+
+> ERR315369
+
+> ERR315379
+
+> ERR315467
+
+> ERR315485
 
 NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
     
