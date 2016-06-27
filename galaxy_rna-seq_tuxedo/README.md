@@ -105,6 +105,7 @@ Use the links below to get the `fastq.gz` files:
     
 Alternatively find the download links [here](download-links.txt).
 
+Sample- file mapping:
 > Lung
 
 > ERR315326
@@ -178,6 +179,13 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
     0. How many reads could be sucesfully aligned?
     
     0. How many reads could be uniquely aligned?
+    
+Other read mapper:
+
+0. [HISAT2](https://ccb.jhu.edu/software/hisat2/index.shtml)
+0. [STAR](https://github.com/alexdobin/STAR)
+0. [GSNAP](http://research-pub.gene.com/gmap/)
+0. [MapSplice](http://www.netlab.uky.edu/p/bioinfo/MapSplice)
 
 ## Use IGV to Visualize the Mapping
 
@@ -206,6 +214,11 @@ If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503)
         0. Squished
         
     0. Load additional data from server, e.g. dbSNP.
+    
+Other Genome Browsers:
+
+0. [UCSC](https://genome-euro.ucsc.edu/cgi-bin/hgTracks)
+0. [Ensembl](http://www.ensembl.org/Homo_sapiens/Location/View?r=17:63973115-64437414)
     
 ## Calculate Gene Expressions
 
