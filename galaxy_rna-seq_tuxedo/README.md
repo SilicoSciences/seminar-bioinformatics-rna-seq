@@ -128,7 +128,7 @@ Sample- file mapping:
 
 NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
     
-If the reads are [paired-end](http://seqanswers.com/forums/showthread.php?t=503), you are usually provided with two files per sample (`_1.fastq.gz` and `_2.fastq.gz`).
+If the reads are [paired-end](http://www.yourgenome.org/facts/how-do-you-put-a-genome-back-together-after-sequencing), you are usually provided with two files per sample (`_1.fastq.gz` and `_2.fastq.gz`).
     
 
 ### Inspecting the Data and do Some Quality Control
