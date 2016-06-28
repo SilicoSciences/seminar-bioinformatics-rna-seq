@@ -286,10 +286,12 @@ Use the bigger dataset to perform a real gene expression comparison between lung
 
 0. [SAM/BAM format](https://samtools.github.io/hts-specs/SAMv1.pdf)
 
-0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321)
+0. Paper [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321)
 
-0. [Analysis of the Human Tissue-specific Expression by Genome-wide Integration of Transcriptomics and Antibody-based Proteomics](http://www.mcponline.org/content/13/2/397)
+0. Paper [Analysis of the Human Tissue-specific Expression by Genome-wide Integration of Transcriptomics and Antibody-based Proteomics](http://www.mcponline.org/content/13/2/397)
 
 0. [Cufflinks manual](http://cole-trapnell-lab.github.io/cufflinks/manual/)
 
 0. [CummeRbund manual](http://compbio.mit.edu/cummeRbund/manual_2_0.html)
+
+0. [FPKM explained](http://www.rna-seqblog.com/rpkm-fpkm-and-tpm-clearly-explained/)
