@@ -67,21 +67,7 @@ ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 6d8f45845c9dbb61e8d7a
 ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 
 ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
 
-
-
-
-
-
-
-ftp://public:public@silico-sciences.com/2014fagerberg
-
-
-
-Find the small dataset here
-
-ftp://public:public@silico-sciences.com/2014fagerberg-small
-
-or in this GitHub [repository](../2014fagerberg-small).
+You can find the small dataset also in this GitHub [repository](../2014fagerberg-small).
 
 Find the main galaxy server here
 
