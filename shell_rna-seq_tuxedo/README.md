@@ -29,7 +29,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. 'Install' the ssh key
 
-        $ ssh-add training@silico_rsa
+        $ ssh-add training@silico_rsa 
+        Enter passphrase for training@silico_rsa: 
         Identity added: training@silico_rsa (training@silico_rsa)
         
 0. In case of permissions error, fix permissions
