@@ -23,9 +23,24 @@ http://www.ebi.ac.uk/ena/data/view/ERS326948
 
 NGS data processing is usually very time consuming, which is why some data has been already partically processed.
 
-### Lung
+Furthermore, the data has been reduced in size (chromosome 3 only) so processing will not take too long (usually a matter of hours or even days).
 
-ID |Original URL | Reduced URL
+Below you find links to a subset of the original data, the preprocessed data as well as the chromosome 3 only datasets.
+
+### Lung Original
+
+ID | URL | md5
+---|---|---
+ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | a32d31f1cfc1d836e2068f5516c6000c 7eb4283becc0d55f14d8a6fe929521be
+ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | 74368f3aaf69fa32a73c43e6cf7c32ee 083f9c11f8c65a40bff289943d49524f
+ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952
+ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952
+ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010
+ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010
+
+### Lung Reduced
+
+ID | URL | md5
 ---|---|---
 ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 |
 ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948
@@ -34,24 +49,33 @@ ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952
 ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010
 ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010
 
-### Stomach
+### Stomach Original
 
-ID | Original URL | Reduced URL
+ID | URL | md5
 ---|---|---
-ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950
-ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950
-ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000
+ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 60b67df94f041c510977575525463a9d fe6230895aa051839e5ada69a8a0e5c9
+ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 6d8f45845c9dbb61e8d7a40db99e2c9b f1117143c7b450c576ade3dd32ba6df0
+ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 
+ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
+
+### Stomach Reduced
+
+ID | URL | md5
+---|---|---
+ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 60b67df94f041c510977575525463a9d fe6230895aa051839e5ada69a8a0e5c9
+ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 6d8f45845c9dbb61e8d7a40db99e2c9b f1117143c7b450c576ade3dd32ba6df0
+ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 
 ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
 
 
 
 
 
-A subset of the original dataset (lung, stomach and heart) as well as some preprocessed data you can access here:
+
 
 ftp://public:public@silico-sciences.com/2014fagerberg
 
-Furthermore, this data has been reduced in size (chromosome 3 only) so processing will not take too long (usually a matter of hours or even days).
+
 
 Find the small dataset here
 
