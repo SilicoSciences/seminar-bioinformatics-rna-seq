@@ -9,6 +9,60 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 [TOC]
 
+# Recap
+
+### Nohup
+
+`nohup`: run a command immune to hangups, with output to a non-tty
+
+    $ nohup p1 &
+    [1] 14958
+    $ less nohup.out
+    
+### Remote Shell
+
+#### Preparations
+
+0. Get and save the key file
+
+0. `cd` to the corresponding directory
+
+0. 'Install' the ssh key
+
+        ssh-add training@silico_rsa
+        
+---
+
+`ssh`: OpenSSH SSH client (remote login program)
+
+    $ ssh silico-sciences.com
+    
+    $ ssh 176.28.21.178
+
+    $ ssh [yourname]@silico-sciences.com
+   
+---
+    
+0. Login to the remote system using `[yourname]@silico-sciences.com`
+
+0. Verify successful login:
+
+    0. `whoami`
+    
+    0. `hostname`
+    
+    0. `ifconfig`
+    
+    0. Get some system infos:
+    
+            $ cat /etc/lsb-release
+            DISTRIB_ID=Ubuntu
+            DISTRIB_RELEASE=14.04
+            DISTRIB_CODENAME=trusty
+            DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
+            
+    0. Type these commands on the remote system and on the local system.
+
 # RNA-Seq using the Shell, IGV and the Tuxedo Suite
 
 ## Getting Data

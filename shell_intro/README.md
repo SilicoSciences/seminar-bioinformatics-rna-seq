@@ -714,7 +714,27 @@ Kill foreground job: `Control-C`
     $ alias today="date +%F"
     $ mkdir results-$(today)
     
+### Nohup
+
+`nohup`: run a command immune to hangups, with output to a non-tty
+
+    $ nohup p1 &
+    [1] 14958
+    $ less nohup.out
+    
 ### Remote Shell
+
+#### Preparations
+
+0. Get and save the key file
+
+0. `cd` to the corresponding directory
+
+0. 'Install' the ssh key
+
+        ssh-add training@silico_rsa
+        
+---
 
 `ssh`: OpenSSH SSH client (remote login program)
 
@@ -723,15 +743,7 @@ Kill foreground job: `Control-C`
     $ ssh 176.28.21.178
 
     $ ssh [yourname]@silico-sciences.com
-    
----
-    
-`nohup`: run a command immune to hangups, with output to a non-tty
-
-    $ nohup p1 &
-    [1] 14958
-    $ less nohup.out
-    
+   
 ---
     
 0. Login to the remote system using `[yourname]@silico-sciences.com`
