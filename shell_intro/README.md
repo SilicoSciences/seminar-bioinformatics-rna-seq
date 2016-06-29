@@ -506,7 +506,7 @@ Pattern	| Matches
 
 **Tip:** Always put regular expressions into quotes. Imagine `grep > 30212.fasta`
 
-![note](..figs/attention_28x26.png) Wildcards != Regular Expressions!
+![note](../figs/attention_28x26.png) Wildcards != Regular Expressions!
 
     $ touch txt.text
     
@@ -559,8 +559,6 @@ Pattern	| Matches
      |-- analysis
      `-- data
          `-- annotations
-
-3 directories, 0 files
     
     $ echo myFolder{A..F}
     myFolderA myFolderB myFolderC myFolderD myFolderE myFolderF
@@ -606,7 +604,7 @@ Pattern	| Matches
     World!
 
 ### Input and Output streams
-![fig_in-out_program](..figs/fig_in-out_program.png)
+![fig_in-out_program](../figs/fig_in-out_program.png)
 
 #### Redicrecting streams
 
