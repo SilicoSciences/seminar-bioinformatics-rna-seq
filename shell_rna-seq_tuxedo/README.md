@@ -27,15 +27,16 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. `cd` to the corresponding directory
 
-0. Fix permissions if necessary
-
-        chmod 600 training@silico_rsa
-        
-0. In case of an ssh-agent error, try to fix as described [here](https://silico-sciences.com/2015/11/04/could-not-open-a-connection-to-your-authentication-agent/)
-
 0. 'Install' the ssh key
 
-        ssh-add training@silico_rsa
+        $ ssh-add training@silico_rsa
+        Identity added: training@silico_rsa (training@silico_rsa)
+        
+0. In case of permissions error, fix permissions
+
+        $ chmod 600 training@silico_rsa
+        
+0. In case of an ssh-agent error, fix as described [here](https://silico-sciences.com/2015/11/04/could-not-open-a-connection-to-your-authentication-agent/)
         
 ---
 
