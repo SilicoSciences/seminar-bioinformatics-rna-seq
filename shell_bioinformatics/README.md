@@ -363,7 +363,7 @@ Default sorting is alphanumerical, using `-n` changes sorting to numerical.
     
 #### `-r` can be used for reverse ordering.
     
-    $ sort -k1,1 -k2,2n -r example.bed 
+    $ sort -k1,1 -k2,2n example.bed 
     chr3	11	28
     chr3	16	27
     chr2	35	54
