@@ -76,18 +76,18 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 ## Getting Data
 
 Use `wget` to download data from [here](https://github.com/SilicoSciences/seminar-bioinformatics-rna-seq/blob/master/2014fagerberg-small/download-links.txt).
+
+There are many ways to retrieve all files in that list, here are some hints:
     
-0. First possibility:
++ Download this list as a file.
+        
++ Use `sed` or `tr` to replace all new line characters (`\n`) with a space character (` `).
 
-    0. Download this list as a file.
-
-    0. Use `sed` or `tr` to replace all new line characters (`\n`) with a space character (` `).
-
-    0. Pipe the resulting list to a file or directly to `wget`.
++ Pipe the resulting list to a file or directly to `wget`.
+        
++ Take a look at `wget`s `-i` option.
     
-0. Second possibility:
-
-    0. Use `wget` with the `--no-directories`, the `--accept-regex` and the `--recursive` option.
++ Use `wget` with the `--no-directories`, the `--accept-regex` and the `--recursive` option.
     
 ## Creating a Bowtie2 index
 
