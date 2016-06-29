@@ -13,7 +13,8 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 For this tutorial we will work with the following dataset:
 
-http://www.ebi.ac.uk/ena/data/view/ERP003613
+`http://www.ebi.ac.uk/ena/data/view/ERP003613`
+`http://www.ebi.ac.uk/ena/data/view/ERS326931-ERS327025`
 
 NGS data processing is usually very time consuming, which is why some data has been already partically processed.
 
