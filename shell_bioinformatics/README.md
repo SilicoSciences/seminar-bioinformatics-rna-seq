@@ -299,7 +299,8 @@ Exit `more` and `less` by typing `q`.
     
 #### grep a range of matches
   
-    $ grep "CUP1-[1,2]" genes.gtf | column -tVIII  protein_coding  exon         212535  212720  .  -  .  exon_number  "1";  gene_id  "YHR053C";  gene_name  "CUP1-1";  p_id  "P3710";  seqedit        "false";    transcript_id    "YHR053C";  transcript_name  "CUP1-1";   tss_id  "TSS1005";
+    $ grep "CUP1-[1,2]" genes.gtf | column -t
+    VIII  protein_coding  exon         212535  212720  .  -  .  exon_number  "1";  gene_id  "YHR053C";  gene_name  "CUP1-1";  p_id  "P3710";  seqedit        "false";    transcript_id    "YHR053C";  transcript_name  "CUP1-1";   tss_id  "TSS1005";
     VIII  protein_coding  stop_codon   212535  212537  .  -  0  exon_number  "1";  gene_id  "YHR053C";  gene_name  "CUP1-1";  p_id  "P3710";  transcript_id  "YHR053C";  transcript_name  "CUP1-1";   tss_id           "TSS1005";
     VIII  protein_coding  CDS          212538  212720  .  -  0  exon_number  "1";  gene_id  "YHR053C";  gene_name  "CUP1-1";  p_id  "P3710";  protein_id     "YHR053C";  transcript_id    "YHR053C";  transcript_name  "CUP1-1";   tss_id  "TSS1005";
     VIII  protein_coding  start_codon  212718  212720  .  -  0  exon_number  "1";  gene_id  "YHR053C";  gene_name  "CUP1-1";  p_id  "P3710";  transcript_id  "YHR053C";  transcript_name  "CUP1-1";   tss_id           "TSS1005";
