@@ -27,6 +27,10 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 0. `cd` to the corresponding directory
 
+0. Fix permissions if necessary
+
+        chmod 600 training@silico_rsa
+
 0. 'Install' the ssh key
 
         ssh-add training@silico_rsa
