@@ -209,7 +209,7 @@ standard    |  compressed
     $ less genome.fa.gz
     "genome.fa.gz" may be a binary file.  See it anyway? 
 
-    $ zless genome.fa.fz
+    $ zless genome.fa.gz
     
 Exit `more` and `less` by typing `q`.
     
