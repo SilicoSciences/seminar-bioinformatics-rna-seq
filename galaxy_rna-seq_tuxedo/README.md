@@ -11,23 +11,51 @@ Seminar Ruprecht-Karls-Universität Heidelberg 2016-01-20 - 2016-01-22
 
 # RNA-Seq using Galaxy, IGV and the Tuxedo Suite
 
+## Getting the Data
+
 For this tutorial we will work with the following dataset:
 
 http://www.ebi.ac.uk/ena/data/view/ERP003613
 
 http://www.ebi.ac.uk/ena/data/view/ERS326931-ERS327025
 
+http://www.ebi.ac.uk/ena/data/view/ERS326948
+
 NGS data processing is usually very time consuming, which is why some data has been already partically processed.
+
+### Lung
+
+ID |Original URL | Reduced URL
+---|---|---
+ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 |
+ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948
+ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952
+ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952
+ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010
+ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010
+
+### Stomach
+
+ID | Original URL | Reduced URL
+---|---|---
+ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950
+ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950
+ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000
+ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
+
+
+
+
 
 A subset of the original dataset (lung, stomach and heart) as well as some preprocessed data you can access here:
 
-`ftp://public:public@silico-sciences.com/2014fagerberg`
+ftp://public:public@silico-sciences.com/2014fagerberg
 
 Furthermore, this data has been reduced in size (chromosome 3 only) so processing will not take too long (usually a matter of hours or even days).
 
 Find the small dataset here
 
-`ftp://public:public@silico-sciences.com/2014fagerberg-small`
+ftp://public:public@silico-sciences.com/2014fagerberg-small
 
 or in this GitHub [repository](../2014fagerberg-small).
 
@@ -106,27 +134,6 @@ Use the links below to get the `fastq.gz` files:
     [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
     
 Alternatively find the download links [here](download-links.txt).
-
-Sample- file mapping:
-> Lung
-
-> ERR315326
-
-> ERR315341
-
-> ERR315346
-
-> ERR315353
-
-> Stomach
-
-> ERR315369
-
-> ERR315379
-
-> ERR315467
-
-> ERR315485
 
 NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
     
