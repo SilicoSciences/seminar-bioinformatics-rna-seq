@@ -79,8 +79,7 @@ Use `wget` to download data from [here](https://github.com/SilicoSciences/semina
     
 0. First possibility:
 
-    0. Download this list as a file:
-    `https://raw.githubusercontent.com/SilicoSciences/seminar-bioinformatics/master/galaxy_rna-seq_tuxedo/download-links.txt`
+    0. Download this list as a file.
 
     0. Use `sed` or `tr` to replace all new line characters (`\n`) with a space character (` `).
 
