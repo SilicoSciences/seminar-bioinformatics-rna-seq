@@ -9,7 +9,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg
 <img src=http://simpleql.com/wp-content/uploads/2015/10/No-cloud-MEME.jpg>
 </p>
 
-## NGS Data Analysis Using Unix and Open Source Tools 
+## RNA-Seq Analysis Using Unix and Open Source Tools 
 
 In this seminar, you will get a first insight into NGS data processing and analysis.
 

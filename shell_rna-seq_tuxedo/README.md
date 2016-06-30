@@ -5,7 +5,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg
 
 # Applied Bioinformatics in the Cloud and in the Shell
 
-## NGS Data Analysis Using Unix and Open Source Tools
+## RNA-Seq Analysis Using Unix and Open Source Tools 
 
 [TOC]
 
