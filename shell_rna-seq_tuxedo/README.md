@@ -142,7 +142,7 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
         $ cuffdiff -o [some-out-dir] -L Lung,Stomach [reference-annotation].gtf [lung1-4-cuffquant_out]/abundances.cxb,[lung2-4-cuffquant_out]/abundances.cxb,[lung3-4-cuffquant_out]/abundances.cxb,[lung4-4-cuffquant_out]/abundances.cxb [stomach1-4-cuffquant_out]/abundances.cxb,[stomach2-4-cuffquant_out]/abundances.cxb,[stomach3-4-cuffquant_out]/abundances.cxb,[stomach4-4-cuffquant_out]/abundances.cxb
         
-    **Note:** Pay attention to correct usage of commas and spaces. Separate replicates with commas (*don't* use `, `) and conditions/labels with space.
+    **Note:** Pay attention to correct usage of commas and spaces. Separate replicates with commas (*don't* use `,[whitespace]`) and conditions/ labels with space.
     
 ## Data Analysis
 
