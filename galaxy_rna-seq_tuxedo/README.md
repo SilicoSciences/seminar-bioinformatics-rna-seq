@@ -27,33 +27,33 @@ Below you find links to a subset of the original data, the preprocessed data as 
 
 ### Lung Original
 
-ID | URL | md5
----|---|---
-ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | `a32d31f1cfc1d836e2068f5516c6000c` `7eb4283becc0d55f14d8a6fe929521be`
-ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | `74368f3aaf69fa32a73c43e6cf7c32ee` `083f9c11f8c65a40bff289943d49524f`
-ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `e07815132f75ad4acd626ba017b0f1b3` `ad9a286773704d120b84558253f915b1`
-ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `64f66f5dfe6a15b72d060fe30900f899` `c07809ef2d7e905dddf718d6df17ebea`
-ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `bc3f6f8409372655d1e5e2347def3d0f` `96c576f68eff4c8763fa951cbdd319d9`
-ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `a47bb31a6beb7a59a9085313c824627e` `c704f62abbb76c7bb1408892f7f6716a`
+ID | URL | md5 | Read Count
+---|---|---|---
+ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | `a32d31f1cfc1d836e2068f5516c6000c` `7eb4283becc0d55f14d8a6fe929521be` | 8,782,257
+ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | `74368f3aaf69fa32a73c43e6cf7c32ee` `083f9c11f8c65a40bff289943d49524f` | 8,761,137
+ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `e07815132f75ad4acd626ba017b0f1b3` `ad9a286773704d120b84558253f915b1` | 13,576,003
+ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `64f66f5dfe6a15b72d060fe30900f899` `c07809ef2d7e905dddf718d6df17ebea` | 13,669,047
+ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `bc3f6f8409372655d1e5e2347def3d0f` `96c576f68eff4c8763fa951cbdd319d9` | 6,280,429
+ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `a47bb31a6beb7a59a9085313c824627e` `c704f62abbb76c7bb1408892f7f6716a` | 6,387,998
 
 ### Lung Reduced
 
-ID | URL | md5
----|---|---
-ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 |
-ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948
-ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952
-ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952
-ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010
-ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010
+ID | URL | md5 | Read Count
+---|---|---|---
+ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | md5 | 5716
+ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | md5 | 3707
+ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | md5 | 2994
+ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | md5 | 4551
+ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | md5 | 2846
+ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | md5 | 2967
 
 ### Stomach Original
 
 ID | URL | md5
 ---|---|---
-ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 60b67df94f041c510977575525463a9d fe6230895aa051839e5ada69a8a0e5c9
-ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 6d8f45845c9dbb61e8d7a40db99e2c9b f1117143c7b450c576ade3dd32ba6df0
-ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 
+ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | `60b67df94f041c510977575525463a9d` `fe6230895aa051839e5ada69a8a0e5c9`
+ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | `6d8f45845c9dbb61e8d7a40db99e2c9b` `f1117143c7b450c576ade3dd32ba6df0`
+ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 | `ac54c6fef08daf49b1c339f88231494c` `233f5b072fc327ff1caa97045feddc50`
 ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
 
 ### Stomach Reduced
