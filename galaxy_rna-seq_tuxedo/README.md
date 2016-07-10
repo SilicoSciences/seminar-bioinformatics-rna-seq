@@ -49,12 +49,12 @@ ERR315444 | ftp://public@silico-sciences.com/new/ERR315444 | md5 | 2967
 
 ### Stomach Original
 
-ID | URL | md5
----|---|---
-ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | `60b67df94f041c510977575525463a9d` `fe6230895aa051839e5ada69a8a0e5c9`
-ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | `6d8f45845c9dbb61e8d7a40db99e2c9b` `f1117143c7b450c576ade3dd32ba6df0`
-ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 | `ac54c6fef08daf49b1c339f88231494c` `233f5b072fc327ff1caa97045feddc50`
-ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
+ID | URL | md5 | Read Count
+---|---|---|---
+ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | `60b67df94f041c510977575525463a9d` `fe6230895aa051839e5ada69a8a0e5c9` | 16,004,990
+ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | `6d8f45845c9dbb61e8d7a40db99e2c9b` `f1117143c7b450c576ade3dd32ba6df0` | 15,684,423
+ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 | `ac54c6fef08daf49b1c339f88231494c` `233f5b072fc327ff1caa97045feddc50` | 20,097,530
+ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014 | `083bc3884d96c57cab5d2561a37e6304` `c97fbd4b8459382ae35cea6b86ffbe03` | 22,610,772
 
 ### Stomach Reduced
 
@@ -83,7 +83,7 @@ Here, you can copy&paste the file URLs into the Galaxy upload wizard to transfer
 
 Use the link below to get the reference sequence:
 
-[3.fa.gz](ftp://public@silico-sciences.com/new/3.fa.gz)
+`ftp://public@silico-sciences.com/new/3.fa.gz`
     
 Reference sequences are stored in the [FASTA format](https://silico-sciences.com/2016/01/15/fasta-format/).
     
@@ -93,7 +93,7 @@ The file extension for FASTA files is `.fasta`, `.fa` or the according compresse
 
 Use the link below to get the reference annotation:
 
-[genes_chr03.gtf.gz](ftp://public@silico-sciences.com/new/genes_chr03.gtf.gz)
+`ftp://public@silico-sciences.com/new/genes_chr03.gtf.gz`
 
 The file format should be [GTF](http://www.ensembl.org/info/website/upload/gff.html).
 
@@ -106,33 +106,32 @@ Use the links below to get the `fastq.gz` files:
 
 0. Lung
     0. rep-326
-    [lung-326_1](ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz), [lung-326_2](ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz)
+    `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz`
     
     0. rep-424
-    [lung-424_1](ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz), [lung-424_2](ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz)
+    `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz`
     
     0. rep-353
-    [lung-353_1](ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz), [lung-353_2](ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz)
+    `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz`
     
     0. rep-487
-    [lung-487_1](ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz)
-    [lung-487_2](ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz)
+    `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz`
     
 0. Stomach
 
-    0. rep1
+    0. rep-369
     [stomach1-4_1](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz)
     [stomach1-4_2](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz)
     
-    0. rep2
+    0. rep-485
     [stomach2-4_1](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz)
     [stomach2-4_2](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz)
     
-    0. rep3
+    0. rep-467
     [stomach3-4_1](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_1.fastq.gz)
     [stomach3-4_2](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz)
     
-    0. rep4
+    0. rep-379
     [stomach4-4_1](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz)
     [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
     
