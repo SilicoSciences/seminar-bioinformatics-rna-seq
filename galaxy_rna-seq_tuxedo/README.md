@@ -40,12 +40,12 @@ ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `a47bb31a6beb7a59a908
 
 ID | URL | md5 | Read Count
 ---|---|---|---
-ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | md5 | 5716
-ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | md5 | 3707
-ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | md5 | 2994
-ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | md5 | 4551
-ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | md5 | 2846
-ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | md5 | 2967
+ERR315326 | ftp://public@silico-sciences.com/new/ERR315326 | md5 | 5716
+ERR315424 | ftp://public@silico-sciences.com/new/ERR315424 | md5 | 3707
+ERR315353 | ftp://public@silico-sciences.com/new/ERR315353 | md5 | 2994
+ERR315487 | ftp://public@silico-sciences.com/new/ERR315487 | md5 | 4551
+ERR315439 | ftp://public@silico-sciences.com/new/ERR315439 | md5 | 2846
+ERR315444 | ftp://public@silico-sciences.com/new/ERR315444 | md5 | 2967
 
 ### Stomach Original
 
@@ -65,8 +65,6 @@ ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 6d8f45845c9dbb61e8d7a
 ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 
 ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
 
-You can find the small dataset also in this GitHub [repository](../2014fagerberg-small).
-
 Find the main galaxy server here
 
 https://usegalaxy.org/.
@@ -85,7 +83,7 @@ Here, you can copy&paste the file URLs into the Galaxy upload wizard to transfer
 
 Use the link below to get the reference sequence:
 
-[3.fa.gz](../2014fagerberg-small/3.fa.gz?raw=true)
+[3.fa.gz](ftp://public@silico-sciences.com/new/3.fa.gz)
     
 Reference sequences are stored in the [FASTA format](https://silico-sciences.com/2016/01/15/fasta-format/).
     
@@ -95,7 +93,7 @@ The file extension for FASTA files is `.fasta`, `.fa` or the according compresse
 
 Use the link below to get the reference annotation:
 
-[genes_chr03.gtf.gz](../2014fagerberg-small/genes_chr03.gtf.gz?raw=true)
+[genes_chr03.gtf.gz](ftp://public@silico-sciences.com/new/genes_chr03.gtf.gz)
 
 The file format should be [GTF](http://www.ensembl.org/info/website/upload/gff.html).
 
@@ -107,21 +105,18 @@ Use the links below to get the `fastq.gz` files:
 
 
 0. Lung
-    0. rep1
-    [lung1-4_1](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_1.fastq.gz?raw=true)
-    [lung1-4_2](../2014fagerberg-small/lung/ERR315326/ERR315326_chr03_2.fastq.gz?raw=true)
+    0. rep-326
+    [lung-326_1](ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz), [lung-326_2](ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz)
     
-    0. rep2
-    [lung2-4_1](../2014fagerberg-small/lung/ERR315341/ERR315341_chr03_1.fastq.gz?raw=true)
-    [lung2-4_2](../2014fagerberg-small/lung/ERR315341/ERR315341_chr03_2.fastq.gz?raw=true)
+    0. rep-424
+    [lung-424_1](ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz), [lung-424_2](ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz)
     
-    0. rep3
-    [lung3-4_1](../2014fagerberg-small/lung/ERR315346/ERR315346_chr03_1.fastq.gz?raw=true)
-    [lung3-4_2](../2014fagerberg-small/lung/ERR315346/ERR315346_chr03_2.fastq.gz?raw=true)
+    0. rep-353
+    [lung-353_1](ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz), [lung-353_2](ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz)
     
-    0. rep4
-    [lung4-4_1](../2014fagerberg-small/lung/ERR315353/ERR315353_chr03_1.fastq.gz?raw=true)
-    [lung4-4_2](../2014fagerberg-small/lung/ERR315353/ERR315353_chr03_2.fastq.gz?raw=true)
+    0. rep-487
+    [lung-487_1](ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz)
+    [lung-487_2](ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz)
     
 0. Stomach
 
