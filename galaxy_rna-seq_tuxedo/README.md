@@ -40,12 +40,12 @@ ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `a47bb31a6beb7a59a908
 
 ID | URL | md5 | Read Count
 ---|---|---|---
-ERR315326 | ftp://public@silico-sciences.com/new/ERR315326 | md5 | 5716
-ERR315424 | ftp://public@silico-sciences.com/new/ERR315424 | md5 | 3707
-ERR315353 | ftp://public@silico-sciences.com/new/ERR315353 | md5 | 2994
-ERR315487 | ftp://public@silico-sciences.com/new/ERR315487 | md5 | 4551
-ERR315439 | ftp://public@silico-sciences.com/new/ERR315439 | md5 | 2846
-ERR315444 | ftp://public@silico-sciences.com/new/ERR315444 | md5 | 2967
+ERR315326 | ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz | md5 | 5716
+ERR315424 | ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz | md5 | 3707
+ERR315353 | ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz | md5 | 2994
+ERR315487 | ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz | md5 | 4551
+ERR315439 | ftp://public@silico-sciences.com/new/ERR315439/ERR315439_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315439/ERR315439_chr03_2.fastq.gz | md5 | 2846
+ERR315444 | ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_2.fastq.gz | md5 | 2967
 
 ### Stomach Original
 
@@ -58,12 +58,12 @@ ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014 | `083bc3884d96c57cab5d
 
 ### Stomach Reduced
 
-ID | URL | md5
----|---|---
-ERR315369 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 60b67df94f041c510977575525463a9d fe6230895aa051839e5ada69a8a0e5c9
-ERR315485 | http://www.ebi.ac.uk/ena/data/view/ERS326950 | 6d8f45845c9dbb61e8d7a40db99e2c9b f1117143c7b450c576ade3dd32ba6df0
-ERR315467 | http://www.ebi.ac.uk/ena/data/view/ERS327000 
-ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014
+ID | URL | md5 | Read Count
+---|---|---|---
+ERR315369 | ftp://public@silico-sciences.com/new/ERR315369/ERR315369_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315369/ERR315369_chr03_2.fastq.gz | md5
+ERR315485 | ftp://public@silico-sciences.com/new/ERR315485/ERR315485_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315485/ERR315485_chr03_2.fastq.gz | md5
+ERR315467 | ftp://public@silico-sciences.com/new/ERR315467/ERR315467_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315467/ERR315467_chr03_2.fastq.gz | md5
+ERR315379 | ftp://public@silico-sciences.com/new/ERR315379/ERR315379_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315379/ERR315379_chr03_2.fastq.gz | md5
 
 Find the main galaxy server here
 
