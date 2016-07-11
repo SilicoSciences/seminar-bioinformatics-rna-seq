@@ -83,7 +83,7 @@ Here, you can copy&paste the file URLs into the Galaxy upload wizard to transfer
 
 Use the link below to get the reference sequence:
 
-`ftp://public@silico-sciences.com/new/3.fa.gz`
+`ftp://public:public@silico-sciences.com/new/3.fa.gz`
     
 Reference sequences are stored in the [FASTA format](https://silico-sciences.com/2016/01/15/fasta-format/).
     
@@ -93,7 +93,7 @@ The file extension for FASTA files is `.fasta`, `.fa` or the according compresse
 
 Use the link below to get the reference annotation:
 
-`ftp://public@silico-sciences.com/new/genes_chr03.gtf.gz`
+`ftp://public:public@silico-sciences.com/new/genes_chr03.gtf.gz`
 
 The file format should be [GTF](http://www.ensembl.org/info/website/upload/gff.html).
 
@@ -107,13 +107,13 @@ Use the links below to get the `fastq.gz` files:
 0. Lung
     0. rep-326
     
-        `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz`</br>
-        `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz`
+        `ftp://public:public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz`</br>
+        `ftp://public:public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz`
     
     0. rep-424
     
-        `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz`</br>
-        `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz`
+        `ftp://public:public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz`</br>
+        `ftp://public:public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz`
     
     0. rep-353
     
@@ -126,22 +126,25 @@ Use the links below to get the `fastq.gz` files:
         `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz`
     
 0. Stomach
-
     0. rep-369
-    [stomach1-4_1](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_1.fastq.gz)
-    [stomach1-4_2](../2014fagerberg-small/stomach/ERR315369/ERR315369_chr03_2.fastq.gz)
+    
+        `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz`</br>
+        `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz`
     
     0. rep-485
-    [stomach2-4_1](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_1.fastq.gz)
-    [stomach2-4_2](../2014fagerberg-small/stomach/ERR315379/ERR315379_chr03_2.fastq.gz)
+    
+        `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz`</br>
+        `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz`
     
     0. rep-467
-    [stomach3-4_1](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_1.fastq.gz)
-    [stomach3-4_2](../2014fagerberg-small/stomach/ERR315467/ERR315467_chr03_2.fastq.gz)
+    
+        `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz`</br>
+        `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz`
     
     0. rep-379
-    [stomach4-4_1](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_1.fastq.gz)
-    [stomach4-4_2](../2014fagerberg-small/stomach/ERR315485/ERR315485_chr03_2.fastq.gz)
+    
+        `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz`</br>
+        `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz`
     
 Alternatively find the download links [here](https://github.com/SilicoSciences/seminar-bioinformatics-rna-seq/blob/master/2014fagerberg-small/download-links.txt).
 
