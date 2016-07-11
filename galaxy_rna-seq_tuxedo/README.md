@@ -60,10 +60,10 @@ ERR315379 | http://www.ebi.ac.uk/ena/data/view/ERS327014 | `083bc3884d96c57cab5d
 
 ID | URL | md5 | Read Count
 ---|---|---|---
-ERR315369 | ftp://public@silico-sciences.com/new/ERR315369/ERR315369_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315369/ERR315369_chr03_2.fastq.gz | md5
-ERR315485 | ftp://public@silico-sciences.com/new/ERR315485/ERR315485_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315485/ERR315485_chr03_2.fastq.gz | md5
-ERR315467 | ftp://public@silico-sciences.com/new/ERR315467/ERR315467_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315467/ERR315467_chr03_2.fastq.gz | md5
-ERR315379 | ftp://public@silico-sciences.com/new/ERR315379/ERR315379_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315379/ERR315379_chr03_2.fastq.gz | md5
+ERR315369 | ftp://public@silico-sciences.com/new/ERR315369/ERR315369_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315369/ERR315369_chr03_2.fastq.gz | md5 | 14813
+ERR315485 | ftp://public@silico-sciences.com/new/ERR315485/ERR315485_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315485/ERR315485_chr03_2.fastq.gz | md5 | 14424
+ERR315467 | ftp://public@silico-sciences.com/new/ERR315467/ERR315467_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315467/ERR315467_chr03_2.fastq.gz | md5 | 14454
+ERR315379 | ftp://public@silico-sciences.com/new/ERR315379/ERR315379_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315379/ERR315379_chr03_2.fastq.gz | md5 | 13900
 
 Find the main galaxy server here
 
