@@ -106,16 +106,20 @@ Use the links below to get the `fastq.gz` files:
 
 0. Lung
     0. rep-326
-    `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz`
+    
+        `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz`
     
     0. rep-424
-    `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz`
+    
+        `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz`
     
     0. rep-353
-    `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz`
+    
+        `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz`
     
     0. rep-487
-    `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz`
+    
+        `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz`, `ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz`
     
 0. Stomach
 
