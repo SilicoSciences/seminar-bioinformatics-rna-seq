@@ -145,8 +145,6 @@ Use the links below to get the `fastq.gz` files:
     
         `ftp://public:public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz`</br>
         `ftp://public:public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz`
-    
-Alternatively find the download links [here](https://github.com/SilicoSciences/seminar-bioinformatics-rna-seq/blob/master/2014fagerberg-small/download-links.txt).
 
 NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
     
