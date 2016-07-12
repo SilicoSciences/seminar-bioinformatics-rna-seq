@@ -27,7 +27,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg
 
 0. Verify TopHat is installed.
 
-        $ tophat2 -v
+        $ tophat -v
         TopHat v2.1.0
 
 0. Verify Samtools is installed.
