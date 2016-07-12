@@ -46,5 +46,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg
 0. Verify RStudio is installed.
 
     0. Verify cummeRbund is installed.
+    
+[Back to Index](../README.md)
 
 
