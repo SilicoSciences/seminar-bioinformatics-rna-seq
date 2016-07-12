@@ -15,10 +15,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg
 
 0. Download Ubuntu Linux Virtual Machine
   
-  ftp://public:public@silico-sciences.com:/vm.tar.gz
-  or
-  
-  ftp://public:public@silico-sciences.com:/vm.zip.
+  `ftp://public:public@silico-sciences.com:/vm.zip`.
 
   Unzip and copy the `VM` folder to
   
