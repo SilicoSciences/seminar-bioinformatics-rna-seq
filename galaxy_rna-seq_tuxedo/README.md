@@ -44,8 +44,6 @@ ERR315326 | ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fas
 ERR315424 | ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz | `f46a0851682905d317457aff1b4dc72e` `073bed3485933c6230eee59c60770b62` | 3873
 ERR315353 | ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz | `f92ef531c706a9586ee15729f3b42654` `7c758fa59264fa4d9a25c56a23277649` | 3200
 ERR315487 | ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz | `1cb40fbe869cd5b8d00e742064b315db` `8c1d6e913f8afe694703448c68021076` | 4875
-ERR315439 | ftp://public@silico-sciences.com/new/ERR315439/ERR315439_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315439/ERR315439_chr03_2.fastq.gz | `93263cd8e3240098e7a568904660c928` `2e6a90954aa75b8e9ce0a14c10111121` | 3136
-ERR315444 | ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_2.fastq.gz | `e71a8d6bdea402bcf16b61fc49890dd2` `35bf5c58dc6a90b8241e5597cfa903bf` | 3276
 
 ### Stomach Original
 
