@@ -38,10 +38,10 @@ ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `a47bb31a6beb7a59a908
 
 ID | URL | md5 | Read Count
 ---|---|---|---
-ERR315424 | ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz | `f46a0851682905d317457aff1b4dc72e` `073bed3485933c6230eee59c60770b62` | 3873
-ERR315353 | ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz | `f92ef531c706a9586ee15729f3b42654` `7c758fa59264fa4d9a25c56a23277649` | 3200
-ERR315487 | ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz | `1cb40fbe869cd5b8d00e742064b315db` `8c1d6e913f8afe694703448c68021076` | 4875
-ERR315444 | ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_2.fastq.gz | `1cb40fbe869cd5b8d00e742064b315db` `8c1d6e913f8afe694703448c68021076` | 4875
+ERR315424 | ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz | `ac3a6995ae60f902dc30dd34ad48feda` `47c85a02180a35dfd7d0f8a871f8d154` | 5527
+ERR315353 | ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz | `e0f8917fb053c31d14b031814672fb63` `6335d33b325299d95039689b6470ea32` | 5433
+ERR315487 | ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz | `d523517c91b17dd0acd72572ff076005` `83a4516e7f7f2c3246f1fe00fee0aa9e` | 8111
+ERR315444 | ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_2.fastq.gz | `28cd1ee3ff5c774ca101fa9c6d7eab7f` `5b8910b7a94a5c2ec157a9a253155c48` | 4965
 
 ### Stomach Original
 
