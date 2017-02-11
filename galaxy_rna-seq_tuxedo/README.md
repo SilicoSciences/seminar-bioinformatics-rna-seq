@@ -29,18 +29,15 @@ Below you find links to a subset of the original data, the preprocessed data as 
 
 ID | URL | md5 | Read Count
 ---|---|---|---
-ERR315326 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | `a32d31f1cfc1d836e2068f5516c6000c` `7eb4283becc0d55f14d8a6fe929521be` | 8,782,257
 ERR315424 | http://www.ebi.ac.uk/ena/data/view/ERS326948 | `74368f3aaf69fa32a73c43e6cf7c32ee` `083f9c11f8c65a40bff289943d49524f` | 8,761,137
 ERR315353 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `e07815132f75ad4acd626ba017b0f1b3` `ad9a286773704d120b84558253f915b1` | 13,576,003
 ERR315487 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `64f66f5dfe6a15b72d060fe30900f899` `c07809ef2d7e905dddf718d6df17ebea` | 13,669,047
-ERR315439 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `bc3f6f8409372655d1e5e2347def3d0f` `96c576f68eff4c8763fa951cbdd319d9` | 6,280,429
 ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `a47bb31a6beb7a59a9085313c824627e` `c704f62abbb76c7bb1408892f7f6716a` | 6,387,998
 
 ### Lung Reduced
 
 ID | URL | md5 | Read Count
 ---|---|---|---
-ERR315326 | ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz | `e7c2048005b4b1d1bdf527c0ee639340` `4c9fcdbe6d92df4b69cb197b63990851` | 6018
 ERR315424 | ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz | `f46a0851682905d317457aff1b4dc72e` `073bed3485933c6230eee59c60770b62` | 3873
 ERR315353 | ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz | `f92ef531c706a9586ee15729f3b42654` `7c758fa59264fa4d9a25c56a23277649` | 3200
 ERR315487 | ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz | `1cb40fbe869cd5b8d00e742064b315db` `8c1d6e913f8afe694703448c68021076` | 4875
