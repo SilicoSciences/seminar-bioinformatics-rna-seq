@@ -13,12 +13,12 @@ Seminar Ruprecht-Karls-Universität Heidelberg
 
 Find all data for this section via FTP:
 
-`ftp://public:public@silico-sciences.com/2014fagerberg`
+`ftp://public:public@silico-sciences.com/new`
 
-Copy `cuffnorm_out.zip` and `cuffdiff_out.zip` and extract.
+Copy `cuffnorm-lung-stomach-heart_out.zip` and `cuffdiff-lung-stomach-heart_out.zip` and extract.
 
-    ftp://public:public@silico-sciences.com/2014fagerberg/cuffdiff_out.zip
-    ftp://public:public@silico-sciences.com/2014fagerberg/cuffnorm_out.zip
+    ftp://public:public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out.zip
+    ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out.zip
 
 
 ## Preparations
