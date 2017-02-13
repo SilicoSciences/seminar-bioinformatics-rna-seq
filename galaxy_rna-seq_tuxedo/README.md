@@ -67,8 +67,6 @@ ID | URL | md5 | Read Count
 ---|---|---|---
 ERR315384 | http://www.ebi.ac.uk/ena/data/view/ERS326973 | `0c13852e9bbddc1c2b056745ee6ffe6c` `0dcdbe173ed117fff7995ffaa0b4f1b6` | 16,695,109
 ERR315413 | http://www.ebi.ac.uk/ena/data/view/ERS326973 | `f8473591adbcb929ad729d1427b97d52` `373d9a72ba830a96504c62a1486d55c1` | 16,596,950
-ERR315331 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `3e69fbb142da163dbfcaa86f13727809` `89a4390cb0348b8d5a0ba1bee52cc6ce` | 15,133,526
-ERR315367 | http://www.ebi.ac.uk/ena/data/view/ERS326952 | `6fcc5f60c1369dc17f5955cb0692264a` `5bd43c75773991e2fe34aa921c181cac` | 15,345,243
 ERR315356 | http://www.ebi.ac.uk/ena/data/view/ERS327004 | `db1a5470bd92049dfc7af541e17ad0ad` `090b337910da0209f819650e7565da02` | 17,732,535
 ERR315430 | http://www.ebi.ac.uk/ena/data/view/ERS327004 | `05e09085cc4e09b3626e35c68e8284fe` `8b80a1c1ec49e42b08d0dad195dd9113` | 17,381,370
 
