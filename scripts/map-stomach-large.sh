@@ -3,7 +3,7 @@ set -e
 
 source global-tophat.sh
 
-desc="Map stomach dataset (4 reps only)"
+desc="Map stomach dataset large"
 
 fastqPostfix1=_1.fastq.gz
 fastqPostfix2=_2.fastq.gz
@@ -21,5 +21,6 @@ echo "Now $i"
 echo "-------------------------------------------"
 f_doIt
 done
+echo "All done!"
 
 

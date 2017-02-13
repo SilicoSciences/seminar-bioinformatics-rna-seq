@@ -14,7 +14,7 @@ bowtie2Index=/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Sequenc
 echo "+++++++++++++++++++++++++++++++++++++++++++"
 echo "$desc"
 echo "-------------------------------------------"
-for i in {384,413,331,367}
+for i in {384,413,356,430}
 do
 echo "+++++++++++++++++++++++++++++++++++++++++++"
 echo "Now $i"
