@@ -3,18 +3,18 @@ set -e
 
 source global-tophat.sh
 
-desc="Map heart dataset large"
+desc="Map heart dataset small"
 
 fastqPostfix1=_chr03_1.fastq.gz
 fastqPostfix2=_chr03_2.fastq.gz
-tophatOut=tophat_out
+tophatOut=tophat_out_small
 processes=7
-bowtie2Index=/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Sequence/Bowtie2Index/genome
+bowtie2Index=/var/data/bi/reference/prebuild/Homo_sapiens/Ensembl/GRCh37/Sequence/Bowtie2Index/3
 
 echo "+++++++++++++++++++++++++++++++++++++++++++"
 echo "$desc"
 echo "-------------------------------------------"
-for i in {384,413,331,367}
+for i in {384,413,356,430}
 do
 echo "+++++++++++++++++++++++++++++++++++++++++++"
 echo "Now $i"

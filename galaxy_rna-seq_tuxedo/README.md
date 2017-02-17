@@ -38,10 +38,10 @@ ERR315444 | http://www.ebi.ac.uk/ena/data/view/ERS327010 | `a47bb31a6beb7a59a908
 
 ID | URL | md5 | Read Count
 ---|---|---|---
-ERR315424 | ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz | `2d8e2cfce8449851eb4a9c0a39c417cc` `3348c4295275b31136e800bdefe8ebee` | 5527
-ERR315353 | ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz | `32d6680538b3f7adf76e33810cef3864` `1b5c65d9b826a24b328f1fcb4551edb1` | 5433
-ERR315487 | ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz | `2395a015534e03cd1e842275804e26f8` `a67e50045f35d013f75223449978fdfe` | 8111
-ERR315444 | ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_2.fastq.gz | `c75154f04224905db8716641127b3363` `bb731b43a4c922dd3b92bd711a35064d` | 4965
+ERR315424 | ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz | `2d8e2cfce8449851eb4a9c0a39c417cc` `3348c4295275b31136e800bdefe8ebee` | 3873
+ERR315353 | ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz | `32d6680538b3f7adf76e33810cef3864` `1b5c65d9b826a24b328f1fcb4551edb1` | 3200
+ERR315487 | ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz | `2395a015534e03cd1e842275804e26f8` `a67e50045f35d013f75223449978fdfe` | 4875
+ERR315444 | ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315444/ERR315444_chr03_2.fastq.gz | `c75154f04224905db8716641127b3363` `bb731b43a4c922dd3b92bd711a35064d` | 3276
 
 ### Stomach Original
 
@@ -76,8 +76,8 @@ ID | URL | md5 | Read Count
 ---|---|---|---
 ERR315384 | ftp://public@silico-sciences.com/new/ERR315384/ERR315384_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315384/ERR315384_chr03_2.fastq.gz | `3ddef3455381ecd4099493055253c455` `5bfe358c01bdfe43ec8025e60e85fd53` | 6683
 ERR315413 | ftp://public@silico-sciences.com/new/ERR315413/ERR315413_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315413/ERR315413_chr03_2.fastq.gz | `5a11a2924f7d452722756f4e42ddc9ef` `298941f7572f423302d5ae13bf7cd0eb` | 6766
-ERR315356 | ftp://public@silico-sciences.com/new/ERR315356/ERR315356_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315356/ERR315356_chr03_2.fastq.gz | `8a8dffabeca2836ace01f0a4e8de9434` `598a7f2ead01aa65a2a4372837cd9d2f` | 5201
-ERR315430 | ftp://public@silico-sciences.com/new/ERR315430/ERR315430_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315430/ERR315430_chr03_2.fastq.gz | `2c6e035f6c1b7028e5b1a5eeba1571b2` `47194c4f4a349e9f5f65b6734000d818` | 5171
+ERR315356 | ftp://public@silico-sciences.com/new/ERR315356/ERR315356_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315356/ERR315356_chr03_2.fastq.gz | `8a8dffabeca2836ace01f0a4e8de9434` `598a7f2ead01aa65a2a4372837cd9d2f` | 8732
+ERR315430 | ftp://public@silico-sciences.com/new/ERR315430/ERR315430_chr03_1.fastq.gz ftp://public@silico-sciences.com/new/ERR315430/ERR315430_chr03_2.fastq.gz | `2c6e035f6c1b7028e5b1a5eeba1571b2` `47194c4f4a349e9f5f65b6734000d818` | 8496
 
 Find the main galaxy server here
 
