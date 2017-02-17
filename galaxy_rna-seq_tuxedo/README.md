@@ -115,50 +115,7 @@ This file provides meta information on the (anonymous) reference sequence, such 
 
 ### Sequencing Reads
 
-Use the links below to get the `fastq.gz` files:
-
-
-0. Lung
-    0. rep-326
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315326/ERR315326_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315326/ERR315326_chr03_2.fastq.gz`
-    
-    0. rep-424
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315424/ERR315424_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315424/ERR315424_chr03_2.fastq.gz`
-    
-    0. rep-353
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315353/ERR315353_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315353/ERR315353_chr03_2.fastq.gz`
-    
-    0. rep-487
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315487/ERR315487_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315487/ERR315487_chr03_2.fastq.gz`
-    
-0. Stomach
-    0. rep-369
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315369/ERR315369_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315369/ERR315369_chr03_2.fastq.gz`
-    
-    0. rep-485
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315485/ERR315485_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315485/ERR315485_chr03_2.fastq.gz`
-    
-    0. rep-467
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315467/ERR315467_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315467/ERR315467_chr03_2.fastq.gz`
-    
-    0. rep-379
-    
-        `ftp://public:public@silico-sciences.com/new/ERR315379/ERR315379_chr03_1.fastq.gz`</br>
-        `ftp://public:public@silico-sciences.com/new/ERR315379/ERR315379_chr03_2.fastq.gz`
+Get the "chr03-only" `fastq.gz` files.
 
 NGS data is stored in the [FASTQ format](https://silico-sciences.com/2016/01/15/fastq-format/). These files are usually the starting point of the NGS data processing.
     
