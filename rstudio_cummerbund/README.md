@@ -49,14 +49,11 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
         
 0. Sort values descending.
 
-        > mad_vector_sorted = mad_vector[order(mad_vector, decreasing = T)]
         > head(mad_vector_sorted)
         ENSG00000213178 ENSG00000168028 ENSG00000174748 ENSG00000233133 ENSG00000234287 ENSG00000162244 
         60275.17        49332.29        39065.25        31864.41        31546.61        18538.80  
         
 0. Extract first 100 elements.
-
-        > mad_top100 =mad_vector_sorted[1:100]  
         
 0. Transform table into a matrix.
 
@@ -72,7 +69,6 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
         
 0. Reduce matrix to top100 regulated gene IDs.
 
-        > fpkm_matrix_100 = fpkm_matrix[names(mad_top100),]
         > head(fpkm_matrix_100)
                          lung_0   lung_3   lung_1   lung_2 stomach_0 stomach_1 stomach_2 stomach_3
         ENSG00000213178 31040.6  41259.4 174005.0 108241.0   7973.69   69963.9   90244.8   8934.71
@@ -163,7 +159,6 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
             
 0. Order table by significance:     
     
-        > genes_diff_sig = genes_diff[order(genes_diff$significant, genes_diff$log2_fold_change, decreasing=T),]
         > head(genes_diff_sig)
                      gene_id sample_1 sample_2 status value_1     value_2 log2_fold_change test_stat p_value     q_value significant
         1480 ENSG00000079393     Lung    Heart     OK       0     9.52368              Inf        NA   5e-05 0.000242192         yes
@@ -175,7 +170,6 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
     
 0. Filter rows where `test_stat` equals `NA`:
     
-        > genes_diff_sig_filtered = genes_diff_sig[!is.na(genes_diff_sig$test_stat),]
         > head(genes_diff_sig_filtered)
                       gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change   test_stat p_value     q_value significant
         40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93     4.32572         310.7800 2.88573e-91 0.00005 0.000242192         yes
@@ -187,7 +181,6 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
     
 0. Filter to keep ony entries with show a significant regulation:
     
-        > genes_diff_sig_filtered2 = genes_diff_sig_filtered[genes_diff_sig_filtered$significant=="yes",]
         > head(genes_diff_sig_filtered2)
                       gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change   test_stat p_value     q_value significant
         40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93     4.32572         310.7800 2.88573e-91 0.00005 0.000242192         yes
@@ -206,7 +199,6 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
     
     0. Sort by fold change:
     
-            > genes_diff_sig_filtered_sorted_abs = genes_diff_sig_filtered2[order(abs(genes_diff_sig_filtered2$log2_fold_change),decreasing=T),] 
             > head(genes_diff_sig_filtered_sorted_abs)
                           gene_id sample_1 sample_2 status     value_1     value_2 log2_fold_change    test_stat p_value     q_value significant
             40584 ENSG00000241570     Lung    Heart     OK 1.20759e-93 4.32572e+00         310.7800  2.88573e-91 0.00005 0.000242192         yes
@@ -218,7 +210,6 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
     
     0. Trimm to top100 entries:
         
-            > genes_top100 = genes_diff_sig_filtered_sorted_abs[1:100,]
             > nrow(genes_top100)
             [1] 100
             
@@ -253,7 +244,6 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
             
       ![pic](../figs/csheatmap.png)
           
-     
         > expressionBarplot(genes2)
         
     ![pic](../figs/expressionbarplot.png)
