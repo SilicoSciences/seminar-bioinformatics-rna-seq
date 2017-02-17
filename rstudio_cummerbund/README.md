@@ -242,17 +242,17 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
 
         > csHeatmap(genes2, cluster='both', replicates=T)
             
-      ![pic](../figs/csheatmap.png)
+       ![pic](../figs/csheatmap.png)
           
         > expressionBarplot(genes2)
         
-    ![pic](../figs/expressionbarplot.png)
+       ![pic](../figs/expressionbarplot.png)
            
         > csDistHeat(genes(cuff), replicates=T)
         
        ![pic](../figs/csdistheat.png)
        
-       > csDistHeat(genes(cuff), replicates=F)
+        > csDistHeat(genes(cuff), replicates=F)
         
        ![pic](../figs/csdistheat2.png)
        
