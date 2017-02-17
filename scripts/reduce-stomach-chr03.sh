@@ -3,10 +3,10 @@ set -e
 
 source global-reduce.sh
 
-desc="Reduce bam to chr03 (lung)"
+desc="Reduce stomach to chr03"
 processes=8
 mem=16G
-tophatOut=tophat_out_small
+tophatOut=tophat_out
 skipFilter=false
 
 echo "+++++++++++++++++++++++++++++++++++++++++++"

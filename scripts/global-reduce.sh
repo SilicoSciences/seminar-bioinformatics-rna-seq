@@ -30,7 +30,7 @@ echo "back 2 fastq"
 bedtools bamtofastq -i "ERR315${i}/$tophatOut/accepted_hits_chr03.bam" -fq "ERR315${i}/ERR315${i}_chr03_1.fastq" -fq2 "ERR315${i}/ERR315${i}_chr03_2.fastq" 2>/dev/null
 echo "bamtofastq exit code $?"
 echo "gzip"
-gzip "ERR315${i}/ERR315${i}_chr03_1.fastq" "ERR315${i}/ERR315${i}_chr03_2.fastq"
+gzip -f "ERR315${i}/ERR315${i}_chr03_1.fastq" "ERR315${i}/ERR315${i}_chr03_2.fastq"
 echo "gzip exit code $?"
 }
 

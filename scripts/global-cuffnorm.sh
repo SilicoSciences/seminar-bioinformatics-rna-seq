@@ -2,7 +2,8 @@
 set -e
 
 function f_cuffnorm {
-cuffnorm -o $cuffnormOut -L $labels -p $processes $annotations $files0 $files1 $files2 $files0 $files1 $files2
+cuffnorm -o $cuffnormOut -L $labels -p $processes $annotations $files0 $files1 $files2
+echo "Cuffnorm exit code $?"
 }
 
 function f_doIt {

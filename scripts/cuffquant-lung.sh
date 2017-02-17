@@ -3,7 +3,7 @@ set -e
 
 source global-cuffquant.sh
 
-desc="Cuffquant lung big"
+desc="Cuffquant lung large"
 cuffquantOut=cuffquant_out
 processes=7
 tophatOut=tophat_out

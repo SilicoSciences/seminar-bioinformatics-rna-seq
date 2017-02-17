@@ -3,16 +3,16 @@ set -e
 
 source global-reduce.sh
 
-desc="Reduce bam to chr03 (heart)"
-
+desc="Reduce heart to chr03"
 processes=8
-
 mem=16G
+tophatOut=tophat_out
+skipFilter=false
 
 echo "+++++++++++++++++++++++++++++++++++++++++++"
 echo "$desc"
 echo "-------------------------------------------"
-for i in {384,413,331,367}
+for i in {384,413,356,430}
 do
 echo "+++++++++++++++++++++++++++++++++++++++++++"
 echo "Now $i"
