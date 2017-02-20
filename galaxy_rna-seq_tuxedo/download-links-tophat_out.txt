@@ -1,0 +1,14 @@
+ftp://public:public@silico-sciences.com/new/3.fa.gz
+ftp://public:public@silico-sciences.com/new/genes_chr03.gtf.gz
+ftp://public:public@silico-sciences.com/new/ERR315424/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315353/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315487/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315444/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315369/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315485/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315467/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315379/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315384/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315413/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315356/tophat_out/accepted_hits.bam
+ftp://public:public@silico-sciences.com/new/ERR315430/tophat_out/accepted_hits.bam

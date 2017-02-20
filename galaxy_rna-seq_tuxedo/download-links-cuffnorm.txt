@@ -1,0 +1,14 @@
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/cds.attr_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/cds.count_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/cds.fpkm_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/genes.attr_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/genes.count_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/genes.fpkm_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/isoforms.attr_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/isoforms.count_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/isoforms.fpkm_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/run.info
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/samples.table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/tss_groups.attr_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/tss_groups.count_table
+ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/tss_groups.fpkm_table
