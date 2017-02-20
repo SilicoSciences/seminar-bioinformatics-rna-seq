@@ -1,4 +1,3 @@
-ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out.zip
 ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/cds.attr_table
 ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/cds.count_table
 ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/cds.fpkm_table
@@ -13,7 +12,6 @@ ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/samp
 ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/tss_groups.attr_table
 ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/tss_groups.count_table
 ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/tss_groups.fpkm_table
-ftp://public:public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out.zip
 ftp://public:public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out/bias_params.info
 ftp://public:public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out/cds.count_tracking
 ftp://public:public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out/cds.diff
