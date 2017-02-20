@@ -1,0 +1,2 @@
+ftp://public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out.zip
+ftp://public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out.zip
