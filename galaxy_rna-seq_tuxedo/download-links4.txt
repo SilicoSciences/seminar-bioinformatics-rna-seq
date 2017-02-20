@@ -1,1 +1,1 @@
-ftp://public:public@silico-sciences.com/new/cuffnorm-lung-stomach-heart_out/cuffData.db
+ftp://public:public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out/cuffData.db
