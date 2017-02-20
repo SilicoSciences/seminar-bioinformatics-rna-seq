@@ -215,9 +215,9 @@ Other Genome Browsers:
     
 ## Calculate Gene Expressions
 
-Use the small dataset to get an idea of the workflow and the input and output files.
+Use the reduced datasets to get an idea of the workflow and the input and output files.
 
-Use the bigger dataset to perform a real gene expression comparison between lung, stomach and heart.
+Use the original dataset to perform a real gene expression comparison between lung, stomach and heart.
     
 0. Use `Cuffquant` to precompute gene expression levels.
 
