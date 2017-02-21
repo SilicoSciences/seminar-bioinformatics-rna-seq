@@ -253,7 +253,7 @@ Use the original dataset to perform a real gene expression comparison between lu
     
     0. Filter rows with non-numerical values for fold changes (`-inf` and `inf`).
     
-    0. Sort table by `significant` and absolute value of `log2(fold_change)`.
+    0. Sort table by `p-value` and absolute value of `log2(fold_change)`.
     
         Hint: Insert an extra column that contains absolute exp. values (use the `abs` function).
         
