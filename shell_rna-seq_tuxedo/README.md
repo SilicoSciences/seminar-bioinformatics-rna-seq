@@ -75,7 +75,7 @@ Seminar Ruprecht-Karls-Universität Heidelberg
 
 ## Getting Data
 
-Use `wget` to download data from [here](https://github.com/SilicoSciences/seminar-bioinformatics-rna-seq/blob/master/2014fagerberg-small/download-links.txt).
+Use `wget` to download data from [here](https://raw.githubusercontent.com/SilicoSciences/seminar-bioinformatics-rna-seq/master/galaxy_rna-seq_tuxedo/download-links-chr03.txt).
 
 There are many ways to retrieve all files in that list, here are some hints:
     
