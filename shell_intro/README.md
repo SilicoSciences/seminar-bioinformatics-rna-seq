@@ -749,11 +749,11 @@ Kill foreground job: `Control-C`
     
     $ ssh 176.28.21.178
 
-    $ ssh [yourname]@silico-sciences.com
+    $ ssh [remove-username]@silico-sciences.com
    
 ---
     
-0. Login to the remote system using `[yourname]@silico-sciences.com`
+0. Login to the remote system using `[remove-username]@silico-sciences.com`
 
 0. Verify successful login:
 
@@ -773,6 +773,20 @@ Kill foreground job: `Control-C`
             
     0. Type these commands on the remote system and on the local system.
 
+---
+
+`scp`: secure copy (remote file copy program)
+
+0. Local to Remove:
+
+        $ scp [local-file] [remove-username]@silico-sciences.com:/[remote]/[directory]/
+        
+0. Remote to Local:
+
+        $ scp [remove-username]@silico-sciences.com:/[remote-directory]/[remote-file] [local-file]
+        
+Use `scp -rp` to copy directories (recursively).
+      
     
 ### Remote Shell and Two-Factor Authentication
 
