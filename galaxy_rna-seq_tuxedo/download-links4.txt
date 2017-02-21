@@ -1,1 +1,0 @@
-ftp://public:public@silico-sciences.com/new/cuffdiff-lung-stomach-heart_out/cuffData.db
