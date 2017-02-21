@@ -247,7 +247,7 @@ Use the original dataset to perform a real gene expression comparison between lu
 
 0. Download `gene_differential_expression_testing.tabular` (`gene_exp.diff`).
 
-0. Open `gene_differential_expression_testing.tabular` with your favourite spreadsheet software.
+0. Open the file with your favourite spreadsheet software.
 
     0. Pay attention to correct importing of numerical values (correct decimal delimiter).
     
