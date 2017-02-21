@@ -518,7 +518,7 @@ Pattern	| Matches
     CHANGE_LOG.txt  CHECKSUMS.txt  README.txt
     
     # RegEx
-    $ ls | egrep ".txt"
+    $ ls | egrep "\.txt"
     CHANGE_LOG.txt
     CHECKSUMS.txt
     README.txt
