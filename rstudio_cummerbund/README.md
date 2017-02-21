@@ -284,6 +284,10 @@ Alternatively use the pre-configured [Virtual Machine](../preparations).
          
 ## References
 
+0. [Cufflinks workflow(s)](http://cole-trapnell-lab.github.io/cufflinks/manual/)
+
+    ![pic](http://cole-trapnell-lab.github.io/cufflinks/images/tuxedo_workflow.png)
+
 0. [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/?tool=pmcentrez)
 
 0. [CummeRbund manual](http://compbio.mit.edu/cummeRbund/manual_2_0.html)  
