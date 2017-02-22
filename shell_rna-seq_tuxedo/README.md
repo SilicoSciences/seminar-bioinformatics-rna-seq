@@ -140,7 +140,7 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 0. Use `Cuffdiff` to find significant changes in expression level.
 
-        $ cuffdiff -o [some-out-dir] -L Lung,Stomach [reference-annotation].gtf [lung1-4-cuffquant_out]/abundances.cxb,[lung2-4-cuffquant_out]/abundances.cxb,[lung3-4-cuffquant_out]/abundances.cxb,[lung4-4-cuffquant_out]/abundances.cxb [stomach1-4-cuffquant_out]/abundances.cxb,[stomach2-4-cuffquant_out]/abundances.cxb,[stomach3-4-cuffquant_out]/abundances.cxb,[stomach4-4-cuffquant_out]/abundances.cxb
+        $ cuffdiff -o [some-out-dir] -L Lung,Stomach,Heart [reference-annotation].gtf [lung1-4-cuffquant_out]/abundances.cxb,[lung2-4-cuffquant_out]/abundances.cxb,[lung3-4-cuffquant_out]/abundances.cxb,[lung4-4-cuffquant_out]/abundances.cxb [stomach1-4-cuffquant_out]/abundances.cxb,[stomach2-4-cuffquant_out]/abundances.cxb,[stomach3-4-cuffquant_out]/abundances.cxb,[stomach4-4-cuffquant_out]/abundances.cxb [heart1-4-cuffquant_out]/abundances.cxb,[heart2-4-cuffquant_out]/abundances.cxb,[heart3-4-cuffquant_out]/abundances.cxb,[heart4-4-cuffquant_out]/abundances.cxb
         
     **Note:** Pay attention to correct usage of commas and spaces. Separate replicates with commas (*don't* use `,[whitespace]`) and conditions/ labels with space.
     
