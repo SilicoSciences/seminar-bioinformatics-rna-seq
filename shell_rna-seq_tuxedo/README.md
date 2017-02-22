@@ -130,13 +130,16 @@ Create this index file as described [here](https://silico-sciences.com/2015/11/1
 
 0. Use `Cuffquant` to precompute gene expression levels.
 
-        $ cuffquant -b [reference-seq].fa -u [reference-annotation].gtf [tophat_out]/accepted_hits.bam
+        $ cuffquant [reference-annotation].gtf [tophat_out]/accepted_hits.bam
     
-    Options:
+    Options (less speed, more accuracy):
 
     0. `-b/--frag-bias-correct`: use bias correction - reference fasta required
 
     0. `-u/--multi-read-correct`: use 'rescue method' for multi-reads
+    
+            $ cuffquant -b [reference-seq].fa -u [reference-annotation].gtf [tophat_out]/accepted_hits.bam
+        
 
 0. Use `Cuffdiff` to find significant changes in expression level.
 
